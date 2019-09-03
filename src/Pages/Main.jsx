@@ -15,6 +15,7 @@ class Main extends Component {
 
   componentDidMount() {
     // CAROUSEL
+    //Need this to run on a timer using instance method
     var elem = document.querySelector(".carousel");
     var instance = M.Carousel.init(elem, { duration: 200 });
   }
@@ -29,19 +30,19 @@ class Main extends Component {
         <Nav />
         <div className="carousel">
           <a className="carousel-item" href="#one!">
-            <img src="../images/welcome.jpeg/1" alt="This" />
+            <img src="../images/welcome.jpeg" alt="This" />
           </a>
           <a className="carousel-item" href="#two!">
-            <img src="https://lorempixel.com/250/250/nature/2" alt="Welcome" />
+            <img src="../images/flowers.jpg" alt="Welcome" />
           </a>
           <a className="carousel-item" href="#three!">
-            <img src="https://lorempixel.com/250/250/nature/3" alt="This" />
+            <img src="../images/vase.jpg" alt="This" />
           </a>
           <a className="carousel-item" href="#four!">
-            <img src="https://lorempixel.com/250/250/nature/4" alt="This" />
+            <img src="../images/kiss.jpeg" alt="This" />
           </a>
           <a className="carousel-item" href="#five!">
-            <img src="https://lorempixel.com/250/250/nature/5" alt="This" />
+            <img src="../images/table.jpg" alt="This" />
           </a>
         </div>
       </div>

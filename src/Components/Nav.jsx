@@ -4,7 +4,7 @@ const Nav = props => (
   <nav id="mainNav">
     <div className="nav-wrapper">
       <a href="#" data-target="mobile-demo" className="sidenav-trigger">
-        <i className="material-icons">menu</i>
+        <i className="material-icons">format_list_bulleted</i>
       </a>
       <img id="logo" src="../images/btie.png" alt="Bow Tie" />
       <ul id="nav-mobile" className="center hide-on-med-and-down">
@@ -13,20 +13,21 @@ const Nav = props => (
             Home
           </a>
         </li>
-        <li>
-          <a
-            href="/Contact"
-            className="waves-effect waves-teal accent-3 btn-flat"
-          >
-            Contact Us
-          </a>
-        </li>
+
         <li>
           <a
             href="/Packages"
             className="waves-effect waves-teal accent-3 btn-flat"
           >
             Packages & investments
+          </a>
+        </li>
+        <li>
+          <a
+            href="/Contact"
+            className="waves-effect waves-teal accent-3 btn-flat"
+          >
+            Contact Us
           </a>
         </li>
         <li>

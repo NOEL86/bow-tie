@@ -33,7 +33,11 @@ class Contact extends Component {
           <h2 className="header center">Contact Us!</h2>
           <div className="card horizontal">
             <div className="card-image">
-              <img src="../images/flowers.jpg/6" alt="This" />
+              <img
+                src="../images/flowers.jpg"
+                alt="This"
+                style={{ width: "50%" }}
+              />
             </div>
             <div className="card-stacked">
               <div className="card-content">
