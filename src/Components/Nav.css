@@ -8,3 +8,14 @@
   width: 150px;
   margin-left: 5%;
 }
+
+ul {
+  padding-left: 30% !important;
+  font-family: "Indie Flower", cursive;
+}
+
+.btn-flat {
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+}

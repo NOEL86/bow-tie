@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
+import M from "materialize-css";
 
 class Main extends Component {
   state = {};
@@ -13,19 +14,14 @@ class Main extends Component {
   //   };
 
   componentDidMount() {
-    // document.addEventListener("DOMContentLoaded", function() {
-    //   var elems = document.querySelectorAll(".carousel");
-    //   var instances = M.Carousel.init(elems, options);
-    // });
-    // // Or with jQuery
-    // $(document).ready(function() {
-    //   $(".carousel").carousel();
-    // });
+    // CAROUSEL
+    var elem = document.querySelector(".carousel");
+    var instance = M.Carousel.init(elem, { duration: 200 });
   }
-  //function that checks to see if a user is logged in before allowing them to view the check in page
-  //   componentWillMount() {
-  //     console.log("I made it here");
-  //   }
+
+  componentDidUpdate() {
+    // instance.next(5);
+  }
 
   render() {
     return (
@@ -33,10 +29,10 @@ class Main extends Component {
         <Nav />
         <div className="carousel">
           <a className="carousel-item" href="#one!">
-            <img src="https://lorempixel.com/250/250/nature/1" alt="This" />
+            <img src="../images/welcome.jpeg/1" alt="This" />
           </a>
           <a className="carousel-item" href="#two!">
-            <img src="https://lorempixel.com/250/250/nature/2" alt="This" />
+            <img src="https://lorempixel.com/250/250/nature/2" alt="Welcome" />
           </a>
           <a className="carousel-item" href="#three!">
             <img src="https://lorempixel.com/250/250/nature/3" alt="This" />
