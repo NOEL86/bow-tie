@@ -10,9 +10,9 @@ const Kenny = props => (
       <span className="card-title activator grey-text text-darken-4">
         Kenneth Jimenez
       </span>
-      <p>
+      {/* <p>
         <a href="#">This is a link</a>
-      </p>
+      </p> */}
     </div>
     <div className="card-reveal">
       <span className="card-title grey-text text-darken-4">
