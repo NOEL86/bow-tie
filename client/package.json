@@ -2,19 +2,20 @@
   "name": "event-planners",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.11.0"
+  },
   "dependencies": {
-    "express": "^4.17.1",
+    "if-env": "^1.0.4",
     "materialize-css": "^1.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "^3.1.1"
   },
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,8 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "nodemon": "^1.19.2",
-    "concurrently": "^4.1.2"
-  }
+  "proxy": "http://localhost:5000"
 }

@@ -25,13 +25,11 @@ class Portfolio extends Component {
         <Nav />
         <div className="row">
           <div className="col s12 m6">
-            <a LinkTo="/">
-              <div className="card medium p-card">
-                <div className="card-content white-text">
-                  <span className="card-title">Cortney + Josh</span>
-                </div>
+            <div className="card medium p-card">
+              <div className="card-content white-text">
+                <span className="card-title">Cortney + Josh</span>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>

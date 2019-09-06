@@ -5,24 +5,14 @@ import M from "materialize-css";
 class Main extends Component {
   state = {};
 
-  //   handleInputChange = event => {
-  //     const { name, value } = event.target;
-  //     console.log(name, value);
-  //     this.setState({
-  //       [name]: value
-  //     });
-  //   };
-
   componentDidMount() {
     // CAROUSEL
     //Need this to run on a timer using instance method
-    var elem = document.querySelector(".carousel");
-    var instance = M.Carousel.init(elem, { duration: 200 });
+    const elem = document.querySelector(".carousel");
+    M.Carousel.init(elem, { duration: 200 });
   }
 
-  componentDidUpdate() {
-    // instance.next(5);
-  }
+  componentDidUpdate() {}
 
   render() {
     return (
