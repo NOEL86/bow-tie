@@ -51,6 +51,16 @@ class Contact extends Component {
     console.log("Submitted content: ", contactInfo);
 
     //ajax call to send info to nodemailer
+    fetch("/send", {
+      method: "POST", // or 'PUT'
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(contactInfo) // data can be `string` or {object}!
+    })
+      .then(res => res.json())
+      .then(response => console.log("Success:", JSON.stringify(response))); //send alert
+    // .catch(error => console.error("Error:", error)); //send error
     //clear search fields
     //alert submitted to user on success
   };

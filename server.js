@@ -1,7 +1,7 @@
-var express = require("express");
-var bodyParser = require("body-parser");
-var PORT = process.env.PORT || 5000;
-var app = express();
+let express = require("express");
+let bodyParser = require("body-parser");
+let PORT = process.env.PORT || 5000;
+let app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 // parse application/json
 app.use(bodyParser.json());
 
-var routes = require("./routes");
+const routes = require("./routes");
 app.use(routes);
 
 if (process.env.NODE_ENV === "production") {
