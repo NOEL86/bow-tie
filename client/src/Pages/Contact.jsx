@@ -28,9 +28,7 @@ class Contact extends Component {
     console.log("Mounted");
   }
   //function that checks to see if a user is logged in before allowing them to view the check in page
-  componentWillMount() {
-    // console.log("I made it here");
-  }
+
   componentDidUpdate() {
     // console.log(this.state.fName, this.state.lName);
   }
@@ -50,6 +48,16 @@ class Contact extends Component {
     };
     console.log("Submitted content: ", contactInfo);
 
+    if (
+      this.state.firstName === "" ||
+      this.state.lastName === "" ||
+      this.state.email === "" ||
+      this.state.phone === ""
+    ) {
+      alert("OOPS you forgot something!");
+      return;
+    }
+
     //ajax call to send info to nodemailer
     fetch("/send", {
       method: "POST", // or 'PUT'
@@ -58,10 +66,26 @@ class Contact extends Component {
       },
       body: JSON.stringify(contactInfo) // data can be `string` or {object}!
     })
-      .then(res => res.json())
+      .then(res => {
+        console.log({ res });
+        if (res.ok) {
+          return res.json();
+        } else {
+          return res.json({ res: "Errors" });
+        }
+      })
       .then(response => console.log("Success:", JSON.stringify(response))); //send alert
     // .catch(error => console.error("Error:", error)); //send error
     //clear search fields
+    this.setState({
+      fName: "",
+      lName: "",
+      email: "",
+      phone: "",
+      location: "",
+      date: "",
+      comment: ""
+    });
     //alert submitted to user on success
   };
 
@@ -73,7 +97,7 @@ class Contact extends Component {
           <h2 className="header center">Contact Us!</h2>
           <div className="card horizontal">
             <div className="card-image">
-              <img src="../images/flowers.jpg" alt="Contact Image" />
+              <img src="../images/flowers.jpg" alt="Flowers" />
             </div>
             <div className="card-stacked">
               <div className="card-content">
@@ -90,7 +114,7 @@ class Contact extends Component {
                           type="text"
                           className="validate"
                         />
-                        <label htmlFor="first_name">First Name</label>
+                        <label htmlFor="first_name">First Name *</label>
                       </div>
                       <div className="input-field col s6">
                         <input
@@ -101,7 +125,7 @@ class Contact extends Component {
                           type="text"
                           className="validate"
                         />
-                        <label htmlFor="last_name">Last Name</label>
+                        <label htmlFor="last_name">Last Name *</label>
                       </div>
                     </div>
 
@@ -116,7 +140,7 @@ class Contact extends Component {
                           className="validate"
                         />
                         <label htmlFor="phone">
-                          Phone <i className="fa fa-italic">801-755-7555</i>
+                          Phone <i className="fa fa-italic">801-755-7555 *</i>
                         </label>
                       </div>
                       <div className="input-field col s6">
@@ -128,7 +152,7 @@ class Contact extends Component {
                           type="email"
                           className="validate"
                         />
-                        <label htmlFor="email_inline">Email</label>
+                        <label htmlFor="email_inline">Email *</label>
                       </div>
                     </div>
 
@@ -168,6 +192,7 @@ class Contact extends Component {
                         <label htmlFor="textarea1">Comments/Questions</label>
                       </div>
                     </div>
+                    <small>* Required</small>
                     <div className="card-action">
                       <button
                         className="btn waves-effect waves-light"

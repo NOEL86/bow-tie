@@ -1,13 +1,16 @@
-const express = require("express");
-let router = express.Router();
+// const express = require("express");
+let router = require("express").Router();
 const path = require("path");
 const nodemailer = require("nodemailer");
 
 // router.use(function(req, res) {
-//   res.sendFile(path.join(__dirname, "index.html"));
-// }); THIS DID NOT WORK FOR ME... DO I NEED THIS???
+//   res.sendFile(path.join(__dirname, "/client/build/index.html"));
+// });
 
 //pass in user info and create an email
+// router.post("/send", function(req, res) {
+//   console.log("yooo");
+// });
 router.post("/send", function(req, res) {
   // console.log("I made it to the post function");
   console.log(req.body);
@@ -32,7 +35,9 @@ router.post("/send", function(req, res) {
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
+        // user: "bowandtieeventswa@gmail.com",
         user: testAccount.user, //FULL EMAIL  // generated ethereal user
+        // pass: "Kennyandcort"
         pass: testAccount.pass //FULL PASSWORD generated ethereal password
       }
     });
@@ -41,13 +46,13 @@ router.post("/send", function(req, res) {
     let info = await transporter.sendMail({
       from: email, // sender address
       to: "bar@example.com", // list of receivers
-      subject: first + "" + last, // Subject line
+      subject: first + " " + last, // Subject line
       // text: "Hello world?", // plain text body
-      html: `<ul><li>${first + "" + last}</li> 
-      <li>${phone}</li>
-      <li>${date}</li>
-      <li>${location}</li>
-      <li>${comment}</li></ul>` // html body
+      html: `<ul><li>Name: ${first + " " + last}</li> 
+      <li>Phone: ${phone}</li>
+      <li>Date: ${date}</li>
+      <li>Location: ${location}</li>
+      <li>Comments: ${comment}</li></ul>` // html body
     });
 
     console.log("Message sent: %s", info.messageId);
@@ -57,6 +62,7 @@ router.post("/send", function(req, res) {
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
     // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
     // res.send() a message to the user that the message was sent
+    res.json({ sent: "Message Sent Successfully!" }).end();
   }
 
   main().catch(console.error);

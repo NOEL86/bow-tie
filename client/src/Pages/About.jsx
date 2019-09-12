@@ -16,7 +16,7 @@ class About extends Component {
   componentDidMount() {}
   //function that checks to see if a user is logged in before allowing them to view the check in page
   componentWillMount() {
-    console.log("I made it here");
+    console.log("I made it to About");
   }
 
   render() {

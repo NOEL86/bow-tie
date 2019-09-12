@@ -15,9 +15,6 @@ class Portfolio extends Component {
 
   componentDidMount() {}
   //function that checks to see if a user is logged in before allowing them to view the check in page
-  componentWillMount() {
-    // console.log("I made it here");
-  }
 
   render() {
     return (
@@ -26,6 +23,7 @@ class Portfolio extends Component {
         <div className="row">
           <div className="col s12 m6">
             <div className="card medium p-card">
+              {/* <img src="../images/cortney.jpeg" alt="Cort" /> */}
               <div className="card-content white-text">
                 <span className="card-title">Cortney + Josh</span>
               </div>
