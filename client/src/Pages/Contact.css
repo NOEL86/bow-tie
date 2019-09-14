@@ -5,3 +5,14 @@
 .btn {
   background-color: #214e63;
 }
+
+#mHeader {
+  font-family: "Julius Sans One", sans-serif;
+}
+
+#formStyle {
+  font-family: "Julius Sans One", sans-serif;
+}
+.card.horizontal .card-image {
+  max-width: "30%";
+}

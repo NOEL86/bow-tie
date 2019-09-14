@@ -94,13 +94,15 @@ class Contact extends Component {
       <div>
         <Nav />
         <div className="col s12 m7">
-          <h2 className="header center">Contact Us!</h2>
+          <h2 id="mHeader" className="header center">
+            Contact Us
+          </h2>
           <div className="card horizontal">
             <div className="card-image">
               <img src="../images/flowers.jpg" alt="Flowers" />
             </div>
             <div className="card-stacked">
-              <div className="card-content">
+              <div id="formStyle" className="card-content">
                 <div className="row">
                   <form onSubmit={this.handleContact} className="col s12">
                     <div className="row">
