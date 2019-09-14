@@ -13,6 +13,10 @@
 #formStyle {
   font-family: "Julius Sans One", sans-serif;
 }
-.card.horizontal .card-image {
-  max-width: "30%";
+/* .card-image img {
+  width: 75% !important;
+} */
+
+.card.horizontal .card-image img {
+  width: 70% !important;
 }

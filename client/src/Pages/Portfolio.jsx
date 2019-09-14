@@ -23,10 +23,8 @@ class Portfolio extends Component {
         <div className="row">
           <div className="col s12 m6">
             <div className="card medium p-card">
-              {/* <img src="../images/cortney.jpeg" alt="Cort" /> */}
-              <div className="card-content white-text">
-                <span className="card-title">Cortney + Josh</span>
-              </div>
+              <img id="cort" src="../images/cort.jpeg" alt="Cort" />
+              <span className="card-title">Cortney + Josh</span>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.get("*", (req, res) => {
-  console.log("catch all routes and make sure they work!!");
+  // console.log("catch all routes and make sure they work!!");
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 

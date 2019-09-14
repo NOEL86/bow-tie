@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import "./Contact.css";
+
 class Contact extends Component {
   constructor(props) {
     super(props);
@@ -99,7 +100,7 @@ class Contact extends Component {
           </h2>
           <div className="card horizontal">
             <div className="card-image">
-              <img src="../images/flowers.jpg" alt="Flowers" />
+              <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />
             </div>
             <div className="card-stacked">
               <div id="formStyle" className="card-content">

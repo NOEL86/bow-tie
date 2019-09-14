@@ -1,5 +1,14 @@
-.p-card {
-  background-image: url("/images/cortney.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.card {
+  width: fit-content;
+}
+
+#cort {
+  max-width: 100%;
+  max-height: 100%;
+}
+.card-title {
+  color: white;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
