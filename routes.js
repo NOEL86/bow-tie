@@ -7,10 +7,6 @@ const nodemailer = require("nodemailer");
 //   res.sendFile(path.join(__dirname, "/client/build/index.html"));
 // });
 
-//pass in user info and create an email
-// router.post("/send", function(req, res) {
-//   console.log("yooo");
-// });
 router.post("/send", function(req, res) {
   // console.log("I made it to the post function");
   console.log(req.body);
@@ -24,21 +20,22 @@ router.post("/send", function(req, res) {
   // return; for debugging
   // async..await is not allowed in global scope, must use a wrapper
   async function main() {
-    // Generate test SMTP service account from ethereal.email
-    // Only needed if you don't have a real mail account for testing
-    let testAccount = await nodemailer.createTestAccount();
+    //   // Generate test SMTP service account from ethereal.email
+    //   // Only needed if you don't have a real mail account for testing
+    //   let testAccount = await nodemailer.createTestAccount();
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
-      host: "smtp.ethereal.email",
-      // host: "bowandtieeventswa@gmail.com",
-      port: 587,
-      secure: false, // true for 465, false for other ports
+      // host: "smtp.ethereal.email",
+      host: "smtp.gmail.com",
+      // port: 587,
+      port: 465,
+      secure: true, // true for 465, false for other ports
       auth: {
-        // user: "bowandtieeventswa@gmail.com",
-        user: testAccount.user, //FULL EMAIL  // generated ethereal user
-        // pass: "Kennyandcort"
-        pass: testAccount.pass //FULL PASSWORD generated ethereal password
+        user: "bowandtieeventswa@gmail.com",
+        // user: testAccount.user, //FULL EMAIL  // generated ethereal user
+        pass: "Kennyandcort"
+        // pass: testAccount.pass //FULL PASSWORD generated ethereal password
       }
     });
 
@@ -65,6 +62,6 @@ router.post("/send", function(req, res) {
     res.json({ sent: "Message Sent Successfully!" }).end();
   }
 
-  main().catch(console.error);
+  main().catch("The email did not send: ", console.error);
 });
 module.exports = router;

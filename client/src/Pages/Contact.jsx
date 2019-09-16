@@ -10,23 +10,33 @@ class Contact extends Component {
       fName: "",
       lName: "",
       phone: "",
+      validatedPhone: "",
       location: "",
       date: "",
       comment: ""
     };
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleContact = this.handleContact.bind(this);
+    this.validatePhone = this.validatePhone.bind(this);
   }
   handleInputChange = event => {
     const { name, value } = event.target;
-    console.log(name, value);
+    // console.log(name, value);
     this.setState({
       [name]: value
     });
   };
 
+  validatePhone = () => {
+    console.log(this.state.phone);
+    this.state.validatedPhone = this.state.phone;
+    let validated = false;
+
+    // if (this.state.phone <=)
+  };
+
   componentDidMount() {
-    console.log("Mounted");
+    // console.log("Mounted");
   }
   //function that checks to see if a user is logged in before allowing them to view the check in page
 
@@ -37,12 +47,13 @@ class Contact extends Component {
   handleContact = e => {
     e.preventDefault();
     console.log("submit button clicked");
+    this.validatePhone();
 
     const contactInfo = {
       firstName: this.state.fName,
       lastName: this.state.lName,
       email: this.state.email,
-      phone: this.state.phone,
+      phone: this.state.validatePhone,
       location: this.state.location,
       date: this.state.date,
       comment: this.state.comment
