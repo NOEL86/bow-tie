@@ -2,7 +2,7 @@
 let router = require("express").Router();
 // const path = require("path");
 const nodemailer = require("nodemailer");
-const keys = require("./keys.js");
+require("dotenv").config();
 
 router.post("/send", function(req, res) {
   // console.log("I made it to the post function");
@@ -22,9 +22,9 @@ router.post("/send", function(req, res) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: keys.username,
+      user: proccess.env.USERNAME,
       // user: testAccount.user, //FULL EMAIL  // generated ethereal user
-      pass: keys.pass
+      pass: process.env.PASS
       // pass: testAccount.pass //FULL PASSWORD generated ethereal password
     }
   });
@@ -33,7 +33,7 @@ router.post("/send", function(req, res) {
     // sender address
     from: email,
     // list of receivers
-    to: keys.username,
+    to: proccess.env.USERNAME,
     // Subject line
     subject: "Client: " + first + " " + last,
     // plain text body
