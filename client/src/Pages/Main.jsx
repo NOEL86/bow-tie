@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import M from "materialize-css";
+// import options from "materialize-css";
 
 class Main extends Component {
   state = {};
@@ -12,7 +13,9 @@ class Main extends Component {
     M.Carousel.init(elem, { duration: 200 });
   }
 
-  componentDidUpdate() {}
+  componentDidUpdate() {
+    console.log("made it to function");
+  }
 
   render() {
     return (

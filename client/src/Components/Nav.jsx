@@ -11,17 +11,9 @@ class Nav extends Component {
   }
 
   componentDidMount() {
-    document.addEventListener("DOMContentLoaded", function() {
-      var elems = document.querySelectorAll(".sidenav");
-      M.Sidenav.init(elems, options);
-    });
+    M.AutoInit();
   }
-  // componentDidUpdate() {
-  //   document.addEventListener("DOMContentLoaded", function() {
-  //     var elems = document.querySelectorAll(".sidenav");
-  //     M.Sidenav.init(elems, options);
-  //   });
-  // }
+  componentDidUpdate() {}
   //function that checks to see if a user is logged in before allowing them to view the check in page
 
   render() {
