@@ -11,6 +11,7 @@ class Contact extends Component {
       lName: "",
       phone: "",
       validatedPhone: "",
+      validated: false,
       location: "",
       date: "",
       comment: ""
@@ -29,10 +30,15 @@ class Contact extends Component {
 
   validatePhone = () => {
     console.log(this.state.phone);
-    this.state.validatedPhone = this.state.phone;
-    let validated = false;
-
-    // if (this.state.phone <=)
+    let submittedPhone = this.state.phone;
+    console.log(submittedPhone.length);
+    let phoneLength = submittedPhone.length;
+    if (phoneLength < 10) {
+      // alert("Invalid phone number submitted!");
+      return;
+    } else {
+      this.setState({ validated: true });
+    }
   };
 
   componentDidMount() {
@@ -65,8 +71,9 @@ class Contact extends Component {
       this.state.lastName === "" ||
       this.state.email === "" ||
       this.state.phone === ""
+      // this.state.validated === false
     ) {
-      alert("OOPS you forgot something!");
+      alert("Please check *required information and phone number length.");
       return;
     }
 
@@ -96,7 +103,8 @@ class Contact extends Component {
       phone: "",
       location: "",
       date: "",
-      comment: ""
+      comment: "",
+      validated: false
     });
     //alert submitted to user on success
   };
