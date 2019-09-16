@@ -59,7 +59,7 @@ class Contact extends Component {
       firstName: this.state.fName,
       lastName: this.state.lName,
       email: this.state.email,
-      phone: this.state.validatePhone,
+      phone: this.state.phone,
       location: this.state.location,
       date: this.state.date,
       comment: this.state.comment
@@ -84,16 +84,15 @@ class Contact extends Component {
         "Content-Type": "application/json"
       },
       body: JSON.stringify(contactInfo) // data can be `string` or {object}!
-    })
-      .then(res => {
-        console.log({ res });
-        if (res.ok) {
-          return res.json();
-        } else {
-          return res.json({ res: "Errors" });
-        }
-      })
-      .then(response => console.log("Success:", JSON.stringify(response))); //send alert
+    }).then(res => {
+      console.log({ res });
+      if (res.ok) {
+        return JSON.stringify(res);
+      } else {
+        return JSON.stringify(res);
+      }
+    });
+    // .then(response => console.log("Success:", JSON.stringify(response))); //send alert
     // .catch(error => console.error("Error:", error)); //send error
     //clear search fields
     this.setState({
