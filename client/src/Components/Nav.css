@@ -3,7 +3,6 @@
   opacity: 0.7;
   padding-top: 50px;
   padding-bottom: 50px;
-  /* height: 230px; */
 }
 
 ul {
@@ -18,4 +17,7 @@ ul {
   font-weight: bolder;
   font-size: 18px;
   opacity: 1;
+}
+.dropdown-content {
+  /* z-index: 9999 !important; */
 }

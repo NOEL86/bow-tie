@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import M from "materialize-css";
-import options from "materialize-css";
+
 import "./Nav.css";
 
 class Nav extends Component {
@@ -19,6 +19,20 @@ class Nav extends Component {
   render() {
     return (
       <div>
+        <ul id="dropdown1" className="dropdown-content">
+          <li>
+            <a href="#!">Wedding</a>
+          </li>
+          <li>
+            <a href="#!">Wedding Related Events</a>
+          </li>
+          <li>
+            <a href="#!">Corporate Events</a>
+          </li>
+          <li>
+            <a href="#!">Parties</a>
+          </li>
+        </ul>
         <nav id="mainNav">
           <div className="nav-center center">
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
@@ -41,14 +55,25 @@ class Nav extends Component {
                   Portfolio
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/Packages"
                   className="waves-effect waves-teal accent-3 btn-flat"
                 >
                   Packages & investments
                 </Link>
+              </li> */}
+              <li>
+                <a
+                  className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat"
+                  href="#!"
+                  data-target="dropdown1"
+                >
+                  Packages & investments
+                  <i className="material-icons right">arrow_drop_down</i>
+                </a>
               </li>
+
               <li>
                 <Link
                   to="/Contact"

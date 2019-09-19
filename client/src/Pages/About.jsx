@@ -20,7 +20,7 @@ class About extends Component {
     return (
       <div>
         <Nav />
-        <div className="row" style={{ marginTop: "10px" }}>
+        <div className="row" style={{ marginTop: "5%" }}>
           <div className="col s6">
             <Kenny />
           </div>

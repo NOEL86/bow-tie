@@ -1,0 +1,12 @@
+.carousel .carousel-item {
+  /* margin-top: 5%; */
+  width: 300px;
+  height: 300px;
+}
+
+.carousel {
+  margin-top: 5%;
+}
+.card {
+  z-index: 0;
+}

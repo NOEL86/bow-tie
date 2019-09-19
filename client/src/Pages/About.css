@@ -1,7 +1,11 @@
 #cort {
-  height: auto;
+  height: fit-content;
 }
 
 #kenny {
-  height: auto;
+  height: fit-content;
+}
+
+.card-title {
+  color: white;
 }
