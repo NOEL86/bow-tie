@@ -119,8 +119,8 @@ class Contact extends Component {
         </div>
 
         <div className="row">
-          <div className="col s3" />
-          <div className="col s6">
+          <div className="col m3" />
+          <div className="col s12 m7">
             <div className="card horizontal">
               <div className="card-image">
                 <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />
@@ -166,7 +166,7 @@ class Contact extends Component {
                             className="validate"
                           />
                           <label htmlFor="phone">
-                            Phone <i className="fa fa-italic">801-755-7555 *</i>
+                            801-755-7555<i className="fa fa-italic">*</i>
                           </label>
                         </div>
                         <div className="input-field col s6">

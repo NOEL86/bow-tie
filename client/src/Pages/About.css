@@ -1,3 +1,7 @@
+.card-image {
+  max-height: 400px !important;
+}
+
 #cortney {
   width: 100%;
 }
