@@ -3,18 +3,41 @@ import Nav from "../Components/Nav";
 import "./portfolio.css";
 
 class Portfolio extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+    this.state = {
+      cortJosh: []
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
+  handleClick = event => {
+    event.preventDefault();
+    const { name, value } = event.target;
 
-  //   handleInputChange = event => {
-  //     const { name, value } = event.target;
-  //     console.log(name, value);
-  //     this.setState({
-  //       [name]: value
-  //     });
-  //   };
+    this.setState({
+      [name]: value
+    });
+    console.log("Portfolio Image :", this.state.cortJosh);
+    //go to db get all images associated with
+  };
 
-  componentDidMount() {}
-  //function that checks to see if a user is logged in before allowing them to view the check in page
+  componentDidMount() {
+    //go get all images using redux and have them available by props
+    // fetch("/portfolio", {
+    //   method: "GET", // or 'PUT'
+    //   // headers: {
+    //   //   "Content-Type": "application/json"
+    //   // },
+    //   body: JSON.stringify(images) // data can be `string` or {object}!
+    // }).then(res => {
+    //   console.log({ res });
+    //   if (res.ok) {
+    //     return JSON.stringify(res);
+    //   } else {
+    //     return JSON.stringify(res);
+    //   }
+    // });
+  }
 
   render() {
     return (
@@ -22,7 +45,12 @@ class Portfolio extends Component {
         <Nav />
         <div className="row">
           <div className="col s12 m6">
-            <div className="card medium p-card">
+            <div
+              className="card medium p-card"
+              name="cortneyJosh"
+              value={this.state.cortJosh}
+              onClick={this.handleClick}
+            >
               <img id="cort" src="../images/cort.jpeg" alt="Cort" />
               <span className="card-title">Cortney + Josh</span>
             </div>

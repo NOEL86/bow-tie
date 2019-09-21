@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
+import M from "materialize-css";
 import "./Contact.css";
 
 class Contact extends Component {
@@ -73,7 +74,10 @@ class Contact extends Component {
       this.state.phone === ""
       // this.state.validated === false
     ) {
-      alert("Please check *required information and phone number length.");
+      // alert("Please check *required information and phone number length.");
+      M.toast({
+        html: "Please check *required information and phone number length."
+      });
       return;
     }
 

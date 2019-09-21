@@ -11,9 +11,6 @@ const Kenny = props => (
         alt="Headshot"
       />
     </div>
-    {/* <div className="card-content">
-      <span className="card-title activator">Kenneth Jimenez</span>
-    </div> */}
     <div className="card-reveal">
       <h6 className="card-title grey-text text-darken-4">Kenneth Jimenez</h6>
       <br />
