@@ -116,7 +116,7 @@ class Contact extends Component {
     return (
       <div>
         <Nav />
-        <div className="col s12 m7">
+        <div className="col s12">
           <h2 id="mHeader" className="header center">
             Contact Us
           </h2>
@@ -144,7 +144,7 @@ class Contact extends Component {
                             type="text"
                             className="validate"
                           />
-                          <label htmlFor="first_name">First Name *</label>
+                          <label htmlFor="first_name">* First Name</label>
                         </div>
                         <div className="input-field col s6">
                           <input
@@ -155,7 +155,7 @@ class Contact extends Component {
                             type="text"
                             className="validate"
                           />
-                          <label htmlFor="last_name">Last Name *</label>
+                          <label htmlFor="last_name">* Last Name</label>
                         </div>
                       </div>
 
@@ -169,9 +169,7 @@ class Contact extends Component {
                             type="text"
                             className="validate"
                           />
-                          <label htmlFor="phone">
-                            801-755-7555<i className="fa fa-italic">*</i>
-                          </label>
+                          <label htmlFor="phone">* 801-755-7555</label>
                         </div>
                         <div className="input-field col s6">
                           <input
@@ -182,7 +180,7 @@ class Contact extends Component {
                             type="email"
                             className="validate"
                           />
-                          <label htmlFor="email_inline">Email *</label>
+                          <label htmlFor="email_inline">* Email</label>
                         </div>
                       </div>
 
@@ -219,7 +217,7 @@ class Contact extends Component {
                             onChange={this.handleInputChange}
                             className="materialize-textarea"
                           ></textarea>
-                          <label htmlFor="textarea1">Comments/Questions</label>
+                          <label htmlFor="textarea1">Questions</label>
                         </div>
                       </div>
                       <small>* Required</small>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import M from "materialize-css";
-import option from "materialize-css";
+import options from "materialize-css";
 import "./Main.css";
 
 class Main extends Component {
@@ -11,7 +11,8 @@ class Main extends Component {
     // CAROUSEL
     //Need this to run on a timer using instance method
     const elem = document.querySelector(".carousel");
-    let instance = M.Carousel.init(elem);
+    let instance = M.Carousel.init(elem, options);
+    // instance.({ duration: 200 });
   }
 
   componentDidUpdate() {
