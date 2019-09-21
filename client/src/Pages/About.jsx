@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import Kenny from "../Components/Kenny";
 import Cortney from "../Components/Cortney";
+import "./About.css";
 class About extends Component {
   state = {};
 
@@ -20,13 +21,17 @@ class About extends Component {
     return (
       <div>
         <Nav />
+
         <div className="row" style={{ marginTop: "5%" }}>
-          <div className="col s6">
+          <div className="col s2" />
+          <div className="col s4">
             <Kenny />
           </div>
-          <div className="col s6">
+
+          <div className="col s4">
             <Cortney />
           </div>
+          <div className="col s2" />
         </div>
       </div>
     );

@@ -11,15 +11,12 @@ const Kenny = props => (
         alt="Headshot"
       />
     </div>
-    <div className="card-content">
-      <span className="card-title activator grey-text text-darken-4">
-        Kenneth Jimenez
-      </span>
-    </div>
+    {/* <div className="card-content">
+      <span className="card-title activator">Kenneth Jimenez</span>
+    </div> */}
     <div className="card-reveal">
-      <span className="card-title grey-text text-darken-4">
-        Card Title<i className="material-icons right">X</i>
-      </span>
+      <h6 className="card-title grey-text text-darken-4">Kenneth Jimenez</h6>
+      <br />
       <p>
         Here is some more information about this product that is only revealed
         once clicked on.

@@ -116,115 +116,121 @@ class Contact extends Component {
           <h2 id="mHeader" className="header center">
             Contact Us
           </h2>
-          <div className="card horizontal">
-            <div className="card-image">
-              <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />
-            </div>
-            <div className="card-stacked">
-              <div id="formStyle" className="card-content">
-                <div className="row">
-                  <form onSubmit={this.handleContact} className="col s12">
-                    <div className="row">
-                      <div className="input-field col s6">
-                        <input
-                          // placeholder="Placeholder"
-                          id="first_name"
-                          name="fName"
-                          value={this.state.fName}
-                          onChange={this.handleInputChange}
-                          type="text"
-                          className="validate"
-                        />
-                        <label htmlFor="first_name">First Name *</label>
-                      </div>
-                      <div className="input-field col s6">
-                        <input
-                          id="last_name"
-                          name="lName"
-                          value={this.state.lName}
-                          onChange={this.handleInputChange}
-                          type="text"
-                          className="validate"
-                        />
-                        <label htmlFor="last_name">Last Name *</label>
-                      </div>
-                    </div>
+        </div>
 
-                    <div className="row">
-                      <div className="input-field col s6">
-                        <input
-                          id="phone"
-                          name="phone"
-                          value={this.state.phone}
-                          onChange={this.handleInputChange}
-                          type="text"
-                          className="validate"
-                        />
-                        <label htmlFor="phone">
-                          Phone <i className="fa fa-italic">801-755-7555 *</i>
-                        </label>
+        <div className="row">
+          <div className="col s3" />
+          <div className="col s6">
+            <div className="card horizontal">
+              <div className="card-image">
+                <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />
+              </div>
+              <div className="card-stacked">
+                <div id="formStyle" className="card-content">
+                  <div className="row">
+                    <form onSubmit={this.handleContact} className="col s12">
+                      <div className="row">
+                        <div className="input-field col s6">
+                          <input
+                            // placeholder="Placeholder"
+                            id="first_name"
+                            name="fName"
+                            value={this.state.fName}
+                            onChange={this.handleInputChange}
+                            type="text"
+                            className="validate"
+                          />
+                          <label htmlFor="first_name">First Name *</label>
+                        </div>
+                        <div className="input-field col s6">
+                          <input
+                            id="last_name"
+                            name="lName"
+                            value={this.state.lName}
+                            onChange={this.handleInputChange}
+                            type="text"
+                            className="validate"
+                          />
+                          <label htmlFor="last_name">Last Name *</label>
+                        </div>
                       </div>
-                      <div className="input-field col s6">
-                        <input
-                          id="email_inline"
-                          name="email"
-                          value={this.state.email}
-                          onChange={this.handleInputChange}
-                          type="email"
-                          className="validate"
-                        />
-                        <label htmlFor="email_inline">Email *</label>
-                      </div>
-                    </div>
 
-                    <div className="row">
-                      <div className="input-field col s6">
-                        <input
-                          id="location"
-                          name="location"
-                          value={this.state.location}
-                          onChange={this.handleInputChange}
-                          type="text"
-                          className="validate"
-                        />
-                        <label htmlFor="location">Event Location</label>
+                      <div className="row">
+                        <div className="input-field col s6">
+                          <input
+                            id="phone"
+                            name="phone"
+                            value={this.state.phone}
+                            onChange={this.handleInputChange}
+                            type="text"
+                            className="validate"
+                          />
+                          <label htmlFor="phone">
+                            Phone <i className="fa fa-italic">801-755-7555 *</i>
+                          </label>
+                        </div>
+                        <div className="input-field col s6">
+                          <input
+                            id="email_inline"
+                            name="email"
+                            value={this.state.email}
+                            onChange={this.handleInputChange}
+                            type="email"
+                            className="validate"
+                          />
+                          <label htmlFor="email_inline">Email *</label>
+                        </div>
                       </div>
-                      <div className="input-field col s6">
-                        <input
-                          id="date"
-                          name="date"
-                          value={this.state.date}
-                          onChange={this.handleInputChange}
-                          type="text"
-                          className="validate"
-                        />
-                        <label htmlFor="date">Event Date(s)</label>
+
+                      <div className="row">
+                        <div className="input-field col s6">
+                          <input
+                            id="location"
+                            name="location"
+                            value={this.state.location}
+                            onChange={this.handleInputChange}
+                            type="text"
+                            className="validate"
+                          />
+                          <label htmlFor="location">Event Location</label>
+                        </div>
+                        <div className="input-field col s6">
+                          <input
+                            id="date"
+                            name="date"
+                            value={this.state.date}
+                            onChange={this.handleInputChange}
+                            type="text"
+                            className="validate"
+                          />
+                          <label htmlFor="date">Event Date(s)</label>
+                        </div>
                       </div>
-                    </div>
-                    <div className="row">
-                      <div className="input-field col s8">
-                        <textarea
-                          id="textarea1"
-                          name="comment"
-                          value={this.state.comment}
-                          onChange={this.handleInputChange}
-                          className="materialize-textarea"
-                        ></textarea>
-                        <label htmlFor="textarea1">Comments/Questions</label>
+                      <div className="row">
+                        <div className="input-field col s8">
+                          <textarea
+                            id="textarea1"
+                            name="comment"
+                            value={this.state.comment}
+                            onChange={this.handleInputChange}
+                            className="materialize-textarea"
+                          ></textarea>
+                          <label htmlFor="textarea1">Comments/Questions</label>
+                        </div>
                       </div>
-                    </div>
-                    <small>* Required</small>
-                    <div className="card-action">
-                      <button
-                        className="btn waves-effect waves-light"
-                        type="submit"
-                        onSubmit={this.handleContact}
-                        name="action"
-                      >
-                        <i className="material-icons right">send</i>
-                      </button>
-                    </div>
-                  </form>
+                      <small>* Required</small>
+                      <div className="card-action">
+                        <button
+                          className="btn waves-effect waves-light"
+                          type="submit"
+                          onSubmit={this.handleContact}
+                          name="action"
+                        >
+                          <i className="material-icons right">send</i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
