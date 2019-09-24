@@ -124,7 +124,7 @@ class Contact extends Component {
 
         <div className="row">
           <div className="col m3" />
-          <div className="col s12 m7">
+          <div className="col s12 m8 lg7">
             <div className="card horizontal">
               <div className="card-image">
                 <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />

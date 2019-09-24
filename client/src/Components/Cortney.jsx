@@ -1,12 +1,12 @@
 import React from "react";
 
 const Cortney = props => (
-  <div className="card medium">
+  <div className="card small">
     <div className="card-image waves-effect waves-block waves-light">
       <img
         id="cortney"
         className="activator"
-        src="../images/kiss.jpeg"
+        src="../images/headShotCort.jpeg"
         alt="Headshot"
       />
     </div>

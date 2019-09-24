@@ -12,8 +12,8 @@ class Main extends Component {
     //Need this to run on a timer using instance method
     const elem = document.querySelectorAll(".carousel");
     console.log(elem);
-    M.Carousel.init(elem, { duration: 200 });
-    // instance.({ duration: 200 });
+    var instance = M.Carousel.init(elem, options);
+    instance.Carousel({ duration: 200 });
   }
 
   componentDidUpdate() {

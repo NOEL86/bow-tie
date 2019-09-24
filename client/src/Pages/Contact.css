@@ -18,8 +18,11 @@
 }
 
 .card.horizontal .card-image img {
-  width: 70% !important;
+  width: 60% !important;
 }
 h1 {
   font-size: 2.7rem;
 }
+/* .row .col.s12 {
+  width: inherit;
+} */

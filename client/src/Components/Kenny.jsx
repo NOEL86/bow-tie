@@ -2,12 +2,12 @@ import React from "react";
 import "materialize-css";
 
 const Kenny = props => (
-  <div className="card medium">
+  <div className="card small">
     <div className="card-image waves-effect waves-block waves-light">
       <img
         id="kenny"
         className="activator"
-        src="../images/vase.jpg"
+        src="../images/kenny.jpg"
         alt="Headshot"
       />
     </div>

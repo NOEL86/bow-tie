@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import M from "materialize-css";
-
 import "./Nav.css";
 
 class Nav extends Component {
@@ -13,8 +12,6 @@ class Nav extends Component {
   componentDidMount() {
     M.AutoInit();
   }
-  componentDidUpdate() {}
-  //function that checks to see if a user is logged in before allowing them to view the check in page
 
   render() {
     return (
@@ -55,14 +52,7 @@ class Nav extends Component {
                   Portfolio
                 </Link>
               </li>
-              {/* <li>
-                <Link
-                  to="/Packages"
-                  className="waves-effect waves-teal accent-3 btn-flat"
-                >
-                  Packages & investments
-                </Link>
-              </li> */}
+
               <li>
                 <a
                   className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat"

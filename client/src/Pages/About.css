@@ -1,13 +1,5 @@
-.card-image {
-  max-height: 400px !important;
-}
-
-#cortney {
-  width: 100%;
-}
-
-#kenny {
-  width: 100%;
+.card .card-image img {
+  height: 350px !important;
 }
 
 #topTitle {
@@ -16,4 +8,12 @@
 
 .card-reveal {
   background-color: rgb(233, 242, 243) !important;
+  /* max-height: 450px !important; */
+}
+
+.card.small {
+  height: fit-content;
+}
+.card .card-content {
+  padding: 0 !important;
 }
