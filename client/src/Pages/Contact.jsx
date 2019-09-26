@@ -123,7 +123,7 @@ class Contact extends Component {
         </div>
 
         <div className="row">
-          <div className="col m3" />
+          <div className="col m2" />
           <div id="mainCard" className="col s12 m8">
             <div className="card horizontal">
               <div id="flowers" className="card-image">
