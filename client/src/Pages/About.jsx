@@ -21,19 +21,16 @@ class About extends Component {
         <Nav />
 
         <div className="row" style={{ marginTop: "5%" }}>
-          <div className="row">
-            <div className="col m2 lg2" />
-            <div className="col s12 m4 lg4">
-              <Kenny />
-            </div>
+          <div className="col m2 lg2" />
+          <div className="col s12 m4 lg4">
+            <Kenny />
           </div>
-          <div className="row">
-            <div className="col s12 m4 lg4">
-              <Cortney />
-            </div>
 
-            <div className="col m4 lg4" />
+          <div className="col s12 m4 lg4">
+            <Cortney />
           </div>
+
+          <div className="col m4 lg4" />
         </div>
       </div>
     );
