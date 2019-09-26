@@ -124,16 +124,16 @@ class Contact extends Component {
 
         <div className="row">
           <div className="col m3" />
-          <div className="col s12 m8 lg7">
+          <div id="mainCard" className="col s12 m8">
             <div className="card horizontal">
-              <div className="card-image">
+              <div id="flowers" className="card-image">
                 <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />
               </div>
               <div className="card-stacked">
                 <div id="formStyle" className="card-content">
                   <div className="row">
                     <form onSubmit={this.handleContact} className="col s12">
-                      <div className="row">
+                      <div id="right" className="row">
                         <div className="input-field col s6">
                           <input
                             // placeholder="Placeholder"
@@ -159,7 +159,7 @@ class Contact extends Component {
                         </div>
                       </div>
 
-                      <div className="row">
+                      <div id="right" className="row">
                         <div className="input-field col s6">
                           <input
                             id="phone"
@@ -184,7 +184,7 @@ class Contact extends Component {
                         </div>
                       </div>
 
-                      <div className="row">
+                      <div id="right" className="row">
                         <div className="input-field col s6">
                           <input
                             id="location"
@@ -208,7 +208,7 @@ class Contact extends Component {
                           <label htmlFor="date">Event Date(s)</label>
                         </div>
                       </div>
-                      <div className="row">
+                      <div id="right" className="row">
                         <div className="input-field col s8">
                           <textarea
                             id="textarea1"

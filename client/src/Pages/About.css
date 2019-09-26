@@ -17,3 +17,10 @@
 .card .card-content {
   padding: 0 !important;
 }
+
+@media screen and (max-width: 600px) {
+  #about {
+    height: 100% !important;
+    overflow: hidden;
+  }
+}

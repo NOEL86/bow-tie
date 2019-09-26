@@ -3,23 +3,22 @@ import Nav from "../Components/Nav";
 import Kenny from "../Components/Kenny";
 import Cortney from "../Components/Cortney";
 import "./About.css";
+import Background from "./grunge_wall.png";
 class About extends Component {
   state = {};
 
-  //   handleInputChange = event => {
-  //     const { name, value } = event.target;
-  //     console.log(name, value);
-  //     this.setState({
-  //       [name]: value
-  //     });
-  //   };
-
-  componentDidMount() {}
-  //function that checks to see if a user is logged in before allowing them to view the check in page
-
   render() {
     return (
-      <div>
+      <div
+        id="about"
+        style={{
+          backgroundImage: `url(${Background})`,
+          height: "100vh",
+          backgroundRepeat: "repeat",
+          backgroundSize: "100vh"
+          // overflow: "hidden"
+        }}
+      >
         <Nav />
 
         <div className="row" style={{ marginTop: "5%" }}>

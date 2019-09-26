@@ -13,7 +13,7 @@ class Main extends Component {
     const elem = document.querySelectorAll(".carousel");
     console.log(elem);
     var instance = M.Carousel.init(elem, options);
-    instance.Carousel({ duration: 200 });
+    // instance.Carousel.options({ duration: 200 });
   }
 
   componentDidUpdate() {
