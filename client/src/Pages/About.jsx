@@ -16,7 +16,6 @@ class About extends Component {
           height: "100vh",
           backgroundRepeat: "repeat",
           backgroundSize: "100vh"
-          // overflow: "hidden"
         }}
       >
         <Nav />
