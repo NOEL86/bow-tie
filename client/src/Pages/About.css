@@ -1,5 +1,6 @@
-.card .card-image img {
-  height: 350px !important;
+#kenny,
+#cortney {
+  height: 350px;
 }
 
 #topTitle {
@@ -19,8 +20,10 @@
 }
 
 @media screen and (max-width: 600px) {
-  #about {
-    height: 100% !important;
-    overflow: hidden;
+  #kenny {
+    width: 100%;
+  }
+  #cortney {
+    width: 100%;
   }
 }

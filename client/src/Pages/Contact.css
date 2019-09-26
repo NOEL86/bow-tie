@@ -21,7 +21,7 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .card-image img {
+  #flowers {
     max-width: 100px !important;
     max-height: 150px !important;
   }
