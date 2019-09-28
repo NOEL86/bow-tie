@@ -6,7 +6,6 @@ let PORT = process.env.PORT || 5000;
 let app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
-// parse application/json
 app.use(bodyParser.json());
 
 const routes = require("./routes");
