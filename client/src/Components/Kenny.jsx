@@ -1,5 +1,5 @@
 import React from "react";
-import "materialize-css";
+// import "materialize-css";
 
 const Kenny = props => (
   <div className="card small">

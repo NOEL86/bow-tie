@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import M from "materialize-css";
+// import M from "materialize-css";
 import "./Nav.css";
 
 class Nav extends Component {
@@ -10,7 +10,7 @@ class Nav extends Component {
   }
 
   componentDidMount() {
-    M.AutoInit();
+    // M.AutoInit();
   }
 
   render() {
