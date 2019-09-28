@@ -18,7 +18,7 @@ class Nav extends Component {
       <div>
         <ul id="dropdown1" className="dropdown-content">
           <li>
-            <a href="#!">Wedding</a>
+            <a href="/Weddings">Wedding</a>
           </li>
           <li>
             <a href="#!">Wedding Related Events</a>

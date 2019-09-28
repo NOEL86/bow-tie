@@ -21,21 +21,7 @@ class Wedding extends Component {
   };
 
   componentDidMount() {
-    //go get all images using redux and have them available by props
-    // fetch("/portfolio", {
-    //   method: "GET", // or 'PUT'
-    //   // headers: {
-    //   //   "Content-Type": "application/json"
-    //   // },
-    //   body: JSON.stringify(images) // data can be `string` or {object}!
-    // }).then(res => {
-    //   console.log({ res });
-    //   if (res.ok) {
-    //     return JSON.stringify(res);
-    //   } else {
-    //     return JSON.stringify(res);
-    //   }
-    // });
+    // not sure I need this.
   }
 
   render() {
@@ -43,16 +29,8 @@ class Wedding extends Component {
       <div>
         <Nav />
         <div className="row">
-          <div className="col s12 m4 lg3">
-            <div
-              className="card medium p-card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
-              <img id="cort" src="../images/cort.jpeg" alt="Cort" />
-              <span className="card-title">Cortney + Josh</span>
-            </div>
+          <div className="col s12 m12 lg12">
+            <h1>Wedding Packages</h1>
           </div>
         </div>
       </div>
