@@ -39,7 +39,7 @@ class Nav extends Component {
               <li>
                 <a
                   href="/"
-                  className="waves-effect waves-teal accent-3 btn-flat"
+                  className="waves-effect waves-teal accent-3 btn-flat myCustom"
                 >
                   Home
                 </a>
