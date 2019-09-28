@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import M from "materialize-css";
+import M from "materialize-css";
 import "./Nav.css";
 
 class Nav extends Component {
@@ -10,7 +10,7 @@ class Nav extends Component {
   }
 
   componentDidMount() {
-    // M.AutoInit();
+    M.AutoInit();
   }
 
   render() {
@@ -47,7 +47,7 @@ class Nav extends Component {
               <li>
                 <Link
                   to="/Portfolio"
-                  className="waves-effect waves-teal accent-3 btn-flat"
+                  className="waves-effect waves-teal accent-3 btn-flat myCustom"
                 >
                   Portfolio
                 </Link>
@@ -55,7 +55,7 @@ class Nav extends Component {
 
               <li>
                 <a
-                  className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat"
+                  className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat myCustom"
                   href="#!"
                   data-target="dropdown1"
                 >
@@ -67,7 +67,7 @@ class Nav extends Component {
               <li>
                 <Link
                   to="/Contact"
-                  className="waves-effect waves-teal accent-3 btn-flat"
+                  className="waves-effect waves-teal accent-3 btn-flat myCustom"
                 >
                   Contact Us
                 </Link>
@@ -75,7 +75,7 @@ class Nav extends Component {
               <li>
                 <Link
                   to="/About"
-                  className="waves-effect waves-teal accent-3 btn-flat"
+                  className="waves-effect waves-teal accent-3 btn-flat myCustom"
                 >
                   About Us
                 </Link>
