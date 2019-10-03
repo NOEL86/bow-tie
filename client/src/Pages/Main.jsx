@@ -27,19 +27,19 @@ class Main extends Component {
         <Nav />
         <div className="carousel">
           <a className="carousel-item" href="#one!">
-            <img src="../images/welcome.jpeg" alt="This" />
+            <img id="cImage" src="../images/welcome.jpeg" alt="This" />
           </a>
           <a className="carousel-item" href="#two!">
-            <img src="../images/flowers.jpg" alt="Welcome" />
+            <img id="cImage" src="../images/flowers.jpg" alt="Welcome" />
           </a>
           <a className="carousel-item" href="#three!">
-            <img src="../images/vase.jpg" alt="This" />
+            <img id="cImage" src="../images/vase.jpg" alt="This" />
           </a>
           <a className="carousel-item" href="#four!">
-            <img src="../images/kiss.jpeg" alt="This" />
+            <img id="cImage" src="../images/kiss.jpeg" alt="This" />
           </a>
           <a className="carousel-item" href="#five!">
-            <img src="../images/table.jpg" alt="This" />
+            <img id="cImage" src="../images/table.jpg" alt="This" />
           </a>
         </div>
       </div>
