@@ -2,11 +2,11 @@
   background-color: #214e63;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
 }
 
 ul {
-  font-family: "Julius Sans One", sans-serif;
-  text-align: center;
   vertical-align: middle;
   display: inline-block;
 }
@@ -16,7 +16,4 @@ ul {
   font-weight: bolder;
   font-size: 18px;
   opacity: 1;
-}
-.dropdown-content {
-  /* z-index: 9999 !important; */
 }

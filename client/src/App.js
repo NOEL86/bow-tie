@@ -5,6 +5,7 @@ import Contact from "./Pages/Contact";
 import Packages from "./Pages/Packages";
 import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
+import Weddings from "./Pages/Weddings";
 import "./App.css";
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route exact path="/Packages" component={Packages} />
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/About" component={About} />
+            <Route exact path="/Weddings" component={Weddings} />
           </Switch>
         </div>
       </Router>
