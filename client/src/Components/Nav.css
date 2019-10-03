@@ -11,7 +11,7 @@ ul {
   display: inline-block;
 }
 
-.myCustom {
+a.myCustom {
   color: lightgrey;
   font-weight: bolder;
   font-size: 18px;
