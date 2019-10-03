@@ -205,6 +205,189 @@ class Wedding extends Component {
             </p>
           </div>
         </div>
+
+        <div className="row">
+          <div className="col m12">
+            <p>
+              <b>
+                Are you more of a visual person? Don’t you worry. We’ve got you
+                covered with our chart below:
+              </b>
+            </p>
+          </div>
+        </div>
+
+        <div id="center" className="row">
+          <div className="col s12 m6 lg6">
+            <table>
+              <tbody>
+                <tr>
+                  <th>Services</th>
+                  <th>Day Of Coordination</th>
+                  <th>Partial Planning</th>
+                  <th>"Peace of Mind" (Full Planning)</th>
+                </tr>
+                <tr>
+                  <td>In Person Meetings</td>
+                  <td>One</td>
+                  <td>Three</td>
+                  <td>Unlimited</td>
+                </tr>
+                <tr>
+                  <td>Phone Calls/Emails</td>
+                  <td>Unlimited</td>
+                  <td>Unlimited</td>
+                  <td>Unlimited</td>
+                </tr>
+                <tr>
+                  <td>Skype/Facetime Sessions</td>
+                  <td>One</td>
+                  <td>Three</td>
+                  <td>Unlimited</td>
+                </tr>
+                <tr>
+                  <td>Coordinator on Site</td>
+                  <td>12 Hours</td>
+                  <td>14 Hours</td>
+                  <td>16 Hours</td>
+                </tr>
+                <tr>
+                  <td>Designer on Site</td>
+                  <td></td>
+                  <td>14 Hours</td>
+                  <td>16 Hours</td>
+                </tr>
+                <tr>
+                  <td>Vendor Meetings</td>
+                  <td></td>
+                  <td>Three</td>
+                  <td>Unlimited</td>
+                </tr>
+                <tr>
+                  <td>Monthly CheckLists</td>
+                  <td></td>
+                  <td>Yes</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Venue Vendor Reccomations</td>
+                  <td></td>
+                  <td>Yes</td>
+                  <td>Custom "Dream Team" List</td>
+                </tr>
+                <tr>
+                  <td>Budget</td>
+                  <td></td>
+                  <td>Assistance</td>
+                  <td>Custom Budget List</td>
+                </tr>
+                <tr>
+                  <td>Design</td>
+                  <td></td>
+                  <td>Assistance</td>
+                  <td>Unlimited Inspiration Board Creations</td>
+                </tr>
+                <tr>
+                  <td>Pick Up/Return Rentals</td>
+                  <td></td>
+                  <td>Pick Up Only</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Pick Up/Return Alcohol</td>
+                  <td></td>
+                  <td>Pick Up Only</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Stationary</td>
+                  <td></td>
+                  <td></td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Out of Town Guests' Accommodations</td>
+                  <td></td>
+                  <td></td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Planning/Design Rehearsal Dinner</td>
+                  <td></td>
+                  <td></td>
+                  <td>Yes</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div id="center" className="row">
+          <div className="col s12 m12 lg12">
+            <h5>Included in All Packages:</h5>
+          </div>
+        </div>
+
+        <div id="center" className="row">
+          <div className="col s12 m12 lg 12">
+            <p>
+              <b>One final venue walk through</b>
+            </p>
+            <p>
+              <b>Review of all venue and vendor contracts </b>
+            </p>
+            <p>
+              <b>Reminder of payment due dates for all venues and vendors</b>
+            </p>{" "}
+            <p>
+              <b>
+                Coordinate and confirm arrival and departure times with vendors
+              </b>
+            </p>
+            <p>
+              <b>Confirm rental item quantities</b>
+            </p>
+            <p>
+              <b>Attend and coordinate rehearsal</b>
+            </p>
+            <p>
+              <b>
+                Complete ceremony and reception site set up, tear down and clean
+                up
+              </b>
+            </p>
+            <p>
+              <b>
+                {" "}
+                Placement of various items such as: place cards, thank you
+                cards, menu’s, programs etc{" "}
+              </b>
+            </p>
+            <p>
+              <b>
+                Detailed Day Of timeline creation and distribution to wedding
+                party as well as all venues and vendors.{" "}
+              </b>
+            </p>
+            <p>
+              <b>
+                {" "}
+                Being a point of contact for all vendors, guests and wedding
+                party by greeting, directing and keeping them on task throughout
+                the day
+              </b>
+            </p>
+            <p>
+              <b>Coordinate with DJ for cuing music</b>
+            </p>
+            <p>
+              <b>
+                Pack gifts, guest books, leftover food, alcohol, wedding favors
+                and rental items into predetermined vehicle
+              </b>
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

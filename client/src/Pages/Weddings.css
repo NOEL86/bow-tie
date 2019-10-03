@@ -5,3 +5,18 @@
 #package1.li {
   list-style-type: circle;
 }
+
+table,
+th,
+td {
+  border: solid black 2px;
+  text-align: center;
+}
+
+/* #includedAll {
+  text-align: center;
+} */
+
+#center {
+  text-align: center;
+}
