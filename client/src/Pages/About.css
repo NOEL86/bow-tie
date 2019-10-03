@@ -22,10 +22,14 @@
 @media screen and (max-width: 600px) {
   #kenny {
     width: 100%;
-    height: 350px;
+    /* height: fit-content; */
   }
   #cortney {
     width: 100%;
-    height: 350px;
+    /* height: 350px; */
+  }
+  #about {
+    height: fit-content !important;
+    padding-bottom: 5%;
   }
 }
