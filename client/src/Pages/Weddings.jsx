@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
+import "./Weddings.css";
 
 class Wedding extends Component {
   constructor(props) {
@@ -35,8 +36,8 @@ class Wedding extends Component {
         </div>
         <div className="row left">
           <div className="col">
-            <h5>Package:</h5>
-            <h6>Day Of Coordination</h6>
+            <h4>Packages</h4>
+            <h5>Day Of Coordination:</h5>
           </div>
         </div>
 
@@ -92,6 +93,116 @@ class Wedding extends Component {
                 and rental items into predetermined vehicle
               </li>
             </ul>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col md12">
+            <p>
+              <b>Investment: $700</b>
+            </p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col md12">
+            <h5>Partial Planning</h5>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col md12">
+            <p>
+              You’ve picked some of your vendors and have an idea of how you
+              envision your day to look. This package includes everything the
+              “Day Of” Package does, in addition to:
+            </p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col md12">
+            <ul>
+              <li>Attend up to 3 vendor meetings of your choice</li>
+              <li>Up to 3 in person meetings</li>
+              <li>
+                Unlimited Facetime or Skype sessions with both lead planner and
+                designer
+              </li>
+              <li>
+                Budget assistance and a list of vendors that fit within your
+                budget
+              </li>
+              <li>
+                Design assistance and a custom list of recommended rental items
+              </li>
+              <li>Lead coordinator and designer on site for up to 14 hours</li>
+              <li>Pick up rental items</li>
+              <li>Pick up alcohol</li>
+              <li>Monthly checklists</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col s12 md12 lg12">
+            <p>
+              <b>Investment: $2,000</b>
+            </p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col s12 md12 lg12">
+            <h5>Peace of Mind (Full Planning)</h5>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col s12 md12 lg12">
+            <p>
+              Don’t know where to start or are too busy to take on the full-time
+              job of planning a wedding? We got you. Our Full Planning package
+              includes everything the “Day Of” and “Partial Planning” packages
+              do in addition to:
+            </p>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col md12">
+            <ul>
+              <li>Unlimited vendor meetings</li>
+              <li>
+                Schedule and attend venue and vendor appointments around your
+                schedule
+              </li>
+              <li>Unlimited in person meetings</li>
+              <li>
+                Unlimited Inspiration Board creations with various colors and
+                themes
+              </li>
+              <li>Custom budget guide</li>
+              <li>
+                Custom venue and vendor recommendations list to fit within your
+                budget to create a “Dream Team”
+              </li>
+              <li>
+                Research out of town guests' accommodations including
+                transportation
+              </li>
+              <li>Full planning and design for the Rehearsal Dinner</li>
+              <li>Lead Coordinator and Designer on site for 16 hours</li>
+              <li>Pick up and return any rental items</li>
+              <li>Pick up and return any leftover alcohol</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col s12 md12 lg12">
+            <p>
+              <b>Investment: $3,250</b>
+            </p>
           </div>
         </div>
       </div>
