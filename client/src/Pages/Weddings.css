@@ -6,11 +6,15 @@
   list-style-type: circle;
 }
 
+#tButton {
+  background-color: #214e63;
+}
+
 table,
 th,
 td {
-  border: solid black 2px;
-  text-align: center;
+  border: solid black 2px !important;
+  text-align: center !important;
 }
 
 /* #includedAll {
