@@ -1,7 +1,10 @@
-#kenny,
-#cortney {
-  height: 400px;
+.card .card-image {
+  width: 100%;
+  max-height: 350px !important;
 }
+/* .card .card-image #kenny {
+  max-height: 380px !important;
+} */
 
 #topTitle {
   z-index: 99;
@@ -26,7 +29,7 @@
   }
   #cortney {
     width: 100%;
-    /* height: 350px; */
+    height: 350px;
   }
   #about {
     height: fit-content !important;
