@@ -100,7 +100,8 @@ class Nav extends Component {
           <li>
             <Link
               to="/Packages"
-              className="waves-effect waves-teal accent-3 btn-flat"
+              className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat"
+              data-target="dropdown1"
             >
               Packages & investments
             </Link>
