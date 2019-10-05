@@ -30,6 +30,20 @@ class Nav extends Component {
             <a href="#!">Parties</a>
           </li>
         </ul>
+        <ul id="dropdown2" className="dropdown-content">
+          <li>
+            <a href="/Weddings">Wedding</a>
+          </li>
+          <li>
+            <a href="#!">Wedding Related Events</a>
+          </li>
+          <li>
+            <a href="#!">Corporate Events</a>
+          </li>
+          <li>
+            <a href="#!">Parties</a>
+          </li>
+        </ul>
         <nav id="mainNav">
           <div className="nav-center center">
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
@@ -57,7 +71,7 @@ class Nav extends Component {
                 <a
                   className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat myCustom"
                   href="#!"
-                  data-target="dropdown1"
+                  data-target="dropdown2"
                 >
                   Packages & investments
                   <i className="material-icons right">arrow_drop_down</i>

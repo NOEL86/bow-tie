@@ -3,7 +3,10 @@ import React from "react";
 
 const Kenny = props => (
   <div className="card small">
-    <div className="card-image waves-effect waves-block waves-light">
+    <div
+      id="imageDiv"
+      className="card-image waves-effect waves-block waves-light"
+    >
       <img
         id="kenny"
         className="activator"
