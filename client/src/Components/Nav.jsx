@@ -95,6 +95,28 @@ class Nav extends Component {
                 </Link>
               </li>
             </ul>
+            <div id="sMediaIcons" className="row right">
+              <img
+                style={{ width: "30px" }}
+                src="../images/icons8-facebook-f-50.png"
+                alt="FB Logo"
+              />
+              <img
+                style={{ width: "30px" }}
+                src="../images/icons8-pinterest-50.png"
+                alt="Pintrest Logo"
+              />
+              <img
+                style={{ width: "30px" }}
+                src="../images/icons8-instagram-old-50.png"
+                alt="Pintrest Logo"
+              />
+              <img
+                style={{ width: "30px" }}
+                src="../images/icons8-snapchat-50.png"
+                alt="Snapchat Logo"
+              />
+            </div>
           </div>
         </nav>
         <ul className="sidenav" id="mobile-demo">

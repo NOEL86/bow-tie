@@ -44,7 +44,7 @@ class Portfolio extends Component {
       <div>
         <Nav />
         <div className="row">
-          <div className="col s12 m4 lg3">
+          <div className="col s12 m4 l4">
             <div
               className="card medium p-card"
               name="cortneyJosh"
