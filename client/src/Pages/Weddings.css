@@ -2,7 +2,7 @@
   justify-content: left;
 }
 
-#package1.li {
+ul#package1 li {
   list-style-type: circle;
 }
 
@@ -17,9 +17,9 @@ td {
   text-align: center !important;
 }
 
-/* #includedAll {
-  text-align: center;
-} */
+#card-content {
+  margin-left: 5%;
+}
 
 #center {
   text-align: center;
