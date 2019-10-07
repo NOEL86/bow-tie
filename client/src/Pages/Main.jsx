@@ -22,7 +22,6 @@ class Main extends Component {
   }
 
   render() {
-    console.log("hit");
     return (
       <div>
         <Nav />
@@ -43,7 +42,7 @@ class Main extends Component {
             <img id="cImage" src="../images/table.jpg" alt="This" />
           </a>
         </div>
-        <br />
+
         <SMedia />
       </div>
     );
