@@ -14,11 +14,11 @@ const Cortney = props => (
       />
     </div>
 
-    <div className="card-content">
-      <span className="card-title activator grey-text text-darken-4">
+    {/* <div className="card-content">
+      {/* <span className="card-title activator grey-text text-darken-4">
         Cortney Kuntz
-      </span>
-    </div>
+      </span> 
+    </div> */}
     <div className="card-reveal">
       <h6 className="card-title grey-text text-darken-4">Cortney M Kuntz</h6>
       <br />

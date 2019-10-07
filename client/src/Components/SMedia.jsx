@@ -2,7 +2,10 @@ import React from "react";
 
 const SMedia = props => (
   <div id="sMediaIcons" className="row right">
-    <a href="https://www.facebook.com/Bow-Tie-Events-122658612466871/">
+    <a
+      href="https://www.facebook.com/Bow-Tie-Events-122658612466871/"
+      target="_blank"
+    >
       <img
         style={{ width: "30px" }}
         src="../images/icons8-facebook-f-50.png"
@@ -16,7 +19,7 @@ const SMedia = props => (
                   alt="Pintrest Logo"
                 />
               </a> */}
-    <a href="https://www.instagram.com/bowandtieeventswa/">
+    <a href="https://www.instagram.com/bowandtieeventswa/" target="_blank">
       <img
         style={{ width: "30px" }}
         src="../images/icons8-instagram-old-50.png"
