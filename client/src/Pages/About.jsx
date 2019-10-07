@@ -4,6 +4,7 @@ import Kenny from "../Components/Kenny";
 import Cortney from "../Components/Cortney";
 import "./About.css";
 import Background from "./grunge_wall.png";
+import SMedia from "../Components/SMedia";
 class About extends Component {
   state = {};
 
@@ -32,6 +33,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+        <SMedia />
       </div>
     );
   }
