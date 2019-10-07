@@ -43,6 +43,7 @@ class Main extends Component {
             <img id="cImage" src="../images/table.jpg" alt="This" />
           </a>
         </div>
+        <br />
         <SMedia />
       </div>
     );

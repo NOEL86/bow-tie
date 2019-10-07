@@ -1,4 +1,4 @@
-.card.small {
+.card.small#aboutCard {
   width: fit-content !important;
   cursor: pointer;
   height: auto;
@@ -9,7 +9,7 @@
 }
 
 .card-reveal {
-  background-color: rgb(233, 242, 243) !important;
+  background-color: rgb(216, 236, 238) !important;
 }
 
 #kenny,

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Cortney = props => (
-  <div className="card small">
+  <div id="aboutCard" className="card small">
     <div
       id="imageDiv"
       className="card-image waves-effect waves-block waves-light"
