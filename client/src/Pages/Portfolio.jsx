@@ -44,7 +44,7 @@ class Portfolio extends Component {
       <div>
         <Nav />
         <div className="row">
-          <div className="col s12 m4 l4">
+          <div className="col s12 m3 l3">
             <div
               className="card medium p-card"
               name="cortneyJosh"
@@ -52,7 +52,91 @@ class Portfolio extends Component {
               onClick={this.handleClick}
             >
               <img id="cort" src="../images/cort.jpeg" alt="Cort" />
-              <span className="card-title">Cortney + Josh</span>
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+          <div className="col s12 m3 l3">
+            <div className="card medium p-card">
+              <img id="cort" src="../images/cuteFaces.jpeg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+          <div className="col s12 m3 l3">
+            <div className="card medium p-card">
+              <img id="cort" src="../images/isle.jpg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+
+          <div className="col s12 m3 l3">
+            <div
+              className="card medium p-card"
+              name="cortneyJosh"
+              value={this.state.cortJosh}
+              onClick={this.handleClick}
+            >
+              <img id="cort" src="../images/chairs.jpg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+
+          <div className="col s12 m3 l3">
+            <div
+              className="card medium p-card"
+              name="cortneyJosh"
+              value={this.state.cortJosh}
+              onClick={this.handleClick}
+            >
+              <img id="cort" src="../images/kiss.jpeg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+
+          <div className="col s12 m3 l3">
+            <div
+              className="card medium p-card"
+              name="cortneyJosh"
+              value={this.state.cortJosh}
+              onClick={this.handleClick}
+            >
+              <img id="cort" src="../images/kissHead.jpeg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+
+          <div className="col s12 m3 l3">
+            <div
+              className="card medium p-card"
+              name="cortneyJosh"
+              value={this.state.cortJosh}
+              onClick={this.handleClick}
+            >
+              <img id="cort" src="../images/table.jpg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+
+          <div className="col s12 m3 l3">
+            <div
+              className="card medium p-card"
+              name="cortneyJosh"
+              value={this.state.cortJosh}
+              onClick={this.handleClick}
+            >
+              <img id="cort" src="../images/flowers.jpg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+
+          <div className="col s12 m4 l3">
+            <div
+              className="card medium p-card"
+              name="cortneyJosh"
+              value={this.state.cortJosh}
+              onClick={this.handleClick}
+            >
+              <img id="cort" src="../images/decour.jpg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
         </div>
