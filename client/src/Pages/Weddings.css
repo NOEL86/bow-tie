@@ -19,8 +19,15 @@ td {
 
 #card-content {
   margin-left: 5%;
+  margin-right: 5%;
 }
 
-#center {
+/* #center {
   text-align: center;
-}
+} */
+
+/* @media screen and (max-width: 420px) {
+  table {
+    width: 380px;
+  }
+} */

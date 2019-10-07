@@ -2,7 +2,7 @@ import React from "react";
 // import "materialize-css";
 
 const Kenny = props => (
-  <div className="card small">
+  <div id="cardKenny" className="card small">
     <div
       id="imageDiv"
       className="card-image waves-effect waves-block waves-light"

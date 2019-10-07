@@ -1,7 +1,13 @@
 .carousel a.carousel-item {
-  width: 300px !important;
-  height: 350px !important;
+  width: 250px !important;
+  height: 300px !important;
 }
 .carousel {
-  margin-top: 5%;
+  margin-top: 10%;
+}
+#sMediaIcons {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-left: 5%;
 }

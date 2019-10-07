@@ -14,23 +14,23 @@ class About extends Component {
         style={{
           backgroundImage: `url(${Background})`,
           height: "100vh",
-          backgroundRepeat: "repeat",
-          backgroundSize: "100vh"
+          backgroundPosition: "center",
+
+          backgroundSize: "cover no-repeat"
         }}
       >
         <Nav />
 
-        <div className="row" style={{ marginTop: "5%", marginRight: "5%" }}>
-          <div className="col m2 lg2" />
-          <div className="col s12 m4 lg4">
-            <Kenny />
-          </div>
+        <div id="center" className="row" style={{ marginTop: "10%" }}>
+          <div className="col s12 m12 l12 offset-m1 offset-l2">
+            <div className="col s12 m6 lg4">
+              <Kenny />
+            </div>
 
-          <div className="col s12 m4 lg4">
-            <Cortney />
+            <div className="col s12 m6 lg4">
+              <Cortney />
+            </div>
           </div>
-
-          <div className="col m4 lg4" />
         </div>
       </div>
     );

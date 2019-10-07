@@ -17,7 +17,7 @@ class TableModal extends Component {
         <div className="modal-content center">
           <h4>Package Info</h4>
           <div id="center" className="row">
-            <div className="col s12">
+            <div className="col s12 m12 l12">
               <table>
                 <tbody>
                   <tr>

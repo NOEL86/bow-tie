@@ -1,6 +1,7 @@
-.card.small #imageDiv {
-  width: fit-content;
-  max-height: 100% !important;
+.card.small {
+  width: fit-content !important;
+  cursor: pointer;
+  height: auto;
 }
 
 #topTitle {
@@ -13,31 +14,42 @@
 
 #kenny,
 #cortney {
-  min-height: 100%;
+  max-height: 100%;
   object-fit: cover;
   cursor: pointer;
+  height: 300px;
+  width: 280px;
+  overflow: hidden;
+
+  /* display: inline-block; */
 }
 
 #kenny {
-  max-height: 70% !important;
+  /* margin-right: 5%; */
 }
 .card .card-content {
   padding: 0 !important;
 }
 
-@media screen and (max-width: 780px) {
-  /* .card.small #imageDiv {
-    /* max-width: 100%; 
-    object-fit: cover;
-    /* height: 350px; 
+/* @media screen and (max-width: 840) {
+  
+} */
+
+@media screen and (max-width: 600px) {
+  #center {
+    margin-left: 10%;
   }
-  .card.small #imageDiv #cortney {
-    /* max-width: 100%; 
+  #kenny,
+  #cortney {
+    max-width: 100%;
     object-fit: cover;
-    /* height: 350px; 
-  } */
+    width: 300px;
+    height: 300px;
+  }
+
   #about {
     min-height: fit-content !important;
+    height: auto !important;
     padding-bottom: 5%;
   }
 }

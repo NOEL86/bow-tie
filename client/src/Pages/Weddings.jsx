@@ -46,7 +46,7 @@ class Wedding extends Component {
             <div className="card ">
               <div className="row center">
                 <div className="col s12 m12 lg12">
-                  <h5>Included in All Packages:</h5>
+                  <h5>Included in All Packages</h5>
                 </div>
               </div>
               <div id="card-content" className="row">
@@ -123,7 +123,7 @@ class Wedding extends Component {
             <div className="card">
               <div className="row center">
                 <div className="col s12 md12 l12">
-                  <h5>Day Of Coordination:</h5>
+                  <h5>Day Of Coordination</h5>
                 </div>
               </div>
 
@@ -197,7 +197,7 @@ class Wedding extends Component {
 
           <div className="col s12 m8 l6 offset-m2">
             <div className="card">
-              <div className="row center">
+              <div style={{ textAlign: "center" }} className="row">
                 <div className="col m12">
                   <h5>Partial Planning</h5>
                 </div>
