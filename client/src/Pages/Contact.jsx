@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
-// import M from "materialize-css";
+import M from "materialize-css";
 import "./Contact.css";
 
 class Contact extends Component {
@@ -42,15 +42,6 @@ class Contact extends Component {
     }
   };
 
-  componentDidMount() {
-    // console.log("Mounted");
-  }
-  //function that checks to see if a user is logged in before allowing them to view the check in page
-
-  componentDidUpdate() {
-    // console.log(this.state.fName, this.state.lName);
-  }
-
   handleContact = e => {
     e.preventDefault();
     console.log("submit button clicked");
@@ -75,9 +66,10 @@ class Contact extends Component {
       // this.state.validated === false
     ) {
       // alert("Please check *required information and phone number length.");
-      // M.toast({
-      //   html: "Please check *required information and phone number length."
-      // });
+      M.toast({
+        html: "Please check *required information and resubmit.",
+        classes: "deep-orange darken-4"
+      });
       return;
     }
 
@@ -109,7 +101,10 @@ class Contact extends Component {
       comment: "",
       validated: false
     });
-    //alert submitted to user on success
+    M.toast({
+      html: "Submitted! We look forward to working with you.",
+      classes: "light-blue darken-3"
+    });
   };
 
   render() {
