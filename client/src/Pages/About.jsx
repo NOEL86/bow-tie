@@ -22,19 +22,19 @@ class About extends Component {
       >
         <Nav />
 
-        <div id="center" className="row" style={{ marginTop: "10%" }}>
-          <div className="col s12 m12 l12 offset-m1 offset-l2">
-            <div className="col s12 m6 lg4">
+        <div id="aboutRow" className="row" style={{ marginTop: "10%" }}>
+          <div className="col s12 m12 l12">
+            <div className="col s12 m4 lg4 offset-m2">
               <Kenny />
             </div>
 
-            <div className="col s12 m6 lg4">
+            <div className="col s12 m4 lg4">
               <Cortney />
             </div>
           </div>
         </div>
         <br />
-        <SMedia />
+        <SMedia id="mediaIcons" />
       </div>
     );
   }

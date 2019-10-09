@@ -21,13 +21,13 @@ class Nav extends Component {
             <a href="/Weddings">Wedding</a>
           </li>
           <li>
-            <a href="#!">Wedding Related Events</a>
+            <a href="/RelatedEvents">Wedding Related Events</a>
           </li>
           <li>
-            <a href="#!">Corporate Events</a>
+            <a href="/Corporate">Corporate Events</a>
           </li>
           <li>
-            <a href="#!">Parties</a>
+            <a href="/Parties">Parties</a>
           </li>
         </ul>
         <ul id="dropdown2" className="dropdown-content">
@@ -35,13 +35,13 @@ class Nav extends Component {
             <a href="/Weddings">Wedding</a>
           </li>
           <li>
-            <a href="#!">Wedding Related Events</a>
+            <a href="/RelatedEvents">Wedding Related Events</a>
           </li>
           <li>
-            <a href="#!">Corporate Events</a>
+            <a href="/Corporate">Corporate Events</a>
           </li>
           <li>
-            <a href="#!">Parties</a>
+            <a href="/Parties">Parties</a>
           </li>
         </ul>
         <nav id="mainNav">

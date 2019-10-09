@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import "./portfolio.css";
+import Background from "./thewood.jpg";
 
 class Portfolio extends Component {
   constructor(props) {
@@ -41,7 +42,15 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div>
+      <div
+        style={{
+          backgroundImage: `url(${Background})`,
+          height: "100%",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          paddingBottom: "10%"
+        }}
+      >
         <Nav />
         <div className="row">
           <div className="col s12 m3 l3">
@@ -69,76 +78,51 @@ class Portfolio extends Component {
           </div>
 
           <div className="col s12 m3 l3">
-            <div
-              className="card medium p-card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
+            <div className="card medium p-card">
               <img id="cort" src="../images/chairs.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div
-              className="card medium p-card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
+            <div className="card medium p-card">
               <img id="cort" src="../images/kiss.jpeg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div
-              className="card medium p-card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
+            <div className="card medium p-card">
               <img id="cort" src="../images/kissHead.jpeg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div
-              className="card medium p-card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
+            <div className="card medium p-card">
               <img id="cort" src="../images/table.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div
-              className="card medium p-card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
+            <div className="card medium p-card">
               <img id="cort" src="../images/flowers.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
-          <div className="col s12 m4 l3">
-            <div
-              className="card medium p-card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
-              <img id="cort" src="../images/decour.jpg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+          {/* <div className="col s12 m6 l3">
+            <div className="card medium p-card">
+              <img id="hundred" src="../images/decour.jpg" alt="Cort" />
             </div>
-          </div>
+          </div> */}
+
+          {/* <div className="col s12 m6 l3">
+            <div className="card medium p-card">
+              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
+            </div>
+          </div> */}
         </div>
       </div>
     );

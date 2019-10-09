@@ -18,8 +18,16 @@ const Kenny = props => (
       <h6 className="card-title grey-text text-darken-4">Kenneth Jimenez</h6>
       <br />
       <p>
-        Here is some more information about this product that is only revealed
-        once clicked on.
+        I am extremely passionate about design and the entire creative process.
+        Creating a perfect blend of aesthetic with functionality is what I aim
+        for. I started first as a Furniture designer and followed that to
+        becoming an interior designer for house flipping company. Now I'm taking
+        my talents to event and wedding design.{" "}
+      </p>{" "}
+      <p>
+        I'm here to help create your dream wedding. The perfect colors,
+        textures, look and feel all coming together in a cohesive stunning
+        wedding you'll remember forever.
       </p>
     </div>
   </div>

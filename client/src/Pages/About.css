@@ -17,27 +17,33 @@
   max-height: 100%;
   object-fit: cover;
   cursor: pointer;
-  height: 300px;
-  width: 280px;
+  height: 350px;
+  width: 350px;
   overflow: hidden;
 
   /* display: inline-block; */
 }
 
-#kenny {
-  /* margin-right: 5%; */
-}
 .card .card-content {
   padding: 0 !important;
 }
 
-/* @media screen and (max-width: 840) {
-  
-} */
+@media screen and (min-width: 768px) and (max-width: 1065px) {
+  #kenny,
+  #cortney {
+    max-width: 100%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+  .row#aboutRow {
+    margin-top: 30% !important;
+  }
+}
 
 @media screen and (max-width: 600px) {
-  #center {
-    margin-left: 10%;
+  .row#aboutRow {
+    margin-left: 5% !important;
   }
   #kenny,
   #cortney {
@@ -51,5 +57,9 @@
     min-height: fit-content !important;
     height: auto !important;
     padding-bottom: 5%;
+  }
+
+  #sMediaIcons {
+    visibility: hidden !important;
   }
 }
