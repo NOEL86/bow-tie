@@ -120,7 +120,7 @@ class Portfolio extends Component {
         </div>
       </div>
     ) : (
-      <div id="loaderPage" style={{ backgroundColor: "black" }}>
+      <div id="loaderPage" style={{ backgroundColor: "#214e63" }}>
         <div style={{ paddingTop: "30%" }} className="row center">
           <div className="col s12 m12 l12">
             <Loader />
