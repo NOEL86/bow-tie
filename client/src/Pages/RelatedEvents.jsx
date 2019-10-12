@@ -50,7 +50,7 @@ class RelatedEvents extends Component {
                 </div>
               </div>
 
-              <div id="card-content" className="row left">
+              <div id="card-content" className="row">
                 <div className="col s12 m12 l12">
                   <p>
                     Here at Bow & Tie, we just love LOVE! We want to start the
@@ -96,7 +96,7 @@ class RelatedEvents extends Component {
                 </div>
               </div>
 
-              <div id="card-content" className="row left">
+              <div id="card-content" className="row">
                 <div className="col s12 m12 l12">
                   <p>
                     Wanting someone to plan the last hoorah? You got it! We can
@@ -122,11 +122,11 @@ class RelatedEvents extends Component {
                 <div className="col s12 m12 l12">
                   <p>
                     Not needing a Wedding day planner but need one less thing to
-                    worry about? Wanting to add to your package with Bow &amp;
-                    Tie? Are you a family member or friend who oversees the
-                    dinner and need help? Whatever your reason, even if we
-                    aren’t working with you on your day of needs, we are here
-                    for you. Investment - $500
+                    worry about? Wanting to add to your package with Bow & Tie?
+                    Are you a family member or friend who oversees the dinner
+                    and need help? Whatever your reason, even if we aren’t
+                    working with you on your day of needs, we are here for you.
+                    Investment - $500
                   </p>
                 </div>
               </div>
@@ -143,7 +143,7 @@ class RelatedEvents extends Component {
                 </div>
               </div>
 
-              <div id="card-content" className="row left">
+              <div id="card-content" className="row">
                 <div className="col s12 m12 l12">
                   <p>
                     Have too much on your plate? We’ve got your back. Let us

@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import "./portfolio.css";
 import Background from "./thewood.jpg";
+import Loader from "../Components/Loader";
 
 class Portfolio extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cortJosh: []
+      cortJosh: [],
+      isLoaded: false
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -23,25 +25,14 @@ class Portfolio extends Component {
   };
 
   componentDidMount() {
-    //go get all images using redux and have them available by props
-    // fetch("/portfolio", {
-    //   method: "GET", // or 'PUT'
-    //   // headers: {
-    //   //   "Content-Type": "application/json"
-    //   // },
-    //   body: JSON.stringify(images) // data can be `string` or {object}!
-    // }).then(res => {
-    //   console.log({ res });
-    //   if (res.ok) {
-    //     return JSON.stringify(res);
-    //   } else {
-    //     return JSON.stringify(res);
-    //   }
-    // });
+    setTimeout(() => {
+      this.setState({ isLoaded: true });
+      console.log(this.state.isLoaded);
+    }, 6000);
   }
 
   render() {
-    return (
+    return this.state.isLoaded ? (
       <div
         id="portfolio-page"
         style={{
@@ -53,6 +44,7 @@ class Portfolio extends Component {
         }}
       >
         <Nav />
+
         <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">
             <div
@@ -125,6 +117,12 @@ class Portfolio extends Component {
               <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
             </div>
           </div> */}
+        </div>
+      </div>
+    ) : (
+      <div className="row center">
+        <div className="col s12 m12 l12">
+          <Loader />
         </div>
       </div>
     );

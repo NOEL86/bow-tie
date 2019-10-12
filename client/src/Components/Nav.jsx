@@ -23,9 +23,9 @@ class Nav extends Component {
           <li>
             <a href="/RelatedEvents">Wedding Related Events</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/Corporate">Corporate Events</a>
-          </li>
+          </li> */}
           <li>
             <a href="/Parties">Parties</a>
           </li>
@@ -37,9 +37,9 @@ class Nav extends Component {
           <li>
             <a href="/RelatedEvents">Wedding Related Events</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/Corporate">Corporate Events</a>
-          </li>
+          </li> */}
           <li>
             <a href="/Parties">Parties</a>
           </li>

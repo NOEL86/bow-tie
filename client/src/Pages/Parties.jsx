@@ -48,12 +48,11 @@ class Parties extends Component {
                   <h5>Birthday</h5>
                 </div>
               </div>
-
-              <div id="card-content" className="row left">
+              <div id="card-content" className="row">
                 <div className="col s12 m12 l12">
                   <p>
                     A special birthday has arrived! Whether it’s a Sweet 16,
-                    Quinceanera, 21 st , Dirty 30, the BIG 5.0. or any other
+                    Quinceanera, 21st , Dirty 30, the BIG 5O. or any other
                     birthday you want to make extra special, we are on it like
                     Blue Bonnet. Investment begins at $500 depending on size,
                     location, elaborateness etc.
@@ -101,8 +100,18 @@ class Parties extends Component {
                     Contact us! We are more than happy to help. Investment
                     depends on needs.
                   </p>
+
+                  <a
+                    id="contactUs"
+                    // className="btn-small"
+                    style={{ color: "#214e63" }}
+                    href="/Contact"
+                  >
+                    Contact Us
+                  </a>
                 </div>
               </div>
+              <br />
             </div>
           </div>
         </div>

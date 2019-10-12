@@ -22,6 +22,10 @@ td {
   margin-right: 5%;
 }
 
+#contactUs:hover {
+  font-weight: bolder;
+}
+
 /* #center {
   text-align: center;
 } */
