@@ -197,7 +197,7 @@ class Wedding extends Component {
 
           <div className="col s12 m8 l6 offset-m2">
             <div className="card">
-              <div style={{ textAlign: "center" }} className="row">
+              <div className="row center">
                 <div className="col m12">
                   <h5>Partial Planning</h5>
                 </div>

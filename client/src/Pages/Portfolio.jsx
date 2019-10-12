@@ -43,6 +43,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div
+        id="portfolio-page"
         style={{
           backgroundImage: `url(${Background})`,
           height: "100%",
@@ -52,7 +53,7 @@ class Portfolio extends Component {
         }}
       >
         <Nav />
-        <div className="row">
+        <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">
             <div
               className="card medium p-card"
@@ -64,6 +65,14 @@ class Portfolio extends Component {
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
+
+          <div className="col s12 m3 l3">
+            <div className="card medium p-card">
+              <img id="cort" src="../images/flowers.jpg" alt="Cort" />
+              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            </div>
+          </div>
+
           <div className="col s12 m3 l3">
             <div className="card medium p-card">
               <img id="cort" src="../images/cuteFaces.jpeg" alt="Cort" />
@@ -93,13 +102,6 @@ class Portfolio extends Component {
 
           <div className="col s12 m3 l3">
             <div className="card medium p-card">
-              <img id="cort" src="../images/kissHead.jpeg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
-            </div>
-          </div>
-
-          <div className="col s12 m3 l3">
-            <div className="card medium p-card">
               <img id="cort" src="../images/table.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
@@ -107,7 +109,7 @@ class Portfolio extends Component {
 
           <div className="col s12 m3 l3">
             <div className="card medium p-card">
-              <img id="cort" src="../images/flowers.jpg" alt="Cort" />
+              <img id="cort" src="../images/kissHead.jpeg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>

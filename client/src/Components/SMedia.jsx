@@ -1,7 +1,7 @@
 import React from "react";
 
 const SMedia = props => (
-  <div id="sMediaIcons" className="row right">
+  <div id="sMediaIcons" className="row">
     <a
       href="https://www.facebook.com/Bow-Tie-Events-122658612466871/"
       target="_blank"

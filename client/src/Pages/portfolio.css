@@ -8,6 +8,7 @@
   margin-right: 5%;
   padding: 5%;
   width: 280px;
+  height: 355px;
 }
 .card-title {
   color: white;
@@ -19,9 +20,47 @@
 #hundred {
   max-height: 100%;
   object-fit: cover;
-
   margin-right: 5%;
   padding: 5%;
   max-width: 500px !important;
   max-height: 400px !important;
+}
+#portfolioPics.row {
+  margin-top: 3%;
+  margin-left: 1%;
+}
+
+@media screen and (max-width: 600px) {
+  #portfolioPics.row {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1065px) {
+  #cort {
+    max-height: 100%;
+    object-fit: cover;
+    margin-right: 2%;
+    padding: 5%;
+    width: 180px;
+    height: 260px;
+  }
+  #portfolioPics.row {
+    margin-top: 3%;
+    margin-right: 2%;
+  }
+  .p-card {
+    height: auto !important;
+  }
+  #portfolio-page {
+    min-height: fit-content !important;
+    height: 100vh !important;
+    padding-bottom: 5%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #portfolioPics.row {
+    margin-left: 10%;
+  }
 }

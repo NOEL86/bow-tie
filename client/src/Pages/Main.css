@@ -3,12 +3,20 @@
   height: 300px !important;
 }
 .carousel {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 #sMediaIcons {
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
+  right: -80%;
+  bottom: 0;
   width: 100%;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
+
+/* @media screen and (min-width: 1400px) {
+  .carousel a.carousel-item {
+    width: 400px !important;
+    /* height: 500px !important; 
+  }
+}  */

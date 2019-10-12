@@ -33,8 +33,8 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <br />
-        <SMedia id="mediaIcons" />
+        {/* <br />
+        <SMedia id="mediaIcons" /> */}
       </div>
     );
   }
