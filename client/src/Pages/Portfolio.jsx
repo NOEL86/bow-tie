@@ -28,7 +28,7 @@ class Portfolio extends Component {
     setTimeout(() => {
       this.setState({ isLoaded: true });
       console.log(this.state.isLoaded);
-    }, 6000);
+    }, 5000);
   }
 
   render() {
@@ -120,9 +120,11 @@ class Portfolio extends Component {
         </div>
       </div>
     ) : (
-      <div className="row center">
-        <div className="col s12 m12 l12">
-          <Loader />
+      <div id="loaderPage" style={{ backgroundColor: "black" }}>
+        <div style={{ paddingTop: "30%" }} className="row center">
+          <div className="col s12 m12 l12">
+            <Loader />
+          </div>
         </div>
       </div>
     );

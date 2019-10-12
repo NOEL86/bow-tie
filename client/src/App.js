@@ -9,6 +9,7 @@ import Weddings from "./Pages/Weddings";
 import Corporate from "./Pages/Corporate";
 import Parties from "./Pages/Parties";
 import RelatedEvents from "./Pages/RelatedEvents";
+import Agreement from "./Pages/ServiceAgreement";
 import "./App.css";
 
 class App extends Component {
@@ -24,7 +25,7 @@ class App extends Component {
             <Route exact path="/About" component={About} />
             <Route exact path="/Weddings" component={Weddings} />
             <Route exact path="/RelatedEvents" component={RelatedEvents} />
-            <Route exact path="/Corporate" component={Corporate} />
+            <Route exact path="/Agreement" component={Agreement} />
             <Route exact path="/Parties" component={Parties} />
           </Switch>
         </div>
