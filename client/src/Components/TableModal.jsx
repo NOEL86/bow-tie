@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import M from "materialize-css";
+import "./PackageDrop.css";
 
 class TableModal extends Component {
   constructor(props) {

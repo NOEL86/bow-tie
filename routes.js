@@ -4,6 +4,10 @@ let router = require("express").Router();
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
+// router.post("/send-agreement", function(req, res) {
+//   console.log(req.body);
+// }
+
 router.post("/send", function(req, res) {
   // console.log("I made it to the post function");
   console.log(req.body);

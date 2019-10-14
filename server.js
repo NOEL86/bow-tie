@@ -9,7 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 const routes = require("./routes");
-app.use(routes);
+const agreement = require("./agreement");
+app.use(routes, agreement);
 
 if (process.env.NODE_ENV === "production") {
   // Serve any static files
