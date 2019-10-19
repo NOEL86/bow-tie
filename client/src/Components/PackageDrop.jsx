@@ -1,13 +1,25 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+
 import M from "materialize-css";
 import "./PackageDrop.css";
 
 class PackageDrop extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      selected: ""
+    };
+    this.handleSelect = this.handleSelect.bind(this);
   }
+
+  handleSelect = value => {
+    // const { name, value } = event.target;
+    // console.log(name, value);
+    // this.setState({
+    //   [name]: value
+    // });
+    // console.log("clicked", value);
+  };
 
   componentDidMount() {
     M.AutoInit();
@@ -15,44 +27,26 @@ class PackageDrop extends Component {
 
   render() {
     return (
-      <div>
-        <ul id="dropdownList" className="dropdown-content">
-          <li>
-            <a href="#!">Day of Coordination</a>
-          </li>
-          <li>
-            <a href="#!">Partial Planning</a>
-          </li>
-          <li>
-            <a href="#!">Peace of Mind</a>
-          </li>
-          <li className="divider" tabindex="-1"></li>
-          <li>
-            <a href="#!">Engagment</a>
-          </li>
-          <li>
-            <a href="#!">Engagement Party</a>
-          </li>
-          <li>
-            <a href="#!">Bachelor/Bachelorette Party</a>
-          </li>
-          <li>
-            <a href="#!">Rehearsal Dinner</a>
-          </li>
-          <li>
-            <a href="#!">Bridal Shower</a>
-          </li>
-          <li className="divider" tabindex="-1"></li>
-          <li>
-            <a href="#!">Birthday</a>
-          </li>
-          <li>
-            <a href="#!">Retirement</a>
-          </li>
-          <li>
-            <a href="#!">Other</a>
-          </li>
-        </ul>
+      <div className="input-field">
+        <select id="dropdownList">
+          <optgroup label="Weddings">
+            <option value="DayofCoordination">Day of Coordination</option>
+            <option value="PartialPlanning">Partial Planning</option>
+            <option value="PeaceofMind">Peace of Mind</option>
+          </optgroup>
+          <optgroup label="Related Events">
+            <option value="Engagment">Engagment</option>
+            <option value="EngagementParty">Engagment Party</option>
+            <option value="BachelorParty">Bachelor/Bachelorette Party</option>
+            <option value="RehearsalDinner">Rehearsal Dinner</option>
+            <option value="BridalShower">Bridal Shower</option>
+          </optgroup>
+          <optgroup label="Parties">
+            <option value="Birthday">Birthday</option>
+            <option value="Retirement">Retirement</option>
+            <option value="Other">Other</option>
+          </optgroup>
+        </select>
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import M from "materialize-css";
-import TableModal from "../Components/TableModal";
+
 import "./Weddings.css";
 
 class Parties extends Component {
@@ -19,7 +19,7 @@ class Parties extends Component {
     this.setState({
       [name]: value
     });
-    console.log("Portfolio Image :", this.state.cortJosh);
+    // console.log("Portfolio Image :", this.state.cortJosh);
     //go to db get all images associated with
   };
 

@@ -4,7 +4,6 @@ import Kenny from "../Components/Kenny";
 import Cortney from "../Components/Cortney";
 import "./About.css";
 import Background from "./grunge_wall.png";
-import SMedia from "../Components/SMedia";
 class About extends Component {
   state = {};
 
@@ -16,7 +15,7 @@ class About extends Component {
           backgroundImage: `url(${Background})`,
           height: "100vh",
           backgroundPosition: "center",
-
+          minHeight: "100%",
           backgroundSize: "cover no-repeat"
         }}
       >

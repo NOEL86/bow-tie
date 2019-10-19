@@ -19,7 +19,7 @@ class RelatedEvents extends Component {
     this.setState({
       [name]: value
     });
-    console.log("Portfolio Image :", this.state.cortJosh);
+    // console.log("Portfolio Image :", this.state.cortJosh);
     //go to db get all images associated with
   };
 

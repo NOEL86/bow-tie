@@ -13,7 +13,7 @@ class Packages extends Component {
   //   };
 
   componentDidMount() {
-    console.log("Packages");
+    // console.log("Packages");
   }
   //function that checks to see if a user is logged in before allowing them to view the check in page
 

@@ -10,7 +10,7 @@ require("dotenv").config();
 
 router.post("/send", function(req, res) {
   // console.log("I made it to the post function");
-  console.log(req.body);
+  // console.log(req.body);
   let comment = req.body.comment;
   let email = req.body.email;
   let phone = req.body.phone;
@@ -52,10 +52,11 @@ router.post("/send", function(req, res) {
   // send mail with defined transport object
   transporter.sendMail(mailOutline, (err, info) => {
     if (err) {
-      console.log("Error Message: ", err);
+      // console.log("Error Message: ", err);
     }
-    console.log(info);
-    res.redirect("/");
+    // console.log(info);
+    // res.redirect("/");
+    // res.download("/contactPage.pdf")
   });
 });
 

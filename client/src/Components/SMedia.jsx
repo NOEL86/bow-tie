@@ -7,10 +7,15 @@ const SMedia = props => (
       target="_blank"
     >
       <img
-        style={{ width: "30px" }}
+        id="fb"
+        style={{ width: "35px", marginRight: "10px" }}
         src="../images/icons8-facebook-f-50.png"
         alt="FB Logo"
       />
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </a>
     {/* <a href="">
                 <img
@@ -21,10 +26,15 @@ const SMedia = props => (
               </a> */}
     <a href="https://www.instagram.com/bowandtieeventswa/" target="_blank">
       <img
-        style={{ width: "30px" }}
+        id="iGram"
+        style={{ width: "35px" }}
         src="../images/icons8-instagram-old-50.png"
         alt="Pintrest Logo"
       />
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </a>
     {/* <a href="">
                 <img

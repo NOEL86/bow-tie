@@ -12,12 +12,20 @@ class Main extends Component {
     // CAROUSEL
     //Need this to run on a timer using instance method
     const elem = document.querySelectorAll(".carousel");
-    console.log(elem);
-    var instance = M.Carousel.init(elem, { duration: "200" });
+    // console.log(elem);
+    M.Carousel.init(elem, { duration: "200" });
+    // instance();
+
+    const element = document.querySelector("#sMediaIcons");
+    element.classList.add("animated", "bounceOut");
+
+    // element.addEventListener("animationend", function() {
+    //   doSomething();
+    // });
   }
 
   componentDidUpdate() {
-    console.log("made it to function");
+    // console.log("made it to function");
   }
 
   render() {

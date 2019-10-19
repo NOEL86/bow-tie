@@ -15,8 +15,10 @@ class Agreement extends Component {
       validatedPhone: "",
       validated: false,
       location: "",
+      eventDate: "",
       date: "",
-      comment: ""
+      comment: "",
+      downloadable: false
     };
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleContact = this.handleContact.bind(this);
@@ -36,9 +38,9 @@ class Agreement extends Component {
   };
 
   validatePhone = () => {
-    console.log(this.state.phone);
+    // console.log(this.state.phone);
     let submittedPhone = this.state.phone;
-    console.log(submittedPhone.length);
+    // console.log(submittedPhone.length);
     let phoneLength = submittedPhone.length;
     if (phoneLength < 10) {
       // alert("Invalid phone number submitted!");
@@ -50,7 +52,7 @@ class Agreement extends Component {
 
   handleContact = e => {
     e.preventDefault();
-    console.log("submit button clicked");
+    // console.log("submit button clicked");
     this.validatePhone();
 
     const contactInfo = {
@@ -62,7 +64,7 @@ class Agreement extends Component {
       date: this.state.date,
       comment: this.state.comment
     };
-    console.log("Submitted content: ", contactInfo);
+    // console.log("Submitted content: ", contactInfo);
 
     if (
       this.state.firstName === "" ||
@@ -87,7 +89,7 @@ class Agreement extends Component {
       },
       body: JSON.stringify(contactInfo) // data can be `string` or {object}!
     }).then(res => {
-      console.log({ res });
+      // console.log({ res });
       if (res.ok) {
         return JSON.stringify(res);
       } else {
@@ -114,17 +116,11 @@ class Agreement extends Component {
   };
 
   render() {
-    return (
+    return this.state.downloadable ? (
       <div>
         <Nav />
         <PackageDrop />
-        <div className="row">
-          <div className="col s12">
-            <h2 id="mHeader" className="header center">
-              Service Agreement
-            </h2>
-          </div>
-        </div>
+
         <div className="row">
           <div className="col s12 m9 l8 offset-m1 offset-l2">
             <div className="card-panel">
@@ -148,14 +144,18 @@ class Agreement extends Component {
                   <div className="card-stacked">
                     <div id="formStyle" className="card-content">
                       <div className="row">
-                        <form onSubmit={this.handleContact} className="col s12">
+                        <form
+                          onSubmit={this.handleContact}
+                          className="col s12"
+                          download
+                        >
                           <div id="right" className="row">
                             <p>This service agreement dated:</p>
                             <div className="input-field col s12 m12 l12">
                               <input
                                 id="date"
                                 name="date"
-                                value={this.state.date}
+                                defaultValue={this.state.date}
                               />
                             </div>
                           </div>
@@ -194,47 +194,65 @@ class Agreement extends Component {
                           </div>
 
                           <div id="right" className="row">
-                            <p>SERVICES PROVIDED</p>
-                            <ul>
-                              <li>
-                                The client has received an electronic or
+                            <div className="col s12 m12 l12">
+                              <p>SERVICES PROVIDED</p>
+                              <p>
+                                A. The client has received an electronic or
                                 physical copy of the package of services they
                                 have chosen,
                                 <span>
                                   <a
-                                    class="dropdown-trigger btn"
+                                    id="dropdownList"
+                                    className="dropdown-trigger"
                                     href="#"
                                     data-target="dropdownList"
-                                  >
-                                    Select
-                                  </a>
+                                  ></a>
                                 </span>
-                              </li>
-                            </ul>
+                              </p>
+                              <p>
+                                B. B&T has agreed to provide all the services in
+                                the applicable package chosen by the client.
+                              </p>
+                            </div>
 
-                            <div className="input-field col s6 m6 l4">
-                              <input
-                                id=""
-                                name=""
-                                value=""
-                                onChange={this.handleInputChange}
-                                type="text"
-                                className="validate"
-                              />
-                              <label htmlFor=""></label>
+                            <div className="col s12 m12 l12">
+                              <p>Terms of Agreement</p>
+                              <p>
+                                A. The length of this agreement (the “term”)
+                                will begin on the date B&amp;T receives this
+                                agreement signed (same date as listed above
+                                unless otherwise noted) and will remain in full
+                                force and effect until the completion of the
+                                services on the day of the event,{" "}
+                                <span>
+                                  <div className="input-field">
+                                    <input
+                                      id="event-date"
+                                      name="eventDate"
+                                      value={this.state.eventDate}
+                                      onChange={this.handleInputChange}
+                                      type="text"
+                                      className="validate"
+                                    />
+                                    <label htmlFor="event-date">
+                                      Event Date(s)
+                                    </label>
+                                  </div>
+                                </span>
+                              </p>
                             </div>
                           </div>
-                          <div id="right" className="row">
-                            <div className="input-field col s8">
-                              <textarea
-                                id="textarea1"
-                                name=""
-                                value=""
-                                onChange={this.handleInputChange}
-                                className="materialize-textarea"
-                              ></textarea>
-                              <label htmlFor="textarea1"></label>
-                            </div>
+                          <div className="col s12 m12 l12">
+                            <p>
+                              B. The client may cancel services in writing at
+                              any time up to 75 days prior to the event
+                              Date:&nbsp;
+                              <b>{this.state.eventDate}</b>&nbsp;without any
+                              additional charges. If the client wishes to cancel
+                              services after DATE (74-31 days prior to the
+                              event), the client agrees to pay half of the
+                              remaining balance (25% of the total balance)
+                            </p>
                           </div>
                           <small>* Required</small>
                           <div className="card-action">
@@ -254,6 +272,28 @@ class Agreement extends Component {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    ) : (
+      <div>
+        <Nav />
+        <div className="row">
+          <div className="col s12">
+            <h2 id="mHeader" className="header center">
+              Service Agreement
+            </h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col s12 m12 l12">
+            <embed
+              id="contract"
+              src="../images/Contract.pdf"
+              type="application/pdf"
+              width="100%"
+              height="600px"
+            />
           </div>
         </div>
       </div>

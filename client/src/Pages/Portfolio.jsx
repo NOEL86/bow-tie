@@ -20,14 +20,14 @@ class Portfolio extends Component {
     this.setState({
       [name]: value
     });
-    console.log("Portfolio Image :", this.state.cortJosh);
+    // console.log("Portfolio Image :", this.state.cortJosh);
     //go to db get all images associated with
   };
 
   componentDidMount() {
     setTimeout(() => {
       this.setState({ isLoaded: true });
-      console.log(this.state.isLoaded);
+      // console.log(this.state.isLoaded);
     }, 5000);
   }
 

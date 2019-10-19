@@ -30,9 +30,9 @@ class Contact extends Component {
   };
 
   validatePhone = () => {
-    console.log(this.state.phone);
+    // console.log(this.state.phone);
     let submittedPhone = this.state.phone;
-    console.log(submittedPhone.length);
+    // console.log(submittedPhone.length);
     let phoneLength = submittedPhone.length;
     if (phoneLength < 10) {
       // alert("Invalid phone number submitted!");
@@ -44,7 +44,7 @@ class Contact extends Component {
 
   handleContact = e => {
     e.preventDefault();
-    console.log("submit button clicked");
+    // console.log("submit button clicked");
     this.validatePhone();
 
     const contactInfo = {
@@ -56,7 +56,7 @@ class Contact extends Component {
       date: this.state.date,
       comment: this.state.comment
     };
-    console.log("Submitted content: ", contactInfo);
+    // console.log("Submitted content: ", contactInfo);
 
     if (
       this.state.firstName === "" ||
@@ -81,7 +81,7 @@ class Contact extends Component {
       },
       body: JSON.stringify(contactInfo) // data can be `string` or {object}!
     }).then(res => {
-      console.log({ res });
+      // console.log({ res });
       if (res.ok) {
         return JSON.stringify(res);
       } else {

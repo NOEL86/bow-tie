@@ -6,7 +6,7 @@ require("dotenv").config();
 function agreement() {
   router.post("/send-agreement", function(req, res) {
     // console.log("I made it to the post function");
-    console.log(req.body);
+    // console.log(req.body);
 
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
@@ -41,7 +41,7 @@ function agreement() {
     // send mail with defined transport object
     transporter.sendMail(mailOutline, (err, info) => {
       if (err) {
-        console.log("Error Message: ", err);
+        // console.log("Error Message: ", err);
       }
       console.log(info);
       res.redirect("/");
