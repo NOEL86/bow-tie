@@ -25,7 +25,7 @@ class Agreement extends Component {
     this.validatePhone = this.validatePhone.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     let dateNow = new Date();
     this.setState({ date: dateNow });
   }

@@ -37,8 +37,8 @@
 
 #fb:hover,
 #iGram:hover {
-  /* -webkit-transform: translate(-50%, -57%);
-  transform: translate(-50%, -57%); */
+  /* -webkit-transform: translate(-50%, -57%); */
+  transform: translateY(-30%);
   animation-duration: 3s;
 }
 /* #sMediaIcons a span:nth-child(1) {

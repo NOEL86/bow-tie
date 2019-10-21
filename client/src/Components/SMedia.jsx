@@ -5,6 +5,7 @@ const SMedia = props => (
     <a
       href="https://www.facebook.com/Bow-Tie-Events-122658612466871/"
       target="_blank"
+      rel="noopener noreferrer"
     >
       <img
         id="fb"
@@ -24,12 +25,16 @@ const SMedia = props => (
                   alt="Pintrest Logo"
                 />
               </a> */}
-    <a href="https://www.instagram.com/bowandtieeventswa/" target="_blank">
+    <a
+      href="https://www.instagram.com/bowandtieeventswa/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <img
         id="iGram"
         style={{ width: "35px" }}
         src="../images/icons8-instagram-old-50.png"
-        alt="Pintrest Logo"
+        alt="Instagram Logo"
       />
       <span></span>
       <span></span>
