@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import M from "materialize-css";
 import "./Contact.css";
-import PackageDrop from "../Components/PackageDrop";
+// import PackageDrop from "../Components/PackageDrop";
 
 class Agreement extends Component {
   constructor(props) {
@@ -17,8 +17,8 @@ class Agreement extends Component {
       location: "",
       eventDate: "",
       date: "",
-      comment: "",
-      downloadable: false
+      comment: ""
+      // downloadable: false
     };
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleContact = this.handleContact.bind(this);
@@ -116,166 +116,167 @@ class Agreement extends Component {
   };
 
   render() {
-    return this.state.downloadable ? (
-      <div>
-        <Nav />
-        <PackageDrop />
+    //this.state.downloadable ?
+    return (
+      //   <div>
+      //     <Nav />
+      //     <PackageDrop />
 
-        <div className="row">
-          <div className="col s12 m9 l8 offset-m1 offset-l2">
-            <div className="card-panel">
-              <div className="row center">
-                <div className="col s12 m12 l12">
-                  <h4>Event Service Agreement</h4>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col s12 m12 l12">
-                  <p>Bow & Tie Events LLC</p>
-                  <p>20227 77 th AVE NE #M203</p>
-                  <p>Arlington, WA 98223</p>
-                  <p>bowandtieeventswa@gmail.com</p>
-                  <p>425-903-2983</p>
-                </div>
-              </div>
+      //     <div className="row">
+      //       <div className="col s12 m9 l8 offset-m1 offset-l2">
+      //         <div className="card-panel">
+      //           <div className="row center">
+      //             <div className="col s12 m12 l12">
+      //               <h4>Event Service Agreement</h4>
+      //             </div>
+      //           </div>
+      //           <div className="row">
+      //             <div className="col s12 m12 l12">
+      //               <p>Bow & Tie Events LLC</p>
+      //               <p>20227 77 th AVE NE #M203</p>
+      //               <p>Arlington, WA 98223</p>
+      //               <p>bowandtieeventswa@gmail.com</p>
+      //               <p>425-903-2983</p>
+      //             </div>
+      //           </div>
 
-              <div className="row">
-                <div className="col s12 m12 l12">
-                  <div className="card-stacked">
-                    <div id="formStyle" className="card-content">
-                      <div className="row">
-                        <form
-                          onSubmit={this.handleContact}
-                          className="col s12"
-                          download
-                        >
-                          <div id="right" className="row">
-                            <p>This service agreement dated:</p>
-                            <div className="input-field col s12 m12 l12">
-                              <input
-                                id="date"
-                                name="date"
-                                defaultValue={this.state.date}
-                              />
-                            </div>
-                          </div>
+      //           <div className="row">
+      //             <div className="col s12 m12 l12">
+      //               <div className="card-stacked">
+      //                 <div id="formStyle" className="card-content">
+      //                   <div className="row">
+      //                     <form
+      //                       onSubmit={this.handleContact}
+      //                       className="col s12"
+      //                       download
+      //                     >
+      //                       <div id="right" className="row">
+      //                         <p>This service agreement dated:</p>
+      //                         <div className="input-field col s12 m12 l12">
+      //                           <input
+      //                             id="date"
+      //                             name="date"
+      //                             defaultValue={this.state.date}
+      //                           />
+      //                         </div>
+      //                       </div>
 
-                          <div id="right" className="row">
-                            <p>
-                              Between Bow & Tie Events LLC (hereafter referred
-                              to as B&T) and
-                            </p>
-                            <div className="input-field col s6 m6 l4">
-                              <input
-                                id="bName"
-                                name="bName"
-                                value={this.state.bName}
-                                onChange={this.handleInputChange}
-                                type="text"
-                                className="validate"
-                              />
-                              <label htmlFor="bride-name">Bride's Name</label>
-                            </div>
-                            <div className="input-field col s6 m6 l4">
-                              <input
-                                id="gName"
-                                name="gName"
-                                value={this.state.gName}
-                                onChange={this.handleInputChange}
-                                type="text"
-                                className="validate"
-                              />
-                              <label htmlFor="groom-name">Groom's Name</label>
-                            </div>
-                            <p>
-                              (both Bride and Groom hereafter referred to as
-                              client).
-                            </p>
-                          </div>
+      //                       <div id="right" className="row">
+      //                         <p>
+      //                           Between Bow & Tie Events LLC (hereafter referred
+      //                           to as B&T) and
+      //                         </p>
+      //                         <div className="input-field col s6 m6 l4">
+      //                           <input
+      //                             id="bName"
+      //                             name="bName"
+      //                             value={this.state.bName}
+      //                             onChange={this.handleInputChange}
+      //                             type="text"
+      //                             className="validate"
+      //                           />
+      //                           <label htmlFor="bride-name">Bride's Name</label>
+      //                         </div>
+      //                         <div className="input-field col s6 m6 l4">
+      //                           <input
+      //                             id="gName"
+      //                             name="gName"
+      //                             value={this.state.gName}
+      //                             onChange={this.handleInputChange}
+      //                             type="text"
+      //                             className="validate"
+      //                           />
+      //                           <label htmlFor="groom-name">Groom's Name</label>
+      //                         </div>
+      //                         <p>
+      //                           (both Bride and Groom hereafter referred to as
+      //                           client).
+      //                         </p>
+      //                       </div>
 
-                          <div id="right" className="row">
-                            <div className="col s12 m12 l12">
-                              <p>SERVICES PROVIDED</p>
-                              <p>
-                                A. The client has received an electronic or
-                                physical copy of the package of services they
-                                have chosen,
-                                <span>
-                                  <a
-                                    id="dropdownList"
-                                    className="dropdown-trigger"
-                                    href="#"
-                                    data-target="dropdownList"
-                                  ></a>
-                                </span>
-                              </p>
-                              <p>
-                                B. B&T has agreed to provide all the services in
-                                the applicable package chosen by the client.
-                              </p>
-                            </div>
+      //                       <div id="right" className="row">
+      //                         <div className="col s12 m12 l12">
+      //                           <p>SERVICES PROVIDED</p>
+      //                           <p>
+      //                             A. The client has received an electronic or
+      //                             physical copy of the package of services they
+      //                             have chosen,
+      //                             <span>
+      //                               <a
+      //                                 id="dropdownList"
+      //                                 className="dropdown-trigger"
+      //                                 href="#"
+      //                                 data-target="dropdownList"
+      //                               ></a>
+      //                             </span>
+      //                           </p>
+      //                           <p>
+      //                             B. B&T has agreed to provide all the services in
+      //                             the applicable package chosen by the client.
+      //                           </p>
+      //                         </div>
 
-                            <div className="col s12 m12 l12">
-                              <p>Terms of Agreement</p>
-                              <p>
-                                A. The length of this agreement (the “term”)
-                                will begin on the date B&amp;T receives this
-                                agreement signed (same date as listed above
-                                unless otherwise noted) and will remain in full
-                                force and effect until the completion of the
-                                services on the day of the event,{" "}
-                                <span>
-                                  <div className="input-field">
-                                    <input
-                                      id="event-date"
-                                      name="eventDate"
-                                      value={this.state.eventDate}
-                                      onChange={this.handleInputChange}
-                                      type="text"
-                                      className="validate"
-                                    />
-                                    <label htmlFor="event-date">
-                                      Event Date(s)
-                                    </label>
-                                  </div>
-                                </span>
-                              </p>
-                            </div>
-                          </div>
-                          <div className="col s12 m12 l12">
-                            <p>
-                              B. The client may cancel services in writing at
-                              any time up to 75 days prior to the event
-                              Date:&nbsp;
-                              <b>{this.state.eventDate}</b>&nbsp;without any
-                              additional charges. If the client wishes to cancel
-                              services after DATE (74-31 days prior to the
-                              event), the client agrees to pay half of the
-                              remaining balance (25% of the total balance)
-                            </p>
-                          </div>
-                          <small>* Required</small>
-                          <div className="card-action">
-                            <button
-                              className="btn waves-effect waves-light"
-                              type="submit"
-                              onSubmit={this.handleContact}
-                              name="action"
-                            >
-                              <i className="material-icons right">send</i>
-                            </button>
-                          </div>
-                        </form>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    ) : (
+      //                         <div className="col s12 m12 l12">
+      //                           <p>Terms of Agreement</p>
+      //                           <p>
+      //                             A. The length of this agreement (the “term”)
+      //                             will begin on the date B&amp;T receives this
+      //                             agreement signed (same date as listed above
+      //                             unless otherwise noted) and will remain in full
+      //                             force and effect until the completion of the
+      //                             services on the day of the event,{" "}
+      //                             <span>
+      //                               <div className="input-field">
+      //                                 <input
+      //                                   id="event-date"
+      //                                   name="eventDate"
+      //                                   value={this.state.eventDate}
+      //                                   onChange={this.handleInputChange}
+      //                                   type="text"
+      //                                   className="validate"
+      //                                 />
+      //                                 <label htmlFor="event-date">
+      //                                   Event Date(s)
+      //                                 </label>
+      //                               </div>
+      //                             </span>
+      //                           </p>
+      //                         </div>
+      //                       </div>
+      //                       <div className="col s12 m12 l12">
+      //                         <p>
+      //                           B. The client may cancel services in writing at
+      //                           any time up to 75 days prior to the event
+      //                           Date:&nbsp;
+      //                           <b>{this.state.eventDate}</b>&nbsp;without any
+      //                           additional charges. If the client wishes to cancel
+      //                           services after DATE (74-31 days prior to the
+      //                           event), the client agrees to pay half of the
+      //                           remaining balance (25% of the total balance)
+      //                         </p>
+      //                       </div>
+      //                       <small>* Required</small>
+      //                       <div className="card-action">
+      //                         <button
+      //                           className="btn waves-effect waves-light"
+      //                           type="submit"
+      //                           onSubmit={this.handleContact}
+      //                           name="action"
+      //                         >
+      //                           <i className="material-icons right">send</i>
+      //                         </button>
+      //                       </div>
+      //                     </form>
+      //                   </div>
+      //                 </div>
+      //               </div>
+      //             </div>
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+      // ) : (
       <div>
         <Nav />
         <div className="row">
