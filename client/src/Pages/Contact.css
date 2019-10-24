@@ -25,4 +25,8 @@ h1 {
     max-width: 100px !important;
     max-height: 150px !important;
   }
+  #contract {
+    height: 600px;
+    width: 100%;
+  }
 }
