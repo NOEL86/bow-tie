@@ -8,6 +8,8 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
+    "react-materialize": "^3.4.1",
     "if-env": "^1.0.4",
     "materialize-css": "^1.0.0",
     "react": "^16.9.0",
