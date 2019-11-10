@@ -198,7 +198,7 @@ class Wedding extends Component {
           <div className="col s12 m8 l6 offset-m2">
             <div className="card">
               <div className="row center">
-                <div className="col m12">
+                <div id="float" className="col m12">
                   <h5>Partial Planning</h5>
                 </div>
               </div>

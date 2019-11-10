@@ -30,8 +30,9 @@ td {
   text-align: center;
 } */
 
-/* @media screen and (max-width: 420px) {
-  table {
-    width: 380px;
+@media screen and (max-width: 420px) {
+  #float {
+    float: none;
+    padding-top: 5px;
   }
-} */
+}

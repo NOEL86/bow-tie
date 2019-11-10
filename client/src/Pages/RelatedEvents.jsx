@@ -67,7 +67,7 @@ class RelatedEvents extends Component {
           <div className="col s12 m8 l6 offset-m2">
             <div className="card">
               <div style={{ textAlign: "center" }} className="row">
-                <div className="col m12">
+                <div id="float" className="col m12">
                   <h5>Engagement Party</h5>
                 </div>
               </div>
@@ -113,7 +113,7 @@ class RelatedEvents extends Component {
           <div className="col s12 m8 l6 offset-m2">
             <div className="card">
               <div style={{ textAlign: "center" }} className="row">
-                <div className="col m12">
+                <div id="float" className="col m12">
                   <h5>Rehearsal Dinner</h5>
                 </div>
               </div>
