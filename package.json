@@ -1,5 +1,6 @@
 {
   "name": "event-planners",
+  "homepage": "http://bowandtieeventswa.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
