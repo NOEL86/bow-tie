@@ -24,16 +24,14 @@ class About extends Component {
         <div id="aboutRow" className="row" style={{ marginTop: "10%" }}>
           <div className="col s12 m12 l12">
             <div className="col s12 m4 lg4 offset-m2">
-              <Kenny />
+              <Cortney />
             </div>
 
             <div className="col s12 m4 lg4">
-              <Cortney />
+              <Kenny />
             </div>
           </div>
         </div>
-        {/* <br />
-        <SMedia id="mediaIcons" /> */}
       </div>
     );
   }
