@@ -15,7 +15,7 @@ class TableModal extends Component {
   render() {
     return (
       <div id="modal1" className="modal">
-        <div className="modal-content center">
+        <div id="modal-content" className="modal-content center">
           <h4>Package Info</h4>
           <div id="center" className="row">
             <div className="col s12 m12 l12">

@@ -35,4 +35,7 @@ td {
     float: none;
     padding-top: 5px;
   }
+  #modal-content {
+    padding: 0 !important;
+  }
 }
