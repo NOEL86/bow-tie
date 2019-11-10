@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import M from "materialize-css";
-
+import { Link } from "react-router-dom";
 import "./Weddings.css";
 
 class Parties extends Component {
