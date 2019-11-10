@@ -101,14 +101,14 @@ class Parties extends Component {
                     depends on needs.
                   </p>
 
-                  <a
+                  <Link
                     id="contactUs"
                     // className="btn-small"
                     style={{ color: "#214e63" }}
-                    href="/Contact"
+                    to="/Contact"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
               <br />
