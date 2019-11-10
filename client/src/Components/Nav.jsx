@@ -18,36 +18,36 @@ class Nav extends Component {
       <div>
         <ul id="dropdown1" className="dropdown-content">
           <li>
-            <a href="/Weddings">Wedding</a>
+            <Link to="/Weddings">Wedding</Link>
           </li>
           <li>
-            <a href="/RelatedEvents">Wedding Related Events</a>
+            <Link to="/RelatedEvents">Wedding Related Events</Link>
           </li>
           {/* <li>
             <a href="/Corporate">Corporate Events</a>
           </li> */}
           <li>
-            <a href="/Parties">Parties</a>
+            <Link to="/Parties">Parties</Link>
           </li>
           <li>
-            <a href="/Agreement">Service Agreement</a>
+            <Link to="/Agreement">Service Agreement</Link>
           </li>
         </ul>
         <ul id="dropdown2" className="dropdown-content">
           <li>
-            <a href="/Weddings">Wedding</a>
+            <Link to="/Weddings">Wedding</Link>
           </li>
           <li>
-            <a href="/RelatedEvents">Wedding Related Events</a>
+            <Link to="/RelatedEvents">Wedding Related Events</Link>
           </li>
           {/* <li>
             <a href="/Corporate">Corporate Events</a>
           </li> */}
           <li>
-            <a href="/Parties">Parties</a>
+            <Link to="/Parties">Parties</Link>
           </li>
           <li>
-            <a href="/Agreement">Service Agreement</a>
+            <Link to="/Agreement">Service Agreement</Link>
           </li>
         </ul>
         <nav id="mainNav">
