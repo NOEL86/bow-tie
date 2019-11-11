@@ -1,7 +1,8 @@
 #mainNav {
   background-color: #214e63;
-  padding-top: 50px;
+
   padding-bottom: 50px;
+  margin-top: 0;
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
 }
@@ -15,5 +16,5 @@ a.myCustom {
   color: lightgrey;
   font-weight: bolder;
   font-size: 18px;
-  opacity: 1;
+  /* opacity: 1; */
 }

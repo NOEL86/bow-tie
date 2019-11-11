@@ -48,7 +48,7 @@ class Portfolio extends Component {
         <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">
             <div
-              className="card medium p-card"
+              className="card"
               name="cortneyJosh"
               value={this.state.cortJosh}
               onClick={this.handleClick}
@@ -59,64 +59,118 @@ class Portfolio extends Component {
           </div>
 
           <div className="col s12 m3 l3">
-            <div className="card medium p-card">
+            <div className="card">
               <img id="cort" src="../images/flowers.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div className="card medium p-card">
+            <div className="card">
               <img id="cort" src="../images/cuteFaces.jpeg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
           <div className="col s12 m3 l3">
-            <div className="card medium p-card">
+            <div className="card">
               <img id="cort" src="../images/isle.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div className="card medium p-card">
+            <div className="card">
               <img id="cort" src="../images/chairs.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div className="card medium p-card">
+            <div className="card">
               <img id="cort" src="../images/kiss.jpeg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div className="card medium p-card">
+            <div className="card">
               <img id="cort" src="../images/table.jpg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
           <div className="col s12 m3 l3">
-            <div className="card medium p-card">
+            <div className="card">
               <img id="cort" src="../images/kissHead.jpeg" alt="Cort" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>
 
-          {/* <div className="col s12 m6 l3">
-            <div className="card medium p-card">
-              <img id="hundred" src="../images/decour.jpg" alt="Cort" />
-            </div>
-          </div> */}
-
-          {/* <div className="col s12 m6 l3">
-            <div className="card medium p-card">
+          <div className="col s12 m6 l6">
+            <div id="p-card" className="card">
               <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
             </div>
-          </div> */}
+          </div>
+
+          <div className="col s12 m3 l3">
+            <div className="card">
+              <img
+                id="cort"
+                src="../images/tinified/dressClose.jpg"
+                alt="Cort"
+              />
+            </div>
+          </div>
+
+          <div className="col s12 m3 l3">
+            <div className="card">
+              <img id="cort" src="../images/tinified/dressFar.jpg" alt="Cort" />
+            </div>
+          </div>
+
+          <div className="col s12 m6 l6">
+            <div id="p-card" className="card">
+              <img id="hundred" src="../images/tinified/cake.jpg" alt="Cort" />
+            </div>
+          </div>
+
+          <div className="col s12 m6 l6">
+            <div id="p-card" className="card">
+              <img
+                id="hundred"
+                src="../images/tinified/desserts.jpg"
+                alt="Cort"
+              />
+            </div>
+          </div>
+
+          <div className="col s12 m6 l6">
+            <div id="p-card" className="card">
+              <img
+                id="hundred"
+                src="../images/tinified/table2.jpg"
+                alt="Cort"
+              />
+            </div>
+          </div>
+
+          <div className="col s12 m6 l6">
+            <div id="p-card" className="card">
+              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
+            </div>
+          </div>
+
+          <div className="col s12 m6 l6">
+            <div className="card">
+              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
+            </div>
+          </div>
+
+          <div className="col s12 m6 l6">
+            <div className="card">
+              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
+            </div>
+          </div>
         </div>
       </div>
     ) : (
