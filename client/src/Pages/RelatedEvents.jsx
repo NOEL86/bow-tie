@@ -35,7 +35,7 @@ class RelatedEvents extends Component {
       <div>
         <TableModal />
         <Nav />
-        <div className="row center">
+        <div id="marginTop" className="row center">
           <div className="col s12 m12 l12">
             <h1>Wedding Related Event Packages</h1>
           </div>

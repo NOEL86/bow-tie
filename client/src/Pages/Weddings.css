@@ -26,6 +26,10 @@ td {
   font-weight: bolder;
 }
 
+#marginTop {
+  margin-top: 5%;
+}
+
 /* #center {
   text-align: center;
 } */

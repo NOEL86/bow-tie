@@ -23,9 +23,6 @@ class Nav extends Component {
           <li>
             <Link to="/RelatedEvents">Wedding Related Events</Link>
           </li>
-          {/* <li>
-            <a href="/Corporate">Corporate Events</a>
-          </li> */}
           <li>
             <Link to="/Parties">Parties</Link>
           </li>
@@ -40,9 +37,6 @@ class Nav extends Component {
           <li>
             <Link to="/RelatedEvents">Wedding Related Events</Link>
           </li>
-          {/* <li>
-            <a href="/Corporate">Corporate Events</a>
-          </li> */}
           <li>
             <Link to="/Parties">Parties</Link>
           </li>
@@ -50,23 +44,21 @@ class Nav extends Component {
             <Link to="/Agreement">Service Agreement</Link>
           </li>
         </ul>
+
         <nav id="mainNav">
-          <div className="nav-center center">
+          <div className="nav">
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-
-            <div className="row">
-              <h1>Bow & Tie Events</h1>
-            </div>
+            <h1 id="companyHeader">Bow & Tie Events</h1>
             <ul id="nav-mobile" className="hide-on-med-and-down center">
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="waves-effect waves-teal accent-3 btn-flat myCustom"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
                 <Link

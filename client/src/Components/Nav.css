@@ -1,10 +1,20 @@
+.nav {
+  background-color: #214e63 !important;
+}
 #mainNav {
   background-color: #214e63;
-
   padding-bottom: 50px;
-  margin-top: 0;
+  padding-top: 50px;
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
+}
+
+#companyHeader {
+  font-size: 3.2rem;
+  font-family: "Julius Sans One", sans-serif;
+  color: lightgrey;
+  margin: 0;
+  text-shadow: 3px 3px rgb(34, 36, 36);
 }
 
 ul {
@@ -16,5 +26,5 @@ a.myCustom {
   color: lightgrey;
   font-weight: bolder;
   font-size: 18px;
-  /* opacity: 1; */
+  opacity: 1;
 }

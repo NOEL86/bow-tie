@@ -35,7 +35,7 @@ class Wedding extends Component {
       <div>
         <TableModal />
         <Nav />
-        <div className="row center">
+        <div id="marginTop" className="row center">
           <div className="col s12 m12 l12">
             <h1>Wedding Packages</h1>
           </div>
@@ -43,7 +43,7 @@ class Wedding extends Component {
 
         <div className="row">
           <div className="col s12 m8 l8 offset-m2 offset-l2">
-            <div className="card ">
+            <div className="card">
               <div className="row center">
                 <div className="col s12 m12 lg12">
                   <h5>Included in All Packages</h5>
@@ -321,6 +321,7 @@ class Wedding extends Component {
             </p>
             <a
               id="tButton"
+              href="#"
               data-target="modal1"
               className="btn-floating btn-large waves-effect waves-light modal-trigger"
             >
