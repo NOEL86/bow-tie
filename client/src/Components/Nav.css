@@ -1,20 +1,33 @@
 .nav {
   background-color: #214e63 !important;
 }
+
+#logo {
+  border-radius: 50%;
+  width: 75px;
+  float: left;
+}
 #mainNav {
   background-color: #214e63;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 15px;
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
 }
+#marginBottom {
+  margin-bottom: 0;
+}
 
 #companyHeader {
+  float: left;
   font-size: 3.2rem;
   font-family: "Julius Sans One", sans-serif;
   color: lightgrey;
-  margin: 0;
-  text-shadow: 3px 3px rgb(34, 36, 36);
+  margin: 25px 0 0 20px;
+  text-shadow: 2px 2px rgb(34, 36, 36);
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 ul {
@@ -27,4 +40,28 @@ a.myCustom {
   font-weight: bolder;
   font-size: 18px;
   opacity: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1065px) {
+  #logo {
+    float: right;
+    margin: 0 62px 10px 10px;
+  }
+  #companyHeader {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #logo {
+    float: right;
+    margin: 0 0 10px 10px;
+  }
+  #companyHeader {
+    float: right;
+  }
+
+  #mainNav {
+    padding-top: 0;
+  }
 }

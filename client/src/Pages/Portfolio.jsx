@@ -39,7 +39,7 @@ class Portfolio extends Component {
           backgroundImage: `url(${Background})`,
           height: "100%",
           backgroundPosition: "center",
-          backgroundSize: "cover",
+          backgroundSize: "cover cover",
           paddingBottom: "10%"
         }}
       >

@@ -50,7 +50,12 @@ class Nav extends Component {
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-            <h1 id="companyHeader">Bow & Tie Events</h1>
+            <div id="marginBottom" className="row">
+              <div className="col s12 m12 l12">
+                <img id="logo" src="../images/logobt.jpg" alt="logo" />
+                <h1 id="companyHeader">Bow & Tie Events</h1>
+              </div>
+            </div>
             <ul id="nav-mobile" className="hide-on-med-and-down center">
               <li>
                 <Link
