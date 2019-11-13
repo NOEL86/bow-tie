@@ -41,8 +41,8 @@ class Parties extends Component {
         </div>
 
         <div className="row">
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
+          <div className="col s12 m4 l4">
+            <div id="birthday" className="card">
               <div className="row center">
                 <div className="col s12 md12 l12">
                   <h5>Birthday</h5>
@@ -62,8 +62,8 @@ class Parties extends Component {
             </div>
           </div>
 
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
+          <div className="col s12 m4 l4">
+            <div id="retirement" className="card">
               <div style={{ textAlign: "center" }} className="row">
                 <div className="col s12 m12 l12">
                   <h5>Retirement</h5>
@@ -82,11 +82,9 @@ class Parties extends Component {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="row">
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
+          <div className="col s12 m4 l4">
+            <div id="other" className="card">
               <div className="row center">
                 <div className="col s12 m12 l12">
                   <h5>Other</h5>

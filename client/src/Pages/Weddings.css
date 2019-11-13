@@ -2,6 +2,17 @@
   justify-content: left;
 }
 
+#birthday {
+  background-color: rgb(216, 129, 129);
+}
+
+#retirement {
+  background-color: rgb(125, 183, 202);
+}
+
+#other {
+  background-color: rgb(245, 245, 191);
+}
 ul#package1 li {
   list-style-type: circle;
 }

@@ -50,7 +50,7 @@
 /* mobile responsive */
 @media screen and (max-width: 600px) {
   .row#aboutRow {
-    margin-left: 5% !important;
+    margin-left: 10% !important;
   }
 
   #cortney {

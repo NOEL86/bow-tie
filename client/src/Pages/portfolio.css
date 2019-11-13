@@ -34,7 +34,8 @@
 
 @media screen and (max-width: 600px) {
   #portfolioPics.row {
-    margin-left: 3%;
+    margin-left: 10%;
+    margin-top: 25% !important;
   }
 
   #hundred {

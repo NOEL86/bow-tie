@@ -2,7 +2,7 @@ import React from "react";
 
 const Cortney = props => (
   <div>
-    <div style={{ paddingTop: "10%" }} className="row center">
+    <div id="aboutRow" style={{ paddingTop: "10%" }} className="row center">
       <div className="col m2 l2"></div>
       <div className="col s12 m3 l3">
         <div id="aboutCard" className="card">
