@@ -17,20 +17,30 @@
   padding-bottom: 5%;
 }
 
+#party {
+  background-image: url("/images/desserts.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
 #package1 {
   justify-content: left;
 }
 
 #birthday {
-  background-color: rgb(216, 129, 129);
+  background-color: rgb(165, 114, 114);
 }
 
 #retirement {
-  background-color: rgb(125, 183, 202);
+  background-color: rgb(120, 142, 153);
 }
 
 #other {
-  background-color: rgb(245, 245, 191);
+  background-color: rgb(114, 128, 112);
 }
 ul#package1 li {
   list-style-type: circle;
