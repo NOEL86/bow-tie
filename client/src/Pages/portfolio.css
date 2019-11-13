@@ -19,6 +19,8 @@
 
 #hundred {
   max-height: 100%;
+  height: 300px;
+  width: 450px;
   object-fit: cover;
   margin-right: 5%;
   padding: 10px;
@@ -32,7 +34,15 @@
 
 @media screen and (max-width: 600px) {
   #portfolioPics.row {
-    margin-left: 10%;
+    margin-left: 3%;
+  }
+
+  #hundred {
+    height: 200px;
+    width: 300px;
+  }
+  #loaderRow {
+    padding-top: 40%;
   }
 }
 
@@ -45,6 +55,10 @@
     width: 180px;
     height: 260px;
   }
+  #hundred {
+    height: 200px;
+    width: 300px;
+  }
   #portfolioPics.row {
     margin-top: 10%;
     margin-right: 2%;
@@ -56,12 +70,22 @@
     min-height: fit-content !important;
     height: 100vh !important;
     padding-bottom: 5%;
+    height: auto !important;
+    padding-bottom: 5%;
+  }
+  #loaderRow {
+    padding-top: 40%;
   }
 }
 
 @media screen and (min-width: 1400px) {
   #portfolioPics.row {
-    margin-left: 10%;
+    margin-left: 5%;
+  }
+
+  #hundred {
+    height: 350px;
+    width: 500px;
   }
 }
 

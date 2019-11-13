@@ -156,26 +156,30 @@ class Portfolio extends Component {
 
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
+              <img id="hundred" src="../images/aisleLow.jpg" alt="Cort" />
             </div>
           </div>
 
           <div className="col s12 m6 l6">
             <div className="card">
-              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
+              <img id="hundred" src="../images/tables.jpg" alt="Cort" />
             </div>
           </div>
 
-          <div className="col s12 m6 l6">
+          {/* <div className="col s12 m6 l4">
             <div className="card">
               <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     ) : (
       <div id="loaderPage" style={{ backgroundColor: "#214e63" }}>
-        <div style={{ paddingTop: "30%" }} className="row center">
+        <div
+          id="loaderRow"
+          style={{ paddingTop: "30%" }}
+          className="row center"
+        >
           <div className="col s12 m12 l12">
             <Loader />
           </div>
