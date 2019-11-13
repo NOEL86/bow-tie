@@ -90,4 +90,14 @@ td {
   #modal-content {
     padding: 0 !important;
   }
+
+  #weddingsMain,
+  #relatedEvents,
+  #party {
+    min-height: fit-content !important;
+    height: 100vh !important;
+    padding-bottom: 5%;
+    height: auto !important;
+    padding-bottom: 5%;
+  }
 }

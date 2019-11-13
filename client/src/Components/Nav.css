@@ -1,6 +1,7 @@
 .nav {
   background-color: #214e63 !important;
-  box-shadow: 0 4px 6px 0 #214e63;
+  box-shadow: 0 4px 6px 0 black;
+  padding-top: 2%;
 }
 
 #logo {
@@ -9,9 +10,7 @@
   float: left;
 }
 #mainNav {
-  background-color: #214e63;
   padding-bottom: 50px;
-  padding-top: 15px;
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
 }
