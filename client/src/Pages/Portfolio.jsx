@@ -114,43 +114,31 @@ class Portfolio extends Component {
 
           <div className="col s12 m3 l3">
             <div className="card">
-              <img
-                id="cort"
-                src="../images/tinified/dressClose.jpg"
-                alt="Cort"
-              />
+              <img id="cort" src="../images/dressClose.jpg" alt="Cort" />
             </div>
           </div>
 
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="cort" src="../images/tinified/dressFar.jpg" alt="Cort" />
+              <img id="cort" src="../images/dressFar.jpg" alt="Cort" />
             </div>
           </div>
 
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/tinified/cake.jpg" alt="Cort" />
+              <img id="hundred" src="../images/cake.jpg" alt="Cort" />
             </div>
           </div>
 
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img
-                id="hundred"
-                src="../images/tinified/desserts.jpg"
-                alt="Cort"
-              />
+              <img id="hundred" src="../images/desserts.jpg" alt="Cort" />
             </div>
           </div>
 
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img
-                id="hundred"
-                src="../images/tinified/table2.jpg"
-                alt="Cort"
-              />
+              <img id="hundred" src="../images/table2.jpg" alt="Cort" />
             </div>
           </div>
 
