@@ -1,5 +1,6 @@
 .nav {
   background-color: #214e63 !important;
+  box-shadow: 0 4px 6px 0 #214e63;
 }
 
 #logo {

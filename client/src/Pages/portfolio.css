@@ -27,8 +27,8 @@
   max-width: 500px !important;
   max-height: 400px !important;
 }
-#portfolioPics.row {
-  margin-top: 8%;
+#portfolioPics {
+  margin-top: 10%;
   margin-left: 1%;
 }
 

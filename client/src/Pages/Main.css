@@ -3,12 +3,12 @@
   height: 300px !important;
 }
 .carousel {
-  margin-top: 5%;
-  margin-bottom: 8%;
+  margin-top: 10%;
+  padding-bottom: 8%;
 }
 #sMediaIcons {
   position: absolute;
-  top: 90%;
+  top: 94%;
   left: 70%;
   cursor: pointer;
 }

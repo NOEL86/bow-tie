@@ -39,8 +39,10 @@ class Portfolio extends Component {
           backgroundImage: `url(${Background})`,
           height: "100%",
           backgroundPosition: "center",
-          backgroundSize: "cover cover",
-          paddingBottom: "10%"
+          backgroundSize: "cover",
+          paddingBottom: "10%",
+          width: "100%",
+          zIndex: "-1"
         }}
       >
         <Nav />
