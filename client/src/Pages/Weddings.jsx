@@ -32,12 +32,12 @@ class Wedding extends Component {
 
   render() {
     return (
-      <div>
+      <div id="weddingsMain">
         <TableModal />
         <Nav />
         <div id="marginTop" className="row center">
           <div className="col s12 m12 l12">
-            <h1>Wedding Packages</h1>
+            <h1 id="headingColorChange">Wedding Packages</h1>
           </div>
         </div>
 

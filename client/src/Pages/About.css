@@ -6,6 +6,9 @@
   text-shadow: 1px 1px;
   font-family: "Nanum Gothic", sans-serif;
 }
+#infoCard {
+  background-color: #cad9e0;
+}
 
 #paragraph {
   width: 500px;
@@ -13,10 +16,6 @@
 
 #topTitle {
   z-index: 99;
-}
-
-.card-reveal {
-  background-color: rgb(211, 223, 224) !important;
 }
 
 #cortney {
