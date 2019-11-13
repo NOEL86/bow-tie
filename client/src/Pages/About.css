@@ -52,14 +52,24 @@
   .row#aboutRow {
     margin-left: 5% !important;
   }
-  #kenny,
+
   #cortney {
     max-width: 100%;
     object-fit: cover;
     width: 300px;
     height: 300px;
   }
+  #aboutCard {
+    margin-top: 10%;
+    /* margin-left: 5%; */
+  }
+  #infoCard {
+    width: 300px;
+  }
 
+  #paragraph {
+    max-width: fit-content;
+  }
   #about {
     min-height: fit-content !important;
     height: auto !important;
@@ -71,7 +81,7 @@
   .row#aboutRow {
     margin-left: 5%;
   }
-  #kenny,
+
   #cortney {
     max-width: 100%;
     object-fit: cover;

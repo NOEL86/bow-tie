@@ -81,6 +81,7 @@
 @media screen and (min-width: 1400px) {
   #portfolioPics.row {
     margin-left: 5%;
+    margin-top: 10%;
   }
 
   #hundred {

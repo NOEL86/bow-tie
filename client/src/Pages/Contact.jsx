@@ -111,10 +111,12 @@ class Contact extends Component {
     return (
       <div>
         <Nav />
-        <div className="col s12">
-          <h2 id="mHeader" className="header center">
-            Contact Us
-          </h2>
+        <div className="row">
+          <div className="col s12">
+            <h2 id="mHeader" className="header center">
+              Contact Us
+            </h2>
+          </div>
         </div>
 
         <div className="row">

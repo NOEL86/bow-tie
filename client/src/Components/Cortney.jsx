@@ -19,7 +19,7 @@ const Cortney = props => (
       <div className="col m1 l1"></div>
 
       <div className="col s12 m4 l4">
-        <div className="card">
+        <div id="infoCard" className="card">
           <div className="row">
             <div className="col s12 m12 l12">
               <h6

@@ -30,4 +30,8 @@ h1 {
     height: 600px;
     width: 100%;
   }
+
+  #mHeader {
+    margin-top: 10%;
+  }
 }
