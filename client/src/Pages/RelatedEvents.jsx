@@ -42,8 +42,8 @@ class RelatedEvents extends Component {
         </div>
 
         <div className="row">
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
+          <div className="col s12 m4 l4">
+            <div id="rCard" className="card">
               <div className="row center">
                 <div className="col s12 m12 l12">
                   <h5>Engagement</h5>
@@ -64,8 +64,8 @@ class RelatedEvents extends Component {
             </div>
           </div>
 
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
+          <div className="col s12 m4 l4">
+            <div id="rCard" className="card">
               <div style={{ textAlign: "center" }} className="row">
                 <div id="float" className="col m12">
                   <h5>Engagement Party</h5>
@@ -85,11 +85,9 @@ class RelatedEvents extends Component {
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="row">
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
+          <div className="col s12 m4 l4">
+            <div id="rCard" className="card">
               <div className="row center">
                 <div className="col s12 m12 l12">
                   <h5>Bachelor/ Bachelorette Parties</h5>
@@ -110,47 +108,47 @@ class RelatedEvents extends Component {
             </div>
           </div>
 
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
-              <div style={{ textAlign: "center" }} className="row">
-                <div id="float" className="col m12">
-                  <h5>Rehearsal Dinner</h5>
+          <div className="row">
+            <div className="col s12 m4 l4 offset-m2 offset-l2">
+              <div id="rCard" className="card">
+                <div style={{ textAlign: "center" }} className="row">
+                  <div id="float" className="col m12">
+                    <h5>Rehearsal Dinner</h5>
+                  </div>
                 </div>
-              </div>
 
-              <div id="card-content" className="row">
-                <div className="col s12 m12 l12">
-                  <p>
-                    Not needing a Wedding day planner but need one less thing to
-                    worry about? Wanting to add to your package with Bow & Tie?
-                    Are you a family member or friend who oversees the dinner
-                    and need help? Whatever your reason, even if we aren’t
-                    working with you on your day of needs, we are here for you.
-                    Investment - $500
-                  </p>
+                <div id="card-content" className="row">
+                  <div className="col s12 m12 l12">
+                    <p>
+                      Not needing a Wedding day planner but need one less thing
+                      to worry about? Wanting to add to your package with Bow &
+                      Tie? Are you a family member or friend who oversees the
+                      dinner and need help? Whatever your reason, even if we
+                      aren’t working with you on your day of needs, we are here
+                      for you. Investment - $500
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="row">
-          <div className="col s12 m8 l6 offset-m2">
-            <div className="card">
-              <div className="row center">
-                <div className="col s12 md12 l12">
-                  <h5>Bridal Shower</h5>
+            <div className="col s12 m4 l4">
+              <div id="rCard" className="card">
+                <div className="row center">
+                  <div className="col s12 md12 l12">
+                    <h5>Bridal Shower</h5>
+                  </div>
                 </div>
-              </div>
 
-              <div id="card-content" className="row">
-                <div className="col s12 m12 l12">
-                  <p>
-                    Have too much on your plate? We’ve got your back. Let us
-                    take of care of some of the happy stress the wedding is
-                    accumulating. Investment begins at $150 depending on group
-                    size, location, elaborateness of shower etc.
-                  </p>
+                <div id="card-content" className="row">
+                  <div className="col s12 m12 l12">
+                    <p>
+                      Have too much on your plate? We’ve got your back. Let us
+                      take of care of some of the happy stress the wedding is
+                      accumulating. Investment begins at $150 depending on group
+                      size, location, elaborateness of shower etc.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

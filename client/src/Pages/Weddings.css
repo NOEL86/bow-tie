@@ -30,6 +30,10 @@
   z-index: -1;
 }
 
+#rCard {
+  background-color: rgb(143, 151, 140);
+}
+
 #package1 {
   justify-content: left;
 }
@@ -71,7 +75,7 @@ td {
 }
 
 #marginTop {
-  margin-top: 5%;
+  margin-top: 7%;
 }
 #headingColorChange {
   color: whitesmoke;
