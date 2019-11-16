@@ -44,6 +44,12 @@
   .row#aboutRow {
     margin-top: 30% !important;
   }
+  #infoCard {
+    width: 350px;
+  }
+  #paragraph {
+    width: 350px;
+  }
 }
 
 /* mobile responsive */
