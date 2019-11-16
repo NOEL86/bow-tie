@@ -10,7 +10,6 @@
 }
 
 #mHeader {
-  margin-top: 8%;
   font-family: "Julius Sans One", sans-serif;
 }
 
@@ -31,7 +30,7 @@ h1 {
     width: 100%;
   }
 
-  #mHeader {
-    margin-top: 10%;
+  #contactHeaderLine {
+    margin-top: 20%;
   }
 }
