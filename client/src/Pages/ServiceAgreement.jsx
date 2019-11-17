@@ -279,8 +279,8 @@ class Agreement extends Component {
       // ) : (
       <div>
         <Nav />
-        <div className="row">
-          <div className="col s12">
+        <div id="contactHeaderLine" className="row">
+          <div id="" className="col s12">
             <h2 id="mHeader" className="header center">
               Service Agreement
             </h2>
