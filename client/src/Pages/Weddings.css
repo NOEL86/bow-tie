@@ -104,4 +104,7 @@ td {
     height: auto !important;
     padding-bottom: 5%;
   }
+  #marginTop {
+    margin-top: 10%;
+  }
 }
