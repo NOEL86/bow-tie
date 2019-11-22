@@ -123,12 +123,12 @@ class TableModal extends Component {
           </div>
         </div>
         <div className="modal-footer">
-          <a
-            href="#!"
+          <Link
+            to="/Weddings"
             className="modal-close waves-effect waves-green btn-flat"
           >
             Got It
-          </a>
+          </Link>
         </div>
       </div>
     );
