@@ -12,21 +12,19 @@ const routes = require("./routes");
 // const agreement = require("./agreement");
 app.use(routes);
 
-if (process.env.NODE_ENV === "production") {
-  console.log("I made to prod!!");
-  // Serve any static files
-  // app.use(express.static(path.join(__dirname, "client/build")));
-  // Handle React routing, return all requests to React app
-  app.get("*", function(req, res) {
-    res.sendFile(path.join(__dirname, "/public_html/index.html"), function(
-      err
-    ) {
-      if (err) {
-        res.status(500).send(err);
-      }
-    });
+// if (process.env.NODE_ENV === "production") {
+//   console.log("I made to prod!!");
+// Serve any static files
+// app.use(express.static(path.join(__dirname, "client/build")));
+// Handle React routing, return all requests to React app
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "/index.html"), function(err) {
+    if (err) {
+      res.status(500).send(err);
+    }
   });
-}
+});
+// }
 
 app.listen(PORT, function() {
   console.log("App now listening at localhost:" + PORT);
