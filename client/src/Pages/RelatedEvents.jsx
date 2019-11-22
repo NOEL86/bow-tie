@@ -75,7 +75,7 @@ class RelatedEvents extends Component {
               <div id="card-content" className="row">
                 <div className="col s12 m12 l12">
                   <p>
-                    You’ve said “YES!” and now the fun beings. Let us plan your
+                    You’ve said “YES!” and now the fun begins. Let us plan your
                     engagement party with you so you can just stare at that
                     gorgeous ring and enjoy the excitement of being engaged!
                     Investment begins at $250 depending on size, location,
