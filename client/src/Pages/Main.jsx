@@ -33,21 +33,21 @@ class Main extends Component {
       <div>
         <Nav />
         <div className="carousel">
-          <a className="carousel-item" href="#one!">
+          <div className="carousel-item">
             <img id="cImage" src="../images/welcome.jpeg" alt="This" />
-          </a>
-          <a className="carousel-item" href="#two!">
+          </div>
+          <div className="carousel-item">
             <img id="cImage" src="../images/flowers.jpg" alt="Welcome" />
-          </a>
-          <a className="carousel-item" href="#three!">
+          </div>
+          <div className="carousel-item">
             <img id="cImage" src="../images/vase.jpg" alt="This" />
-          </a>
-          <a className="carousel-item" href="#four!">
+          </div>
+          <div className="carousel-item">
             <img id="cImage" src="../images/kiss.jpeg" alt="This" />
-          </a>
-          <a className="carousel-item" href="#five!">
+          </div>
+          <div className="carousel-item">
             <img id="cImage" src="../images/table.jpg" alt="This" />
-          </a>
+          </div>
         </div>
 
         <SMedia />
