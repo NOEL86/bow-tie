@@ -6,6 +6,7 @@
     rgb(105, 102, 105)
   );
   height: 100vh !important;
+  min-height: fit-content;
 }
 
 #portfolio-page-jake {
@@ -17,6 +18,10 @@
   );
   padding-bottom: 15%;
 }
+#portfolio-page-cort {
+  margin-top: 15%;
+}
+
 #Portfolio-Title {
   font-family: "Syncopate", sans-serif;
   color: white;

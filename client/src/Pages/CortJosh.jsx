@@ -61,7 +61,7 @@ class CortJosh extends Component {
 
   render() {
     return this.state.isLoaded ? (
-      <div id="portfolio-page">
+      <div id="portfolio-page-cort">
         <Nav />
         {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
         <div id="portfolioPics" className="row">
