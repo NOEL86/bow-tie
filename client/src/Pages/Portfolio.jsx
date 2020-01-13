@@ -71,7 +71,7 @@ class Portfolio extends Component {
             >
               <Link to="/Jacey">
                 {" "}
-                <img id="cort" src="../images/6.jpg" alt="Jacob + Casey" />
+                <img id="cort" src="../images/6.JPG" alt="Jacob + Casey" />
               </Link>
               <span className="card-title">Casey + Jacob</span>
             </div>
