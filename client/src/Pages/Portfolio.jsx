@@ -61,18 +61,7 @@ class Portfolio extends Component {
 
   render() {
     return this.state.isLoaded ? (
-      <div
-        id="portfolio-page"
-        // style={{
-        //   backgroundImage: `url(${Background})`,
-        //   height: "100%",
-        //   backgroundPosition: "center",
-        //   backgroundSize: "cover",
-        //   paddingBottom: "10%",
-        //   width: "100%",
-        //   zIndex: "-1"
-        // }}
-      >
+      <div id="portfolio-page">
         <Nav />
         {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
         <div id="portfolioPics" className="row">
