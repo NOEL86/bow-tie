@@ -5,7 +5,9 @@
   /* padding-top: 2% !important; */
   margin-bottom: 5% !important;
 }
-
+.sidenav-overlay {
+  opacity: 0;
+}
 #logo {
   border-radius: 50%;
   max-width: 25%;
