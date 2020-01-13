@@ -90,7 +90,9 @@
 
 @media screen and (max-width: 600px) {
   #portfolioPics.row {
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    display: grid;
+    justify-content: center;
     margin-top: 25% !important;
   }
 
@@ -100,6 +102,11 @@
   }
   #loaderRow {
     padding-top: 40%;
+  }
+
+  #selectCardsRow {
+    display: grid;
+    justify-content: center;
   }
 }
 

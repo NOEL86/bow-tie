@@ -45,7 +45,7 @@ class Portfolio extends Component {
             <h5>Check Out Our Work!</h5>
           </div>
         </div> */}
-        <div style={{ marginTop: "15%" }} className="row">
+        <div id="selectCardsRow" style={{ marginTop: "15%" }} className="row">
           <div className="col s12 m4 offset-m2">
             <div
               id="select"
