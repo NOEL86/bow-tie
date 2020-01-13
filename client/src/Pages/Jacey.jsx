@@ -12,170 +12,87 @@ class Jacey extends Component {
       jacey: [],
       isLoaded: false
     };
-    this.handleClick = this.handleClick.bind(this);
+    // this.handleClick = this.handleClick.bind(this);
   }
-  handleClick = event => {
-    event.preventDefault();
-    const { name, value } = event.target;
+  // handleClick = event => {
+  //   event.preventDefault();
+  //   const { name, value } = event.target;
 
-    this.setState({
-      [name]: value
-    });
-    // console.log("Portfolio Image :", this.state.cortJosh);
-    //go to db get all images associated with
-  };
-
-  // getPics = () => {
-  //   console.log("I MADE IT TO THIS API GET");
-  //   //Need to pass in the get api + the array I want back
-  //   fetch("/portfolio" + arr)
-  //     .then(response => {
-  //       return response.json();
-  //     })
-  //     .then(myJson => {
-  //       console.log(myJson);
-  //     });
-
-  //   fetch("/portfolio", {
-  //     method: "POST", // or 'PUT'
-  //     headers: {
-  //       "Content-Type": "application/json"
-  //     },
-  //     body: JSON.stringify(contactInfo) // data can be `string` or {object}!
-  //   }).then(res => {
-  //     // console.log({ res });
-  //     if (res.ok) {
-  //       return JSON.stringify(res);
-  //     } else {
-  //       return JSON.stringify(res);
-  //     }
+  //   this.setState({
+  //     [name]: value
   //   });
+
   // };
 
   componentDidMount() {
     setTimeout(() => {
       this.setState({ isLoaded: true });
       // console.log(this.state.isLoaded);
-    }, 5000);
+    }, 1000);
   }
 
   render() {
     return this.state.isLoaded ? (
-      <div id="portfolio-page">
+      <div id="portfolio-page-jake">
         <Nav />
 
         {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
         <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">
-            <div
-              className="card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
-              <img id="cort" src="../images/cort.jpeg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+            <div className="card">
+              <img id="jake" src="../images/6.jpg" alt="Jacob + Casey" />
             </div>
           </div>
 
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="cort" src="../images/flowers.jpg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+              <img id="jake" src="../images/7.jpg" alt="jake" />
             </div>
           </div>
 
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="cort" src="../images/cuteFaces.jpeg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+              <img id="jake" src="../images/8.jpg" alt="jake" />
             </div>
           </div>
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="cort" src="../images/isle.jpg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+              <img id="jake" src="../images/1-2.jpg" alt="jake" />
             </div>
           </div>
-
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="cort" src="../images/chairs.jpg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+              <img id="jake" src="../images/4.jpg" alt="jake" />
             </div>
           </div>
-
-          <div className="col s12 m3 l3">
-            <div className="card">
-              <img id="cort" src="../images/kiss.jpeg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+          <div className="col s12 m6 l6 offset m-1">
+            <div id="p-card" className="card">
+              <img id="hundred" src="../images/kiss.jpg" alt="jake" />
             </div>
           </div>
-
-          <div className="col s12 m3 l3">
-            <div className="card">
-              <img id="cort" src="../images/table.jpg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
-            </div>
-          </div>
-
-          <div className="col s12 m3 l3">
-            <div className="card">
-              <img id="cort" src="../images/kissHead.jpeg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
-            </div>
-          </div>
-
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
+              <img id="hundred" src="../images/family.jpg" alt="jake" />
             </div>
           </div>
-
-          <div className="col s12 m3 l3">
-            <div className="card">
-              <img id="cort" src="../images/dressClose.jpg" alt="Cort" />
-            </div>
-          </div>
-
-          <div className="col s12 m3 l3">
-            <div className="card">
-              <img id="cort" src="../images/dressFar.jpg" alt="Cort" />
-            </div>
-          </div>
-
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/cake.jpg" alt="Cort" />
+              <img id="hundred" src="../images/4-2.jpg" alt="jake" />
             </div>
           </div>
-
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/desserts.jpg" alt="Cort" />
+              <img id="hundred" src="../images/5.jpg" alt="jake" />
             </div>
           </div>
-
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/table2.jpg" alt="Cort" />
-            </div>
-          </div>
-
-          <div className="col s12 m6 l6">
-            <div id="p-card" className="card">
-              <img id="hundred" src="../images/aisleLow.jpg" alt="Cort" />
-            </div>
-          </div>
-
-          <div className="col s12 m6 l6">
-            <div className="card">
-              <img id="hundred" src="../images/tables.jpg" alt="Cort" />
+              <img id="hundred" src="../images/board.jpg" alt="jake" />
             </div>
           </div>
 
           <div className="col s12 m6 l4">
-            <Link to="/Portfolio" class="waves-effect waves-light btn">
+            <Link to="/Portfolio" className="waves-effect waves-light btn">
               Portfolios
             </Link>
           </div>

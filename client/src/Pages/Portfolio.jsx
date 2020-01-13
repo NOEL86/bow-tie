@@ -36,7 +36,15 @@ class Portfolio extends Component {
     return (
       <div id="portfolio-page">
         <Nav />
-
+        {/* <div
+          id="Portfolio-Title"
+          style={{ textAlign: "center", marginTop: "15%" }}
+          className="row"
+        >
+          <div className="col s12 m12 l12">
+            <h5>Check Out Our Work!</h5>
+          </div>
+        </div> */}
         <div style={{ marginTop: "15%" }} className="row">
           <div className="col s12 m4 offset-m2">
             <div
@@ -50,10 +58,10 @@ class Portfolio extends Component {
                 {" "}
                 <img id="cort" src="../images/cort.jpeg" alt="Cortney + Josh" />
               </Link>
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+              <span className="card-title">Cortney + Josh</span>
             </div>
           </div>
-          <div className="col s12 m4">
+          <div className="col s12 m4 offset-m1">
             <div
               id="select"
               className="card"
@@ -61,8 +69,11 @@ class Portfolio extends Component {
               value={this.state.jacey}
               onClick={this.handleClick}
             >
-              <img id="cort" src="../images/6.jpg" alt="Jacob + Casey" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
+              <Link to="/Jacey">
+                {" "}
+                <img id="cort" src="../images/6.jpg" alt="Jacob + Casey" />
+              </Link>
+              <span className="card-title">Casey + Jacob</span>
             </div>
           </div>
         </div>
