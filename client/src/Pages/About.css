@@ -1,37 +1,39 @@
-.card.small#aboutCard {
-  height: auto;
+#about {
+  background-image: linear-gradient(to right, rgb(171, 192, 202), whitesmoke);
+  padding-bottom: 5%;
+  /* color: rgb(153, 183, 197); */
 }
-
-#cortneyName {
-  text-shadow: 1px 1px;
-  font-family: "Nanum Gothic", sans-serif;
+#name {
+  text-shadow: 2px 3px black;
+  /* font-family: "Nanum Gothic", sans-serif; */
+  font-family: "Syncopate", sans-serif;
+  /* font-weight: bolder; */
 }
 #infoCard {
-  background-color: #cad9e0;
+  font-weight: bold;
+  /* background-color: rgb(253, 208, 210); */
+  padding: 5%;
+}
+#aboutRow {
+  margin-top: 15%;
+  width: auto;
 }
 
-#paragraph {
-  width: 500px;
+#aboutCard {
+  max-width: min-content;
+  border-radius: 0 25% 0 0;
+  box-shadow: 0 4px 6px 0 black;
 }
 
-#topTitle {
-  z-index: 99;
-}
-
-#cortney {
+#pic {
   max-height: 100%;
   object-fit: cover;
-
   height: 350px;
   width: 350px;
   overflow: hidden;
-
-  /* display: inline-block; */
+  border-radius: 0 25% 0 0;
 }
 
-.card .card-content {
-  padding: 0 !important;
-}
 /* ipad responsive */
 @media screen and (min-width: 768px) and (max-width: 1065px) {
   #kenny,
@@ -55,23 +57,23 @@
 /* mobile responsive */
 @media screen and (max-width: 600px) {
   .row#aboutRow {
-    margin-left: 10% !important;
+    /* margin-left: 10% !important; */
     margin-top: 22% !important;
   }
 
-  #cortney {
+  /* #cortney {
     max-width: 100%;
     object-fit: cover;
     width: 300px;
     height: 300px;
-  }
+  } */
   #aboutCard {
     margin-top: 15%;
     /* margin-left: 5%; */
   }
-  #infoCard {
+  /* #infoCard {
     width: 300px;
-  }
+  } */
 
   #paragraph {
     max-width: fit-content;
@@ -88,14 +90,15 @@
 }
 /* XL screen */
 @media screen and (min-width: 1400px) {
-  .row#aboutRow {
-    margin-left: 5%;
-  }
+  /* .row#aboutRow {
+    display: grid;
+    justify-content: center;
+  } */
 
-  #cortney {
-    max-width: 100%;
-    object-fit: cover;
-    width: 500px;
-    height: 500px;
+  #pic {
+    /* max-width: 100%;
+    object-fit: cover; */
+    max-width: 500px;
+    max-height: 500px;
   }
 }

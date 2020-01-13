@@ -9,12 +9,15 @@
   background-color: #214e63;
 }
 
-#mHeader {
-  font-family: "Julius Sans One", sans-serif;
+#agreementRow {
+  margin-top: 15%;
 }
-
+#contactRow {
+  margin-top: 15%;
+}
 #formStyle {
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
+  font-family: "Syncopate", sans-serif;
 }
 h1 {
   font-size: 2.7rem;

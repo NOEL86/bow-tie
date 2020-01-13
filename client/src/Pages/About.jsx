@@ -3,7 +3,7 @@ import Nav from "../Components/Nav";
 
 import Cortney from "../Components/Cortney";
 import "./About.css";
-import Background from "./grunge_wall.png";
+// import Background from "./bLights.jpg";
 class About extends Component {
   state = {};
 
@@ -11,13 +11,14 @@ class About extends Component {
     return (
       <div
         id="about"
-        style={{
-          backgroundImage: `url(${Background})`,
-          backgroundPosition: "center",
-          minHeight: "100vh",
-          backgroundSize: "cover cover",
-          paddingBottom: "5%"
-        }}
+        // style={{
+        //   backgroundImage: `url(${Background})`,
+        //   // backgroundPosition: "center",
+        //   minHeight: "100vh",
+        //   backgroundSize: "cover",
+        //   paddingBottom: "5%",
+        //   zIndex: -1
+        // }}
       >
         <Nav />
         <Cortney />

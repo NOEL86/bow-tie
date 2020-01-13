@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import "./portfolio.css";
-import Background from "./thewood.jpg";
+import Background from "./wood.jpg";
 import Loader from "../Components/Loader";
 
 class Portfolio extends Component {
@@ -9,6 +9,7 @@ class Portfolio extends Component {
     super(props);
     this.state = {
       cortJosh: [],
+      jacey: [],
       isLoaded: false
     };
     this.handleClick = this.handleClick.bind(this);
@@ -23,6 +24,33 @@ class Portfolio extends Component {
     // console.log("Portfolio Image :", this.state.cortJosh);
     //go to db get all images associated with
   };
+
+  // getPics = () => {
+  //   console.log("I MADE IT TO THIS API GET");
+  //   //Need to pass in the get api + the array I want back
+  //   fetch("/portfolio" + arr)
+  //     .then(response => {
+  //       return response.json();
+  //     })
+  //     .then(myJson => {
+  //       console.log(myJson);
+  //     });
+
+  //   fetch("/portfolio", {
+  //     method: "POST", // or 'PUT'
+  //     headers: {
+  //       "Content-Type": "application/json"
+  //     },
+  //     body: JSON.stringify(contactInfo) // data can be `string` or {object}!
+  //   }).then(res => {
+  //     // console.log({ res });
+  //     if (res.ok) {
+  //       return JSON.stringify(res);
+  //     } else {
+  //       return JSON.stringify(res);
+  //     }
+  //   });
+  // };
 
   componentDidMount() {
     setTimeout(() => {
@@ -46,7 +74,7 @@ class Portfolio extends Component {
         }}
       >
         <Nav />
-
+        {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
         <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">
             <div

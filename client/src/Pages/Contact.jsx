@@ -111,13 +111,15 @@ class Contact extends Component {
     return (
       <div>
         <Nav />
-        <div id="contactHeaderLine" className="row">
+        {/* <div id="contactHeaderLine" className="row">
           <div className="col s12">
-            <h2 className="header center">Contact Us</h2>
+            <h3 id="mHeader" className="header center">
+              Contact Us
+            </h3>
           </div>
-        </div>
+        </div> */}
 
-        <div className="row">
+        <div id="contactRow" className="row">
           <div className="col m2" />
           <div id="mainCard" className="col s12 m8">
             <div className="card horizontal">

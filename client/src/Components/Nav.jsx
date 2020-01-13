@@ -21,7 +21,7 @@ class Nav extends Component {
             <Link to="/Weddings">Wedding</Link>
           </li>
           <li>
-            <Link to="/RelatedEvents">Wedding Related Events</Link>
+            <Link to="/RelatedEvents">Wedding Events</Link>
           </li>
           <li>
             <Link to="/Parties">Parties</Link>
@@ -30,7 +30,7 @@ class Nav extends Component {
             <Link to="/Agreement">Service Agreement</Link>
           </li>
         </ul>
-        <ul id="dropdown2" className="dropdown-content">
+        {/* <ul id="dropdown2" className="dropdown-content">
           <li>
             <Link to="/Weddings">Wedding</Link>
           </li>
@@ -43,20 +43,24 @@ class Nav extends Component {
           <li>
             <Link to="/Agreement">Service Agreement</Link>
           </li>
-        </ul>
+        </ul> */}
 
         <nav id="mainNav">
           <div className="nav">
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+            <a
+              href="#"
+              data-target="mobile-demo"
+              className="sidenav-trigger show-on-large"
+            >
               <i className="material-icons">menu</i>
             </a>
             <div id="marginBottom" className="row">
               <div className="col s12 m12 l12">
-                <img id="logo" src="../images/logobt.jpg" alt="logo" />
-                <h1 id="companyHeader">Bow & Tie Events</h1>
+                <img id="logo" src="../images/0.jpg" alt="logo" />
+                {/* <h1 id="companyHeader">Bow & Tie Events</h1> */}
               </div>
             </div>
-            <ul id="nav-mobile" className="hide-on-med-and-down center">
+            {/* <ul id="nav-mobile" className="hide-on-med-and-down center">
               <li>
                 <Link
                   to="/"
@@ -101,7 +105,7 @@ class Nav extends Component {
                   About Us
                 </Link>
               </li>
-            </ul>
+            </ul>*/}
           </div>
         </nav>
         <ul className="sidenav" id="mobile-demo">
@@ -124,7 +128,7 @@ class Nav extends Component {
               className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat"
               data-target="dropdown1"
             >
-              Packages & investments
+              Packages
             </Link>
           </li>
           <li>

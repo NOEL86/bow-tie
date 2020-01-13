@@ -60,5 +60,11 @@ router.post("/send", function(req, res) {
   });
 });
 
+router.get("/portfolio", function(req, res) {
+  let arrName = req.body.arr;
+
+  console.log(arrName);
+});
+
 // main().catch("The email did not send: ", console.error);
 module.exports = router;

@@ -30,28 +30,32 @@
   z-index: -1;
 }
 
-#rCard {
-  background-color: rgb(143, 151, 140);
+#rCard h5 {
+  /* background-color: rgb(143, 151, 140); */
+  font-family: "Syncopate", sans-serif;
 }
 
 #package1 {
   justify-content: left;
 }
 
-#birthday {
-  background-color: rgb(165, 114, 114);
+#birthday h5 {
+  /* background-color: rgb(165, 114, 114); */
+  font-family: "Syncopate", sans-serif;
 }
 
-#retirement {
-  background-color: rgb(120, 142, 153);
+#retirement h5 {
+  font-family: "Syncopate", sans-serif;
+  /* background-color: rgb(120, 142, 153); */
 }
 
-#other {
-  background-color: rgb(114, 128, 112);
+#other h5 {
+  /* background-color: rgb(114, 128, 112); */
+  font-family: "Syncopate", sans-serif;
 }
-ul#package1 li {
+/* ul#package1 li {
   list-style-type: circle;
-}
+} */
 
 #tButton {
   background-color: #214e63;
@@ -80,6 +84,8 @@ td {
 #headingColorChange {
   color: whitesmoke;
   text-shadow: 2px 2px #214e63;
+  font-family: "Syncopate", sans-serif;
+  font-weight: bolder;
 }
 
 /* #center {

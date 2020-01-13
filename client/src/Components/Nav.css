@@ -1,19 +1,27 @@
 .nav {
   background-color: #214e63 !important;
   box-shadow: 0 4px 6px 0 black;
-  padding-top: 2% !important;
+  font-family: "Syncopate", sans-serif;
+  /* padding-top: 2% !important; */
   margin-bottom: 5% !important;
 }
 
 #logo {
   border-radius: 50%;
-  width: 75px;
-  float: left;
+  max-width: 25%;
+  /* max-height: 10%; */
+  box-shadow: 0 4px 6px 0 black;
+  float: middle;
+}
+
+.sidenav {
+  font-family: "Syncopate", sans-serif;
 }
 #mainNav {
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   text-align: center;
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
+  font-family: "Syncopate", sans-serif;
 }
 #marginBottom {
   margin-bottom: 0;
@@ -22,7 +30,8 @@
 #companyHeader {
   float: left;
   font-size: 3.2rem;
-  font-family: "Julius Sans One", sans-serif;
+  /* font-family: "Julius Sans One", sans-serif; */
+  font-family: "Syncopate", sans-serif;
   color: lightgrey;
   margin: 25px 0 0 20px;
   text-shadow: 2px 2px rgb(34, 36, 36);
