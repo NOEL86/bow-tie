@@ -74,6 +74,10 @@ td {
   margin-right: 5%;
 }
 
+.card h5 {
+  font-family: "Syncopate", sans-serif;
+}
+
 #contactUs:hover {
   font-weight: bolder;
 }
