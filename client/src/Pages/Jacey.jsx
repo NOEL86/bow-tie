@@ -67,12 +67,12 @@ class Jacey extends Component {
           </div>
           <div className="col s12 m6 l6 offset m-1">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/kiss.jpg" alt="jake" />
+              <img id="hundred" src="../images/kiss.JPG" alt="jake" />
             </div>
           </div>
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/family.jpg" alt="jake" />
+              <img id="hundred" src="../images/family.JPG" alt="jake" />
             </div>
           </div>
           <div className="col s12 m6 l6">
