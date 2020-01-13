@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+import Nav from "../Components/Nav";
 import "./portfolio.css";
 import Loader from "../Components/Loader";
 
@@ -60,33 +62,6 @@ class CortJosh extends Component {
     return this.state.isLoaded ? (
       <div id="portfolio-page">
         <Nav />
-
-        <div style={{ marginTop: "15%" }} className="row">
-          <div className="col s12 m4 offset-m2">
-            <div
-              id="select"
-              className="card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
-              <img id="cort" src="../images/cort.jpeg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
-            </div>
-          </div>
-          <div className="col s12 m4">
-            <div
-              id="select"
-              className="card"
-              name="jacey"
-              value={this.state.jacey}
-              onClick={this.handleClick}
-            >
-              <img id="cort" src="../images/6.jpg" alt="Cort" />
-              {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
-            </div>
-          </div>
-        </div>
         {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
         <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">

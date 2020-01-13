@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
+import { Link } from "react-router-dom";
 import "./portfolio.css";
 
 import Loader from "../Components/Loader";
@@ -45,7 +46,10 @@ class Portfolio extends Component {
               value={this.state.cortJosh}
               onClick={this.handleClick}
             >
-              <img id="cort" src="../images/cort.jpeg" alt="Cort" />
+              <Link to="/CortJosh">
+                {" "}
+                <img id="cort" src="../images/cort.jpeg" alt="Cort" />
+              </Link>
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>

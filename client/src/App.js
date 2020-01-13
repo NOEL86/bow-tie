@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import Main from "./Pages/Main";
 import Contact from "./Pages/Contact";
-import Packages from "./Pages/Packages";
+import CortJosh from "./Pages/CortJosh";
 import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Weddings from "./Pages/Weddings";
@@ -21,7 +21,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Main} />
             <Route exact path="/Portfolio" component={Portfolio} />
-            <Route exact path="/Packages" component={Packages} />
+            <Route exact path="/CortJosh" component={CortJosh} />
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/About" component={About} />
             <Route exact path="/Weddings" component={Weddings} />
