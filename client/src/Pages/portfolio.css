@@ -1,3 +1,12 @@
+#portfolio-page {
+  /* background-color: rgb(160, 174, 185); */
+  background-image: linear-gradient(
+    to bottom,
+    rgb(160, 174, 185),
+    rgb(105, 102, 105)
+  );
+}
+
 .card {
   width: fit-content;
 }

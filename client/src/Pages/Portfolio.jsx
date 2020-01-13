@@ -63,15 +63,15 @@ class Portfolio extends Component {
     return this.state.isLoaded ? (
       <div
         id="portfolio-page"
-        style={{
-          backgroundImage: `url(${Background})`,
-          height: "100%",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          paddingBottom: "10%",
-          width: "100%",
-          zIndex: "-1"
-        }}
+        // style={{
+        //   backgroundImage: `url(${Background})`,
+        //   height: "100%",
+        //   backgroundPosition: "center",
+        //   backgroundSize: "cover",
+        //   paddingBottom: "10%",
+        //   width: "100%",
+        //   zIndex: "-1"
+        // }}
       >
         <Nav />
         {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
