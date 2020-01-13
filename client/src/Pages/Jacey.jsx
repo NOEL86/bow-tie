@@ -40,19 +40,19 @@ class Jacey extends Component {
         <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="jake" src="../images/6.jpg" alt="Jacob + Casey" />
+              <img id="jake" src="../images/6.JPG" alt="Jacob + Casey" />
             </div>
           </div>
 
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="jake" src="../images/7.jpg" alt="jake" />
+              <img id="jake" src="../images/7.JPG" alt="jake" />
             </div>
           </div>
 
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="jake" src="../images/8.jpg" alt="jake" />
+              <img id="jake" src="../images/8.JPG" alt="jake" />
             </div>
           </div>
           <div className="col s12 m3 l3">
@@ -82,7 +82,7 @@ class Jacey extends Component {
           </div>
           <div className="col s12 m6 l6">
             <div id="p-card" className="card">
-              <img id="hundred" src="../images/5.jpg" alt="jake" />
+              <img id="hundred" src="../images/5.JPG" alt="jake" />
             </div>
           </div>
           <div className="col s12 m6 l6">
