@@ -6,7 +6,7 @@
   margin-bottom: 5% !important;
 }
 .sidenav-overlay {
-  opacity: 0;
+  opacity: 0 !important;
 }
 #logo {
   border-radius: 50%;

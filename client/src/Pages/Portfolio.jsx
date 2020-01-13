@@ -48,7 +48,7 @@ class Portfolio extends Component {
             >
               <Link to="/CortJosh">
                 {" "}
-                <img id="cort" src="../images/cort.jpeg" alt="Cort" />
+                <img id="cort" src="../images/cort.jpeg" alt="Cortney + Josh" />
               </Link>
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
@@ -61,7 +61,7 @@ class Portfolio extends Component {
               value={this.state.jacey}
               onClick={this.handleClick}
             >
-              <img id="cort" src="../images/6.jpg" alt="Cort" />
+              <img id="cort" src="../images/6.jpg" alt="Jacob + Casey" />
               {/* <span className="card-title">Cortney + Josh</span> use when multiple portfolios*/}
             </div>
           </div>

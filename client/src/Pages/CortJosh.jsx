@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
+import { Link } from "react-router-dom";
 import "./portfolio.css";
 import Loader from "../Components/Loader";
 
@@ -172,11 +173,11 @@ class CortJosh extends Component {
             </div>
           </div>
 
-          {/* <div className="col s12 m6 l4">
-            <div className="card">
-              <img id="hundred" src="../images/laugh.jpeg" alt="Cort" />
-            </div>
-          </div> */}
+          <div className="col s12 m6 l4">
+            <Link to="/Portfolio" class="waves-effect waves-light btn">
+              Portfolios
+            </Link>
+          </div>
         </div>
       </div>
     ) : (
