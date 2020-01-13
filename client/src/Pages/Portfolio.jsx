@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import "./portfolio.css";
-import Background from "./wood.jpg";
+
 import Loader from "../Components/Loader";
 
 class Portfolio extends Component {
