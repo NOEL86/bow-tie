@@ -174,7 +174,7 @@ class CortJosh extends Component {
           </div>
 
           <div className="col s12 m6 l4">
-            <Link to="/Portfolio" class="waves-effect waves-light btn">
+            <Link to="/Portfolio" className="waves-effect waves-light btn">
               Portfolios
             </Link>
           </div>
