@@ -35,8 +35,6 @@ class Jacey extends Component {
     return this.state.isLoaded ? (
       <div id="portfolio-page-jake">
         <Nav />
-
-        {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
         <div id="portfolioPics" className="row">
           <div className="col s12 m3 l3">
             <div className="card">
@@ -62,36 +60,36 @@ class Jacey extends Component {
           </div>
           <div className="col s12 m3 l3">
             <div className="card">
-              <img id="jake" src="../images/4.jpg" alt="jake" />
+              <img id="tablePic" src="../images/4.jpg" alt="jake" />
             </div>
           </div>
-          <div className="col s12 m6 l6 offset m-1">
+          <div className="col s12 m4 l4">
             <div id="p-card" className="card">
               <img id="hundred" src="../images/kiss.JPG" alt="jake" />
             </div>
           </div>
-          <div className="col s12 m6 l6">
+          <div className="col s12 m4 l4">
             <div id="p-card" className="card">
               <img id="hundred" src="../images/family.JPG" alt="jake" />
             </div>
           </div>
-          <div className="col s12 m6 l6">
+          <div className="col s12 m4 l4">
             <div id="p-card" className="card">
               <img id="hundred" src="../images/4-2.jpg" alt="jake" />
             </div>
           </div>
-          <div className="col s12 m6 l6">
+          <div className="col s12 m4 l4">
             <div id="p-card" className="card">
               <img id="hundred" src="../images/5.JPG" alt="jake" />
             </div>
           </div>
-          <div className="col s12 m6 l6">
+          <div className="col s12 m4 l4">
             <div id="p-card" className="card">
               <img id="hundred" src="../images/board.jpg" alt="jake" />
             </div>
           </div>
 
-          <div className="col s12 m6 l4">
+          <div className="col s12 m4 l4">
             <Link to="/Portfolio" className="waves-effect waves-light btn">
               Portfolios
             </Link>

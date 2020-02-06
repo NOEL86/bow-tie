@@ -46,7 +46,7 @@ class Portfolio extends Component {
           </div>
         </div> */}
         <div id="selectCardsRow" style={{ marginTop: "15%" }} className="row">
-          <div className="col s12 m4 offset-m2">
+          <div className="col s12 m4 offset-m3">
             <div
               id="select"
               className="card"
@@ -61,7 +61,7 @@ class Portfolio extends Component {
               <span className="card-title">Cortney + Josh</span>
             </div>
           </div>
-          <div className="col s12 m4 offset-m1">
+          <div className="col s12 m4">
             <div
               id="select"
               className="card"

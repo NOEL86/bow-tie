@@ -62,6 +62,15 @@
   /* border-radius: 25%; */
 }
 
+#tablePic {
+  max-height: 100%;
+  object-fit: cover;
+  margin-right: 5%;
+  padding: 10px;
+  width: 280px;
+  height: 300px;
+}
+
 /* .card #jake {
   border-radius: 25% !important;
 } */
@@ -76,7 +85,7 @@
 #hundred {
   max-height: 100%;
   height: 300px;
-  width: 450px;
+  width: 400px;
   object-fit: cover;
   margin-right: 5%;
   padding: 10px;
