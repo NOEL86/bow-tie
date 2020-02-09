@@ -1,13 +1,15 @@
 #about {
   background-image: linear-gradient(to right, rgb(171, 192, 202), whitesmoke);
   padding-bottom: 5%;
+  /* overflow: scroll; */
   /* color: rgb(153, 183, 197); */
 }
 #name {
-  text-shadow: 2px 3px black;
+  /* text-shadow: 2px 2px rgb(217, 210, 194); */
+  /* color: black; */
   /* font-family: "Nanum Gothic", sans-serif; */
   font-family: "Syncopate", sans-serif;
-  /* font-weight: bolder; */
+  /* font-weight: bold; */
 }
 #infoCard {
   font-weight: bold;
@@ -22,7 +24,7 @@
 #aboutCard {
   max-width: min-content;
   border-radius: 0 25% 0 0;
-  box-shadow: 0 4px 6px 0 black;
+  box-shadow: 0 4px 6px 0 rgb(33, 78, 99);
 }
 
 #pic {
@@ -32,6 +34,16 @@
   width: 350px;
   overflow: hidden;
   border-radius: 0 25% 0 0;
+}
+
+#designer {
+  max-height: 100%;
+  object-fit: cover;
+  height: 350px;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 0 25% 0 0;
+  background-color: rgb(217, 210, 194);
 }
 
 /* ipad responsive */

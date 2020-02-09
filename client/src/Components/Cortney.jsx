@@ -47,7 +47,10 @@ const Cortney = props => (
       <div className="col s12 m4 l3 offset-m2 offset-s1 offset-l1">
         <div id="aboutCard" className="card">
           <div className="card-image">
-            <img id="pic" src="../images/designer.jpg" />
+            <img
+              id="designer"
+              src="../images/designerPic-removebg-preview.png"
+            />
             <span id="name" className="card-title">
               {" "}
               Anna Heffernan
