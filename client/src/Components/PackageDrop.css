@@ -4,4 +4,5 @@
 
 #modal1 {
   width: fit-content !important;
+  overflow: auto !important;
 }
