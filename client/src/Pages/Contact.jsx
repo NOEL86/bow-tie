@@ -109,7 +109,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
+      <div id="contactPage">
         <Nav />
         {/* <div id="contactHeaderLine" className="row">
           <div className="col s12">

@@ -8,7 +8,6 @@ import Jacey from "./Pages/Jacey";
 import About from "./Pages/About";
 import Portfolio from "./Pages/Portfolio";
 import Weddings from "./Pages/Weddings";
-// import Corporate from "./Pages/Corporate";
 import Parties from "./Pages/Parties";
 import RelatedEvents from "./Pages/RelatedEvents";
 import Agreement from "./Pages/ServiceAgreement";

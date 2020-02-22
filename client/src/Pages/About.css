@@ -1,7 +1,7 @@
 #about {
   background-image: linear-gradient(to right, rgb(171, 192, 202), whitesmoke);
   padding-bottom: 5%;
-  /* overflow: scroll; */
+  /* overflow: auto !important; */
   /* color: rgb(153, 183, 197); */
 }
 #name {

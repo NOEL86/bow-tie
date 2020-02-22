@@ -1,3 +1,7 @@
+* {
+  overflow: inherit !important;
+}
+
 /* .App {
   font-family: "Syncopate", sans-serif;
 } */
