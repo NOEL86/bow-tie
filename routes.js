@@ -9,8 +9,8 @@ require("dotenv").config();
 // }
 
 router.post("/send", function(req, res) {
-  // console.log("I made it to the post function");
-  // console.log(req.body);
+  console.log("I made it to the post function");
+  console.log(req.body);
   let comment = req.body.comment;
   let email = req.body.email;
   let phone = req.body.phone;
@@ -26,7 +26,7 @@ router.post("/send", function(req, res) {
     port: 465,
     secure: true, // true for 465, false for other ports
     auth: {
-      user: proccess.env.USERNAME,
+      user: process.env.USERNAME,
       // user: testAccount.user, //FULL EMAIL  // generated ethereal user
       pass: process.env.PASS
       // pass: testAccount.pass //FULL PASSWORD generated ethereal password
@@ -37,7 +37,7 @@ router.post("/send", function(req, res) {
     // sender address
     from: email,
     // list of receivers
-    to: proccess.env.USERNAME,
+    to: process.env.USERNAME,
     // Subject line
     subject: "Client: " + first + " " + last,
     // plain text body
@@ -52,7 +52,8 @@ router.post("/send", function(req, res) {
   // send mail with defined transport object
   transporter.sendMail(mailOutline, (err, info) => {
     if (err) {
-      // console.log("Error Message: ", err);
+      console.log("Error Message: ", err);
+      res.send(err);
     }
     // console.log(info);
     // res.redirect("/");
