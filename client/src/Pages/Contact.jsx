@@ -127,7 +127,18 @@ class Contact extends Component {
                 <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />
               </div>
               <div className="card-stacked">
-                <div id="formStyle" className="card-content">
+                <div id="contactLabelRow" className="row">
+                  <div className="col s12">
+                    <h4 id="header">Contact Us</h4>
+                    <a
+                      id="email"
+                      href="mailto:bowandtieeventswa@gmail.com?subject=Questions About My Event"
+                    >
+                      bowandtieeventswa@gmail.com
+                    </a>
+                  </div>
+                </div>
+                {/* <div id="formStyle" className="card-content">
                   <div className="row">
                     <form onSubmit={this.handleContact} className="col s12">
                       <div id="right" className="row">
@@ -166,7 +177,7 @@ class Contact extends Component {
                             type="text"
                             className="validate"
                           />
-                          <label htmlFor="phone">* 801-755-7555</label>
+                          <label htmlFor="phone">* Phone</label>
                         </div>
                         <div className="input-field col s6">
                           <input
@@ -228,9 +239,9 @@ class Contact extends Component {
                           <i className="material-icons right">send</i>
                         </button>
                       </div>
-                    </form>
-                  </div>
-                </div>
+                //     </form>
+                  </div> 
+                 </div>*/}
               </div>
             </div>
           </div>

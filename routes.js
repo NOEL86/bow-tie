@@ -22,13 +22,14 @@ router.post("/send", function(req, res) {
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
     // host: "smtp.ethereal.email",
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true, // true for 465, false for other ports
+    // host: "smtp.gmail.com",
+    // port: 465,
+    // secure: true, // true for 465, false for other ports
+    service: "gmail",
     auth: {
-      user: process.env.USERNAME,
+      user: "bowandtieeventswa@gmail.com",
       // user: testAccount.user, //FULL EMAIL  // generated ethereal user
-      pass: process.env.PASS
+      pass: "Kennyandcort"
       // pass: testAccount.pass //FULL PASSWORD generated ethereal password
     }
   });
@@ -53,7 +54,7 @@ router.post("/send", function(req, res) {
   transporter.sendMail(mailOutline, (err, info) => {
     if (err) {
       console.log("Error Message: ", err);
-      res.send(err);
+      // res.send(err);
     }
     // console.log(info);
     // res.redirect("/");

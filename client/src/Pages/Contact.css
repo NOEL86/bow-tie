@@ -1,6 +1,18 @@
 /* #contactPage {
   overflow: scroll !important;
 } */
+#contactLabelRow {
+  text-align: center;
+}
+#header {
+  margin-top: 50%;
+  text-align: center;
+}
+#email {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
 #right {
   margin-right: auto;
 }
