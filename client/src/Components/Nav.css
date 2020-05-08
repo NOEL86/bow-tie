@@ -1,20 +1,25 @@
 .nav {
-  background-color: #214e63 !important;
-  box-shadow: 0 4px 6px 0 black;
+  background-image: linear-gradient(to bottom, whitesmoke, #214e63) !important;
+  /* background-color: #214e63 !important; */
+  box-shadow: 0 4px 6px 0 #214e63;
   font-family: "Syncopate", sans-serif;
   /* padding-top: 2% !important; */
   margin-bottom: 5% !important;
+}
+.nav a {
+  color: black;
 }
 .sidenav-overlay {
   opacity: 0 !important;
   display: none !important;
 }
 #logo {
-  border-radius: 50%;
-  max-width: 25%;
-  /* max-height: 10%; */
-  box-shadow: 0 4px 6px 0 black;
-  float: middle;
+  /* border-radius: 50%; */
+  width: 280px;
+  height: 100px;
+  /* padding-top: 15px; */
+  /* box-shadow: 0 4px 6px 0 black; */
+  /* float: middle; */
 }
 
 .sidenav {

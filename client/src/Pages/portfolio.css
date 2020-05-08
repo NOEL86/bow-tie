@@ -1,29 +1,42 @@
+#pics {
+  /* max-width: 200px; */
+  padding: 5px;
+  margin-top: 2%;
+  cursor: zoom-in;
+  float: left;
+  /* border: solid white 10px;
+  box-shadow: 2px 2px 2px black; */
+}
+#portfolioWidth {
+  max-width: 1600px;
+}
+
 #portfolio-page {
   /* background-color: rgb(160, 174, 185); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     rgb(160, 174, 185),
     rgb(105, 102, 105)
-  );
+  ); */
   height: 100vh !important;
   min-height: fit-content;
 }
 
 #portfolio-page-jake {
   min-height: fit-content;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     rgb(160, 174, 185),
     rgb(105, 102, 105)
-  );
+  ); */
   padding-bottom: 15%;
 }
 #portfolio-page-cort {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     rgb(160, 174, 185),
     rgb(105, 102, 105)
-  );
+  ); */
   min-height: fit-content;
   padding-bottom: 15%;
 }

@@ -15,17 +15,17 @@ class Contact extends Component {
       validated: false,
       location: "",
       date: "",
-      comment: ""
+      comment: "",
     };
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleContact = this.handleContact.bind(this);
     this.validatePhone = this.validatePhone.bind(this);
   }
-  handleInputChange = event => {
+  handleInputChange = (event) => {
     const { name, value } = event.target;
     // console.log(name, value);
     this.setState({
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -42,7 +42,7 @@ class Contact extends Component {
     }
   };
 
-  handleContact = e => {
+  handleContact = (e) => {
     e.preventDefault();
     // console.log("submit button clicked");
     this.validatePhone();
@@ -54,7 +54,7 @@ class Contact extends Component {
       phone: this.state.phone,
       location: this.state.location,
       date: this.state.date,
-      comment: this.state.comment
+      comment: this.state.comment,
     };
     // console.log("Submitted content: ", contactInfo);
 
@@ -68,7 +68,7 @@ class Contact extends Component {
       // alert("Please check *required information and phone number length.");
       M.toast({
         html: "Please check *required information and resubmit.",
-        classes: "deep-orange darken-4"
+        classes: "deep-orange darken-4",
       });
       return;
     }
@@ -77,10 +77,10 @@ class Contact extends Component {
     fetch("/send", {
       method: "POST", // or 'PUT'
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(contactInfo) // data can be `string` or {object}!
-    }).then(res => {
+      body: JSON.stringify(contactInfo), // data can be `string` or {object}!
+    }).then((res) => {
       // console.log({ res });
       if (res.ok) {
         return JSON.stringify(res);
@@ -99,11 +99,11 @@ class Contact extends Component {
       location: "",
       date: "",
       comment: "",
-      validated: false
+      validated: false,
     });
     M.toast({
       html: "Submitted! We look forward to working with you.",
-      classes: "light-blue darken-3"
+      classes: "light-blue darken-3",
     });
   };
 
@@ -120,8 +120,8 @@ class Contact extends Component {
         </div> */}
 
         <div id="contactRow" className="row">
-          <div className="col m2" />
-          <div id="mainCard" className="col s12 m8">
+          <div className="col s3"></div>
+          <div id="mainCard" className="col s6">
             <div className="card horizontal">
               <div id="flowers" className="card-image">
                 <img id="flowers" src="../images/flowers.jpg" alt="Flowers" />

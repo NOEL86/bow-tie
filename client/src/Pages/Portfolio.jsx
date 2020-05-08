@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import { Link } from "react-router-dom";
 import "./portfolio.css";
+import M from "materialize-css";
+import photos from "../photos.json";
 
 import Loader from "../Components/Loader";
 
@@ -11,7 +13,8 @@ class Portfolio extends Component {
     this.state = {
       cortJosh: [],
       jacey: [],
-      isLoaded: false
+      isLoaded: false,
+      photos,
     };
   }
   // handleClick = event => {
@@ -30,6 +33,11 @@ class Portfolio extends Component {
     //   this.setState({ isLoaded: true });
     //   // console.log(this.state.isLoaded);
     // }, 5000);
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var elems = document.querySelectorAll(".materialboxed");
+      var instances = M.Materialbox.init(elems);
+    });
   }
 
   render() {
@@ -45,7 +53,7 @@ class Portfolio extends Component {
             <h5>Check Out Our Work!</h5>
           </div>
         </div> */}
-        <div id="selectCardsRow" style={{ marginTop: "15%" }} className="row">
+        {/* <div id="selectCardsRow" style={{ marginTop: "15%" }} className="row">
           <div className="col s12 m4 offset-m3">
             <div
               id="select"
@@ -76,8 +84,22 @@ class Portfolio extends Component {
               <span className="card-title">Casey + Jacob</span>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
+
+        <div className="row" id="portfolioWidth">
+          <div className="col s12 m12 l12">
+            {photos.map(({ id, src }) => (
+              <img
+                className="materialboxed responsive-img"
+                id="pics"
+                width="250"
+                key={id}
+                src={src}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     );
   }

@@ -56,7 +56,7 @@ class Nav extends Component {
             </a>
             <div id="marginBottom" className="row">
               <div className="col s12 m12 l12">
-                <img id="logo" src="../images/0.jpg" alt="logo" />
+                <img id="logo" src="../images/logobt.png" alt="logo" />
                 {/* <h1 id="companyHeader">Bow & Tie Events</h1> */}
               </div>
             </div>
@@ -110,40 +110,31 @@ class Nav extends Component {
         </nav>
         <ul className="sidenav" id="mobile-demo">
           <li>
-            <Link to="/" className="waves-effect waves-teal accent-3 btn-flat">
+            <Link to="/" className=" accent-3 btn-flat">
               Home
             </Link>
           </li>
           <li>
-            <Link
-              to="/Portfolio"
-              className="waves-effect waves-teal accent-3 btn-flat"
-            >
+            <Link to="/Portfolio" className="accent-3 btn-flat">
               Portfolio
             </Link>
           </li>
           <li>
             <Link
               to="/Packages"
-              className="dropdown-trigger waves-effect waves-teal accent-3 btn-flat"
+              className="dropdown-trigger accent-3 btn-flat"
               data-target="dropdown1"
             >
               Packages
             </Link>
           </li>
           <li>
-            <Link
-              to="/Contact"
-              className="waves-effect waves-teal accent-3 btn-flat"
-            >
+            <Link to="/Contact" className=" accent-3 btn-flat">
               Contact Us
             </Link>
           </li>
           <li>
-            <Link
-              to="/About"
-              className="waves-effect waves-teal accent-3 btn-flat"
-            >
+            <Link to="/About" className=" accent-3 btn-flat">
               About Us
             </Link>
           </li>
