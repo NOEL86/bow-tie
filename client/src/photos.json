@@ -117,38 +117,90 @@
   },
   {
     "id": 30,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/bouquetBride.jpg"
   },
   {
     "id": 31,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/bride.jpg"
   },
   {
     "id": 32,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/bride2.jpg"
   },
   {
     "id": 33,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/candid.jpg"
   },
   {
     "id": 34,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/centerPeice.jpg"
   },
   {
     "id": 35,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/closeUP.jpg"
   },
   {
     "id": 36,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/couple.jpg"
   },
   {
     "id": 37,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/dress.jpg"
   },
   {
     "id": 38,
-    "src": "images/image01.jpg"
+    "src": "images/PhotoShootWedding/flourPlate.jpg"
+  },
+  {
+    "id": 39,
+    "src": "images/PhotoShootWedding/glasses.jpg"
+  },
+  {
+    "id": 40,
+    "src": "images/PhotoShootWedding/leafs.jpg"
+  },
+  {
+    "id": 41,
+    "src": "images/PhotoShootWedding/longTable.jpg"
+  },
+  {
+    "id": 42,
+    "src": "images/PhotoShootWedding/noses.jpg"
+  },
+  {
+    "id": 43,
+    "src": "images/PhotoShootWedding/plate.jpg"
+  },
+  {
+    "id": 44,
+    "src": "images/PhotoShootWedding/posed.jpg"
+  },
+  {
+    "id": 45,
+    "src": "images/PhotoShootWedding/ring1.jpg"
+  },
+  {
+    "id": 46,
+    "src": "images/PhotoShootWedding/ring2.jpg"
+  },
+  {
+    "id": 47,
+    "src": "images/PhotoShootWedding/rings.jpg"
+  },
+  {
+    "id": 48,
+    "src": "images/PhotoShootWedding/roundTable.jpg"
+  },
+  {
+    "id": 49,
+    "src": "images/PhotoShootWedding/table.jpg"
+  },
+  {
+    "id": 50,
+    "src": "images/PhotoShootWedding/table3.jpg"
+  },
+  {
+    "id": 50,
+    "src": "images/PhotoShootWedding/wideShotTable.jpg"
   }
 ]

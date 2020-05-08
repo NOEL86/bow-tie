@@ -37,16 +37,24 @@ class Main extends Component {
             <img id="cImage" src="../images/welcome.jpeg" alt="This" />
           </div>
           <div className="carousel-item">
-            <img id="cImage" src="../images/flowers.jpg" alt="Welcome" />
+            <img
+              id="cImage"
+              src="../images/WhiteWedding/brideCar.jpg"
+              alt="Welcome"
+            />
           </div>
           <div className="carousel-item">
-            <img id="cImage" src="../images/vase.jpg" alt="This" />
+            <img id="cImage" src="../images/RedWedding/aisle.jpg" alt="This" />
           </div>
           <div className="carousel-item">
             <img id="cImage" src="../images/kiss.jpeg" alt="This" />
           </div>
           <div className="carousel-item">
-            <img id="cImage" src="../images/table.jpg" alt="This" />
+            <img
+              id="cImage"
+              src="../images/PhotoShootWedding/wideShotTable.jpg"
+              alt="This"
+            />
           </div>
         </div>
 

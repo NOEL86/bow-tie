@@ -1,7 +1,7 @@
 #pics {
-  /* max-width: 200px; */
+  max-height: min-content;
   padding: 5px;
-  margin-top: 2%;
+  /* margin-top: 2%; */
   cursor: zoom-in;
   float: left;
   /* border: solid white 10px;
@@ -9,6 +9,10 @@
 }
 #portfolioWidth {
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* background-color: whitesmoke; */
 }
 
 #portfolio-page {
@@ -18,8 +22,10 @@
     rgb(160, 174, 185),
     rgb(105, 102, 105)
   ); */
-  height: 100vh !important;
-  min-height: fit-content;
+  background-color: #214e63;
+  padding-bottom: 5%;
+  /* height: 100vh !important; */
+  /* min-height: fit-content; */
 }
 
 #portfolio-page-jake {

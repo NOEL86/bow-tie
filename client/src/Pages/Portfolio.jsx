@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Nav from "../Components/Nav";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./portfolio.css";
 import M from "materialize-css";
 import photos from "../photos.json";
