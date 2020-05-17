@@ -1,5 +1,5 @@
 .carousel div.carousel-item {
-  /* width: 250px !important; */
+  width: 250px !important;
   height: 300px !important;
   cursor: pointer;
 }

@@ -9,7 +9,8 @@
   text-align: center;
 }
 #email {
-  color: black;
+  color: #214e63;
+
   font-weight: bold;
 }
 #right {
@@ -31,7 +32,7 @@
 }
 #formStyle {
   /* font-family: "Julius Sans One", sans-serif; */
-  font-family: "Syncopate", sans-serif;
+  font-family: "Syncopate", sans-serif; /*USE THIS FONT FOR ALL */
 }
 h1 {
   font-size: 2.7rem;

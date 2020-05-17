@@ -8,23 +8,23 @@ class RelatedEvents extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cortJosh: []
+      cortJosh: [],
     };
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick = event => {
+  handleClick = (event) => {
     event.preventDefault();
     const { name, value } = event.target;
 
     this.setState({
-      [name]: value
+      [name]: value,
     });
     // console.log("Portfolio Image :", this.state.cortJosh);
     //go to db get all images associated with
   };
 
   componentDidMount() {
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".modal");
       M.Modal.init(elems);
     });
@@ -120,12 +120,12 @@ class RelatedEvents extends Component {
                 <div id="card-content" className="row">
                   <div className="col s12 m12 l12">
                     <p>
-                      Not needing a Wedding day planner but need one less thing
-                      to worry about? Wanting to add to your package with Bow &
-                      Tie? Are you a family member or friend who oversees the
-                      dinner and need help? Whatever your reason, even if we
-                      aren’t working with you on your day of needs, we are here
-                      for you. Investment - $500
+                      Not needing a planner & designer but need one less thing
+                      to worry about? Are you wanting to add to your package
+                      with Bow & Tie? Are you a family member or friend who
+                      oversees the dinner and need help? Whatever your reason,
+                      even if we aren’t working with you on your day of need, we
+                      are here for you. Investment - $500
                     </p>
                   </div>
                 </div>
@@ -144,7 +144,7 @@ class RelatedEvents extends Component {
                   <div className="col s12 m12 l12">
                     <p>
                       Have too much on your plate? We’ve got your back. Let us
-                      take of care of some of the happy stress the wedding is
+                      take care of some of the happy stress the wedding is
                       accumulating. Investment begins at $150 depending on group
                       size, location, elaborateness of shower etc.
                     </p>

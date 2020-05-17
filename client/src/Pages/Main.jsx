@@ -44,7 +44,7 @@ class Main extends Component {
             />
           </div>
           <div className="carousel-item">
-            <img id="cImage" src="../images/RedWedding/aisle.jpg" alt="This" />
+            <img id="cImage" src="../images/1.jpg" alt="This" />
           </div>
           <div className="carousel-item">
             <img id="cImage" src="../images/kiss.jpeg" alt="This" />
@@ -52,7 +52,7 @@ class Main extends Component {
           <div className="carousel-item">
             <img
               id="cImage"
-              src="../images/PhotoShootWedding/wideShotTable.jpg"
+              src="../images/PhotoShootWedding/couple.jpg"
               alt="This"
             />
           </div>
