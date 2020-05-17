@@ -8,23 +8,23 @@ class Wedding extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cortJosh: []
+      cortJosh: [],
     };
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick = event => {
+  handleClick = (event) => {
     event.preventDefault();
     const { name, value } = event.target;
 
     this.setState({
-      [name]: value
+      [name]: value,
     });
     // console.log("Portfolio Image :", this.state.cortJosh);
     //go to db get all images associated with
   };
 
   componentDidMount() {
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".modal");
       M.Modal.init(elems);
     });

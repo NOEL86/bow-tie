@@ -9,10 +9,9 @@
   box-shadow: 0 4px 6px 0 #214e63;
 }
 
-#weddingsMain h5,
-h1 {
+/* #weddingsMain h1 {
   font-family: "Open Sans Condensed", sans-serif;
-}
+} */
 
 #relatedEvents .card {
   /* background-image: url("/images/table2.jpg");
@@ -25,10 +24,9 @@ h1 {
   z-index: -1; */
   box-shadow: 0 4px 6px 0 #214e63;
 }
-#relatedEvents h5,
-h1 {
+/* #relatedEvents h1 {
   font-family: "Open Sans Condensed", sans-serif;
-}
+} */
 
 #party .card {
   /* background-image: url("/images/desserts.jpg");
@@ -42,10 +40,9 @@ h1 {
   box-shadow: 0 4px 6px 0 #214e63;
 }
 
-#party h1,
-h5 {
+/* #party h1 {
   font-family: "Open Sans Condensed", sans-serif;
-}
+} */
 
 #package1 {
   justify-content: left;

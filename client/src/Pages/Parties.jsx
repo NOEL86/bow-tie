@@ -8,23 +8,23 @@ class Parties extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cortJosh: []
+      cortJosh: [],
     };
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick = event => {
+  handleClick = (event) => {
     event.preventDefault();
     const { name, value } = event.target;
 
     this.setState({
-      [name]: value
+      [name]: value,
     });
     // console.log("Portfolio Image :", this.state.cortJosh);
     //go to db get all images associated with
   };
 
   componentDidMount() {
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".modal");
       M.Modal.init(elems);
     });
@@ -52,7 +52,7 @@ class Parties extends Component {
                 <div className="col s12 m12 l12">
                   <p>
                     A special birthday has arrived! Whether it’s a Sweet 16,
-                    Quinceanera, 21st , Dirty 30, the BIG 5O. or any other
+                    Quinceanera, 21st , Dirty 30, the BIG 5O or any other
                     birthday you want to make extra special, we are on it like
                     Blue Bonnet. Investment begins at $500 depending on size,
                     location, elaborateness etc.
