@@ -1,33 +1,50 @@
-#weddingsMain {
+#weddingsMain .card {
   /* background-image: url("/images/cake.jpg");
   min-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  width: 100%;
-  z-index: -1;
+  /* width: 100%;
+  z-index: -1; */
+  box-shadow: 0 4px 6px 0 #214e63;
 }
 
-#relatedEvents {
+#weddingsMain h5,
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+#relatedEvents .card {
   /* background-image: url("/images/table2.jpg");
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  width: 100%;
+  /* width: 100%;
   padding-bottom: 5%;
-  z-index: -1;
+  z-index: -1; */
+  box-shadow: 0 4px 6px 0 #214e63;
+}
+#relatedEvents h5,
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
-#party {
+#party .card {
   /* background-image: url("/images/desserts.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  width: 100%;
+  /* width: 100%;
   padding-bottom: 5%;
-  z-index: -1;
+  z-index: -1; */
+  box-shadow: 0 4px 6px 0 #214e63;
+}
+
+#party h1,
+h5 {
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 #package1 {
@@ -53,6 +70,11 @@ td {
 
 #contactUs:hover {
   font-weight: bolder;
+}
+
+#contactUs {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
 }
 
 #marginTop {

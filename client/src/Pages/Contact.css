@@ -1,6 +1,7 @@
 #mainCard {
   margin: auto;
   width: 50%;
+  font-family: "Open Sans Condensed", sans-serif;
   /* margin-right: auto; */
 }
 .card-stacked {
@@ -10,7 +11,7 @@
   text-align: center;
 }
 #header {
-  margin-top: 10%;
+  margin-top: 50%;
   text-align: center;
 }
 #email {
