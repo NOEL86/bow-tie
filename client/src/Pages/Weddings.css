@@ -32,7 +32,7 @@
 
 #rCard h5 {
   /* background-color: rgb(143, 151, 140); */
-  font-family: "Syncopate", sans-serif;
+  /* font-family: "Syncopate", sans-serif; */
 }
 
 #package1 {
@@ -41,17 +41,17 @@
 
 #birthday h5 {
   /* background-color: rgb(165, 114, 114); */
-  font-family: "Syncopate", sans-serif;
+  /* font-family: "Syncopate", sans-serif; */
 }
 
 #retirement h5 {
-  font-family: "Syncopate", sans-serif;
+  /* font-family: "Syncopate", sans-serif; */
   /* background-color: rgb(120, 142, 153); */
 }
 
 #other h5 {
   /* background-color: rgb(114, 128, 112); */
-  font-family: "Syncopate", sans-serif;
+  /* font-family: "Syncopate", sans-serif; */
 }
 /* ul#package1 li {
   list-style-type: circle;
@@ -75,7 +75,7 @@ td {
 }
 
 .card h5 {
-  font-family: "Syncopate", sans-serif;
+  /* font-family: "Syncopate", sans-serif; */
 }
 
 #contactUs:hover {
@@ -87,9 +87,9 @@ td {
 }
 #headingColorChange {
   color: black;
-  text-shadow: 2px 2px black;
-  font-family: "Syncopate", sans-serif;
-  font-weight: bolder;
+  /* text-shadow: 2px 2px black; */
+  /* font-family: "Syncopate", sans-serif; */
+  /* font-weight: bolder; */
 }
 
 /* #center {
