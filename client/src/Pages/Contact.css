@@ -1,17 +1,22 @@
-/* #contactPage {
-  overflow: scroll !important;
-} */
+#mainCard {
+  margin: auto;
+  width: 50%;
+  /* margin-right: auto; */
+}
+.card-stacked {
+  padding-right: 5%;
+}
 #contactLabelRow {
   text-align: center;
 }
 #header {
-  margin-top: 50%;
+  margin-top: 10%;
   text-align: center;
 }
 #email {
   color: #214e63;
-
-  font-weight: bold;
+  font-size: 24px !important;
+  font-weight: bolder;
 }
 #right {
   margin-right: auto;
@@ -54,12 +59,24 @@ h1 {
   #contactHeaderLine {
     margin-top: 20%;
   }
+  #contactLabelRow a {
+    font-size: 16px !important;
+  }
 
   #header {
     margin-top: 10%;
+    font-size: 16px;
   }
-  .horizontal {
+  #mainCard {
+    width: 100%;
+    margin-top: 15%;
+  }
+  .card-stacked {
+    min-width: fit-content;
+    padding-right: 10%;
+  }
+  /* .horizontal {
     width: 100% !important;
     height: 50%;
-  }
+  } */
 }

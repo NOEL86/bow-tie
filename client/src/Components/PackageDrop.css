@@ -6,3 +6,8 @@
   width: fit-content !important;
   overflow: auto !important;
 }
+
+#closeModal {
+  background-color: #214e63;
+  color: whitesmoke;
+}
