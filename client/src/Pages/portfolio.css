@@ -114,9 +114,7 @@
 @media screen and (max-width: 600px) {
   #pics {
     margin-top: 20% !important;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
+    margin-left: 10%;
   }
 }
 

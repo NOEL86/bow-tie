@@ -58,6 +58,7 @@
   }
   .row#aboutRow {
     margin-top: 30% !important;
+    margin-left: -15%;
   }
   #infoCard {
     width: 350px;
