@@ -112,24 +112,11 @@
 } */
 
 @media screen and (max-width: 600px) {
-  #portfolioPics.row {
-    /* margin-left: 10%; */
-    display: grid;
-    justify-content: center;
-    margin-top: 25% !important;
-  }
-
-  #hundred {
-    height: 200px;
-    width: 300px;
-  }
-  #loaderRow {
-    padding-top: 40%;
-  }
-
-  #selectCardsRow {
-    display: grid;
-    justify-content: center;
+  #pics {
+    margin-top: 20% !important;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 }
 
