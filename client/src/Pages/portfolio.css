@@ -113,8 +113,13 @@
 
 @media screen and (max-width: 600px) {
   #pics {
-    margin-top: 45% !important;
+    /* margin-top: 45% !important; */
     margin-left: 10%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  #photographers {
+    margin-top: 45% !important;
   }
 }
 

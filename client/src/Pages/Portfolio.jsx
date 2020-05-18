@@ -37,6 +37,12 @@ class Portfolio extends Component {
     document.addEventListener("DOMContentLoaded", function () {
       var elems = document.querySelectorAll(".materialboxed");
       M.Materialbox.init(elems);
+
+      if (window.innerWidth <= 600) {
+        document.querySelectorAll(".materialboxed").forEach((e) => {
+          M.Materialbox.getInstance(e).destroy();
+        });
+      }
     });
   }
 
@@ -86,7 +92,29 @@ class Portfolio extends Component {
           </div>
         </div> */}
         {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
-
+        <div className="row">
+          <div className="col s12">
+            <div id="photographers" className="card">
+              <h6>Photographers:</h6>
+              <ul>
+                <li>
+                  Burgundy & Dusty Blue at Vanderveen Farms - Kylie Megan
+                  Photography
+                </li>
+                <li>
+                  Black & White at Eaglemont Golf Course - Brittany Riley
+                  Photography
+                </li>
+                <li>
+                  Blue & Silver at 5th East Hall - Charne Adams Photography
+                </li>
+                <li>
+                  Blush & Green at Jardin del Sol - Danny Rowan Photography
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="row" id="portfolioWidth">
           <div className="col s12 m12 l12">
             {photos.map(({ id, src }) => (
