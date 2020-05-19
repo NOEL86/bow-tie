@@ -19,7 +19,7 @@
 }
 #aboutRow {
   margin-top: 15%;
-  width: auto;
+  /* width: auto; */
 }
 
 #aboutCard {
@@ -83,7 +83,7 @@
   } */
   #aboutCard {
     margin-top: 15%;
-    /* margin-left: 5%; */
+    margin-left: 6%;
   }
   /* #infoCard {
     width: 300px;
