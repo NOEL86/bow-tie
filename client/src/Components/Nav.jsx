@@ -7,8 +7,15 @@ class Nav extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+
+    // this.close = this.close.bind(this);
   }
 
+  // close = () => {
+  //   var elem = document.querySelectorAll(".sidenav");
+  //   var instance = M.Sidenav.getInstance(elem);
+  //   instance.close();
+  // };
   componentDidMount() {
     M.AutoInit();
   }
@@ -137,6 +144,11 @@ class Nav extends Component {
             <Link to="/About" className=" accent-3 btn-flat">
               About Us
             </Link>
+          </li>
+          <li>
+            <a id="sideNavClose" className="sidenav-close">
+              X
+            </a>
           </li>
         </ul>
       </div>

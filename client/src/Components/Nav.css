@@ -25,6 +25,12 @@
 .sidenav {
   font-family: "Syncopate", sans-serif;
 }
+#sideNavClose {
+  margin-left: 5%;
+  cursor: pointer;
+  /* padding-right: 5px; */
+  color: #214e63;
+}
 #mainNav {
   /* padding-bottom: 50px; */
   text-align: center;

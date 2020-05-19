@@ -23,6 +23,13 @@
   /* min-height: fit-content; */
 }
 
+#photographers {
+  margin-left: 8%;
+  margin-top: 3%;
+  padding: 10px;
+  box-shadow: 0 4px 6px 0 #214e63;
+}
+
 /* #portfolio-page-jake {
   min-height: fit-content;
   background-image: linear-gradient(
@@ -121,6 +128,7 @@
   #photographers {
     margin-top: 45% !important;
     padding: 10px;
+    margin-left: 0;
   }
 }
 

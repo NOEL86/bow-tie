@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cortney = props => (
+const Cortney = (props) => (
   <div>
     <div id="aboutRow" className="row">
       <div className="col s12 m4 l3 offset-m1 offset-s1 offset-l3">
