@@ -188,7 +188,7 @@ class Wedding extends Component {
               <div id="card-content" className="row">
                 <div className="col m12">
                   <p>
-                    <b>Investment: $700</b>
+                    <b>Investment: $1000</b>
                   </p>
                 </div>
               </div>
