@@ -219,10 +219,10 @@ class Wedding extends Component {
                       Participation in up to 3 vendor meetings of your choice
                     </li>
                     <li>Up to 3 scheduled meetings</li>
-                    <li>
+                    {/* <li>
                       Unlimited Facetime or Skype sessions with both lead
                       planner and designer
-                    </li>
+                    </li> */}
                     <li>
                       Budget assistance and a list of vendors that fit within
                       your budget
