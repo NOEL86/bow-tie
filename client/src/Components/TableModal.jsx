@@ -29,7 +29,7 @@ class TableModal extends Component {
                     <th>"Peace of Mind" (Full Planning)</th>
                   </tr>
                   <tr>
-                    <td>In Person Meetings</td>
+                    <td>Scheduled Meetings</td>
                     <td>One</td>
                     <td>Three</td>
                     <td>Unlimited</td>
@@ -40,24 +40,24 @@ class TableModal extends Component {
                     <td>Unlimited</td>
                     <td>Unlimited</td>
                   </tr>
-                  <tr>
-                    <td>Skype/Facetime Sessions</td>
+                  {/* <tr>
+                    <td>Zoom/Facetime Sessions</td>
                     <td>One</td>
                     <td>Three</td>
                     <td>Unlimited</td>
-                  </tr>
+                  </tr> */}
                   <tr>
                     <td>Coordinator on Site</td>
                     <td>12 Hours</td>
                     <td>14 Hours</td>
                     <td>16 Hours</td>
                   </tr>
-                  <tr>
+                  {/* <tr>
                     <td>Designer on Site</td>
                     <td></td>
                     <td>14 Hours</td>
                     <td>16 Hours</td>
-                  </tr>
+                  </tr> */}
                   <tr>
                     <td>Vendor Meetings</td>
                     <td></td>
@@ -65,13 +65,13 @@ class TableModal extends Component {
                     <td>Unlimited</td>
                   </tr>
                   <tr>
-                    <td>Monthly CheckLists</td>
+                    <td>Monthly Check-Lists</td>
                     <td></td>
                     <td>Yes</td>
                     <td>Yes</td>
                   </tr>
                   <tr>
-                    <td>Venue Vendor Reccomations</td>
+                    <td>Venue Vendor Recommendations</td>
                     <td></td>
                     <td>Yes</td>
                     <td>Custom "Dream Team" List</td>
