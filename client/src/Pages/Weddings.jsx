@@ -53,7 +53,7 @@ class Wedding extends Component {
                 <div className="col s12 m12 l12">
                   <ul id="package1">
                     <li>
-                      <b>One final venue walk through</b>
+                      <b>1 final venue walk through</b>
                     </li>
                     <li>
                       <b>Review of all venue and vendor contracts </b>
@@ -146,8 +146,8 @@ class Wedding extends Component {
                       Unlimited phone calls and emails throughout your
                       engagement and planning process
                     </li>
-                    <li>Two scheduled meetings with planner</li>
-                    <li>One final venue walk through</li>
+                    <li>2 scheduled meetings with planner</li>
+                    <li>1 final venue walk through</li>
                     <li>Review all venue and vendor contracts</li>
                     <li>
                       Reminder of payment due dates for all venues and vendors
@@ -218,7 +218,7 @@ class Wedding extends Component {
                     <li>
                       Participation in up to 3 vendor meetings of your choice
                     </li>
-                    <li>Up to 3 scheduled meetings</li>
+                    <li>Up to 3 scheduled meetings with planner</li>
                     {/* <li>
                       Unlimited Facetime or Skype sessions with both lead
                       planner and designer
@@ -273,7 +273,10 @@ class Wedding extends Component {
               <div id="card-content" className="row">
                 <div className="col s12 m8 l6">
                   <ul id="package1">
-                    <li>Unlimited scheduled vender and check in meetings</li>
+                    <li>
+                      Unlimited scheduled vendor and check in meetings with
+                      planner
+                    </li>
                     <li>
                       Schedule and participate in venue and vendor appointments
                       around your schedule
