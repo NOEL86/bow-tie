@@ -138,7 +138,7 @@ class Contact extends Component {
                     </a>
                   </div>
                 </div>
-                <div className="row">
+                <div className="row" id="moveThisShitUp">
                   <div className="col s12">
                     <h6 className="center-align">(425)903-2983</h6>
                   </div>
