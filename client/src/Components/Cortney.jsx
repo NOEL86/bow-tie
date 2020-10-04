@@ -3,7 +3,7 @@ import React from "react";
 const Cortney = (props) => (
   <div>
     <div id="aboutRow" className="row">
-      <div className="col s12 m4 l4 offset-l2">
+      <div className="col s12 m6 l6">
         <div id="aboutCard" className="card">
           <div className="card-image">
             <img id="pic" src="../images/headShotCort.jpeg" />
@@ -44,7 +44,7 @@ const Cortney = (props) => (
           </div>
         </div>
       </div>
-      <div className="col s12 m4 l4 offset-m2 offset-l1">
+      {/* <div className="col s12 m4 l4 offset-m2 offset-l1">
         <div id="aboutCard" className="card">
           <div className="card-image">
             <img
@@ -80,7 +80,7 @@ const Cortney = (props) => (
               day.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <div className="col s12 m4 l4">
         <div id="infoCard" className="card">
