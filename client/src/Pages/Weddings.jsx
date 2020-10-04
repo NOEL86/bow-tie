@@ -146,8 +146,7 @@ class Wedding extends Component {
                       Unlimited phone calls and emails throughout your
                       engagement and planning process
                     </li>
-                    <li>One in person meeting</li>
-                    <li>One Facetime or Skype session</li>
+                    <li>Two scheduled meetings with planner</li>
                     <li>One final venue walk through</li>
                     <li>Review all venue and vendor contracts</li>
                     <li>
@@ -216,8 +215,10 @@ class Wedding extends Component {
               <div id="card-content" className="row">
                 <div className="col s12 m8 l6">
                   <ul id="package1">
-                    <li>Attend up to 3 vendor meetings of your choice</li>
-                    <li>Up to 3 in person meetings</li>
+                    <li>
+                      Participation in up to 3 vendor meetings of your choice
+                    </li>
+                    <li>Up to 3 scheduled meetings</li>
                     <li>
                       Unlimited Facetime or Skype sessions with both lead
                       planner and designer
@@ -230,9 +231,7 @@ class Wedding extends Component {
                       Design assistance and a custom list of recommended rental
                       items
                     </li>
-                    <li>
-                      Lead coordinator and designer on site for up to 14 hours
-                    </li>
+                    <li>Coordinator on site for up to 14 hours</li>
                     <li>Pick up rental items</li>
                     <li>Pick up alcohol</li>
                     <li>Monthly checklists</li>
@@ -274,12 +273,11 @@ class Wedding extends Component {
               <div id="card-content" className="row">
                 <div className="col s12 m8 l6">
                   <ul id="package1">
-                    <li>Unlimited vendor meetings</li>
+                    <li>Unlimited scheduled vender and check in meetings</li>
                     <li>
-                      Schedule and attend venue and vendor appointments around
-                      your schedule
+                      Schedule and participate in venue and vendor appointments
+                      around your schedule
                     </li>
-                    <li>Unlimited in person meetings</li>
                     <li>
                       Unlimited Inspiration Board creations with various colors
                       and themes
@@ -294,7 +292,7 @@ class Wedding extends Component {
                       transportation
                     </li>
                     <li>Full planning and design for the Rehearsal Dinner</li>
-                    <li>Lead Coordinator and Designer on site for 16 hours</li>
+                    <li>Coordinator on site for 16 hours</li>
                     <li>Pick up and return any rental items</li>
                     <li>Pick up and return any leftover alcohol</li>
                   </ul>
