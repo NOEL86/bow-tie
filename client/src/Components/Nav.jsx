@@ -33,9 +33,9 @@ class Nav extends Component {
           <li>
             <Link to="/Parties">Parties</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/Agreement">Service Agreement</Link>
-          </li>
+          </li> */}
         </ul>
         {/* <ul id="dropdown2" className="dropdown-content">
           <li>

@@ -138,6 +138,11 @@ class Contact extends Component {
                     </a>
                   </div>
                 </div>
+                <div className="row">
+                  <div className="col s12">
+                    <h6 className="center-align">(425)903-2983</h6>
+                  </div>
+                </div>
                 {/* <div id="formStyle" className="card-content">
                   <div className="row">
                     <form onSubmit={this.handleContact} className="col s12">
