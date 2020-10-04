@@ -3,7 +3,8 @@ import React from "react";
 const Cortney = (props) => (
   <div>
     <div id="aboutRow" className="row">
-      <div className="col s12 m6 l6">
+      {/* <div className="col m4" /> */}
+      <div className="col s12 m4 l4 offset-l2">
         <div id="aboutCard" className="card">
           <div className="card-image">
             <img id="pic" src="../images/headShotCort.jpeg" />
@@ -12,7 +13,12 @@ const Cortney = (props) => (
               Cortney M Kuntz
             </span>
           </div>
-          <div id="infoCard" className="card-content">
+        </div>
+      </div>
+
+      <div className="col s12 m4 l4">
+        <div id="infoCard" className="card">
+          <div className="card-content">
             <p>
               Hello my dear! My name is Cortney Kuntz and I am Founder and Lead
               Planner of Bow & Tie Events. I love traveling, being a dog mom,
@@ -81,7 +87,7 @@ const Cortney = (props) => (
             </p>
           </div>
         </div> */}
-      </div>
+      {/* </div> */}
       {/* <div className="col s12 m4 l4">
         <div id="infoCard" className="card">
           <div className="row">

@@ -14,8 +14,9 @@
 }
 #infoCard {
   font-weight: bold;
+  width: 450px;
   /* background-color: rgb(253, 208, 210); */
-  padding: 5%;
+  padding: 2%;
 }
 #aboutRow {
   margin-top: 15%;
