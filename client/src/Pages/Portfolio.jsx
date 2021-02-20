@@ -116,12 +116,11 @@ class Portfolio extends Component {
           </div>
         </div>
         <div className="row" id="portfolioWidth">
-          <div className="col s12 m12 l12">
+          <div className="col s12 m12 l12" style={{display: "flex", flexWrap: "wrap"}}>
             {photos.map(({ id, src }) => (
               <img
                 className="materialboxed responsive-img"
                 id="pics"
-                width="250"
                 key={id}
                 src={src}
               />

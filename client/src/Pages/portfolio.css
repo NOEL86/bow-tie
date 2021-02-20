@@ -1,12 +1,12 @@
 #pics {
   padding: 5px;
-  margin-top: 2%;
-  float: left;
-  /* border: solid white 10px;
-  box-shadow: 2px 2px 2px black; */
+  max-width: 250px;
+  height: auto;
+  width: 100%;
 }
+
 #portfolioWidth {
-  max-width: 1600px;
+  max-width: 1400px;
   margin-left: 10%;
 }
 
@@ -18,7 +18,7 @@
     rgb(105, 102, 105)
   ); */
   /* background-color: #214e63; */
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   /* height: 100vh !important; */
   /* min-height: fit-content; */
 }
@@ -50,7 +50,7 @@
 } */
 
 #Portfolio-Title {
-  font-family: "Syncopate", sans-serif;
+  font-family: 'Syncopate', sans-serif;
   color: white;
   text-shadow: 2px 2px #214e63;
   font-weight: bolder !important;
