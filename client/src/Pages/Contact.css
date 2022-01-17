@@ -2,8 +2,6 @@
   margin: auto;
   width: 50%;
   margin-bottom: 8%;
-  /* font-family: "Open Sans Condensed", sans-serif; */
-  /* margin-right: auto; */
 }
 #moveThisShitUp {
   margin: 0;
@@ -24,10 +22,7 @@
   font-family: 'Syncopate', sans-serif;
 }
 #email {
-  /* color: #214e63; */
-
   color: rgb(38, 68, 47);
-  font-size: 20px !important;
   font-weight: bolder;
 }
 #right {
@@ -67,10 +62,6 @@ h1 {
     height: 600px;
     width: 100%;
   }
-
-  #contactHeaderLine {
-    margin-top: 20%;
-  }
   #contactLabelRow a {
     font-size: 16px !important;
   }
@@ -84,11 +75,6 @@ h1 {
     margin-top: 25%;
   }
   .card-stacked {
-    min-width: fit-content;
-    padding-right: 10%;
+    margin: auto;
   }
-  /* .horizontal {
-    width: 100% !important;
-    height: 50%;
-  } */
 }
