@@ -64,7 +64,7 @@ class Nav extends Component {
             <div id="marginBottom" className="row">
               <div className="col s12 m12 l12">
                 <img id="logo" src="../images/logobt.png" alt="logo" />
-                {/* <h1 id="companyHeader">Bow & Tie Events</h1> */}
+              
               </div>
             </div>
             {/* <ul id="nav-mobile" className="hide-on-med-and-down center">

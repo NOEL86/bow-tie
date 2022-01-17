@@ -101,7 +101,7 @@ class Wedding extends Component {
                   </ul>
                 </div>
                 <div className="col m6">
-                <img src="/images/keInvitations.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
+                <img src="/images/cakeTable.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
                 </div>
               </div>
               <div id="card-content" className="row">
@@ -235,7 +235,7 @@ class Wedding extends Component {
                   </ul>
                 </div>
                 <div className="col m6">
-                <img src="/images/keInvitations.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
+                <img src="/images/packagesTable.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
                 </div>
               </div>
 
@@ -299,7 +299,7 @@ class Wedding extends Component {
                   </ul>
                 </div>
                 <div className="col m6">
-                <img src="/images/keInvitations.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
+                <img src="/images/fullPlanningImg.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
                 </div>
               </div>
 

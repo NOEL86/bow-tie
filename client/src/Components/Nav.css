@@ -97,14 +97,19 @@ a.myCustom {
 
 @media screen and (max-width: 1000px) {
   #logo {
-    /* float: right; */
     margin: 0 0 10px 10px;
   }
   #companyHeader {
     float: right;
   }
-
   #mainNav {
     padding-top: 0;
+  }
+  .page-footer {
+    text-align: center;
+  }
+  .page-footer ul {
+    border: none !important;
+    /* padding-right: 25%; */
   }
 }

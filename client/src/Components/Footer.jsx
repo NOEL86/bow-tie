@@ -21,10 +21,10 @@ class Footer extends Component {
     return (
       <div className="page-footer">
           <div className="row">
-              <div className="col m2">
+              <div className="col m2 s12">
               <img id="logoFooter" src="../images/logobt.png" alt="logo" />
               </div>
-          <div className="col m2 offset-m2 s12">
+          <div className="col m2 offset-m2 offset-s3">
         <ul>
             <li>    
                 <Link to="/">Home</Link>
@@ -41,12 +41,17 @@ class Footer extends Component {
         </ul>
         </div>
 
-        <div className="col m2 s12">
+        <div className="col m2">
             <ul>
                 <li>Locations-</li>
                 <li>Orem/Provo</li>
                 <li>Salt Lake City</li>
                 <li>Ogden</li>
+                 <li> Mobile
+                  <i className="material-icons">
+                  airplanemode_active
+                  </i>  
+                </li>
             </ul>
         </div>
 
