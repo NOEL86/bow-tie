@@ -1,6 +1,7 @@
 #mainCard {
   margin: auto;
   width: 50%;
+  margin-bottom: 8%;
   /* font-family: "Open Sans Condensed", sans-serif; */
   /* margin-right: auto; */
 }
@@ -42,7 +43,7 @@
 }
 #formStyle {
   /* font-family: "Julius Sans One", sans-serif; */
-  font-family: "Syncopate", sans-serif; /*USE THIS FONT FOR ALL */
+  font-family: 'Syncopate', sans-serif; /*USE THIS FONT FOR ALL */
 }
 h1 {
   font-size: 2.7rem;

@@ -3,6 +3,7 @@ import Nav from "../Components/Nav";
 import M from "materialize-css";
 import { Link } from "react-router-dom";
 import "./Weddings.css";
+import Footer from "../Components/Footer";
 
 class Parties extends Component {
   constructor(props) {
@@ -113,6 +114,7 @@ class Parties extends Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }

@@ -37,7 +37,7 @@ class RelatedEvents extends Component {
         <Nav />
         <div id="marginTop" className="row center">
           <div className="col s12 m12 l12">
-            <h1 id="headingColorChange">Wedding Related Event Packages</h1>
+            <h1 id="headingColorChange">Event Packages</h1>
           </div>
         </div>
 

@@ -4,7 +4,7 @@ import Nav from "../Components/Nav";
 import "./portfolio.css";
 import M from "materialize-css";
 import photos from "../photos.json";
-
+import Footer from "../Components/Footer";
 import Loader from "../Components/Loader";
 
 class Portfolio extends Component {
@@ -127,6 +127,7 @@ class Portfolio extends Component {
             ))}
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import M from "materialize-css";
 import "./Contact.css";
+import Footer from "../Components/Footer";
 
 class Contact extends Component {
   constructor(props) {
@@ -251,6 +252,7 @@ class Contact extends Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }

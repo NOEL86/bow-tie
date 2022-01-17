@@ -1,32 +1,26 @@
 #about {
-  /* background-image: linear-gradient(to right, rgb(171, 192, 202), whitesmoke); */
   padding-bottom: 5%;
-  /* overflow: auto !important; */
-  /* color: rgb(153, 183, 197); */
 }
 #name {
-  /* text-shadow: 2px 2px rgb(217, 210, 194); */
   bottom: 260px !important;
-  text-shadow: 2px 2px #214e63;
-  /* font-family: "Nanum Gothic", sans-serif; */
-  font-family: "Syncopate", sans-serif;
+  text-shadow: 1px 1px rgb(62, 111, 76);
+  font-family: 'Nanum Gothic', sans-serif;
   font-weight: bold;
 }
 #infoCard {
   font-weight: bold;
   width: 450px;
-  /* background-color: rgb(253, 208, 210); */
+  border-radius: 10%;
   padding: 2%;
 }
 #aboutRow {
   margin-top: 15%;
-  /* width: auto; */
 }
 
 #aboutCard {
   max-width: min-content;
   border-radius: 0 25% 0 0;
-  box-shadow: 0 4px 6px 0 rgb(33, 78, 99);
+  box-shadow: 0 4px 6px 0 rgb(62, 111, 76);
 }
 
 #pic {
@@ -36,16 +30,6 @@
   width: 350px;
   overflow: hidden;
   border-radius: 0 25% 0 0;
-}
-
-#designer {
-  max-height: 100%;
-  object-fit: cover;
-  height: 350px;
-  width: 350px;
-  overflow: hidden;
-  border-radius: 0 25% 0 0;
-  background-color: rgb(217, 210, 194);
 }
 
 /* ipad responsive */
@@ -75,20 +59,10 @@
     /* margin-left: 10% !important; */
     margin-top: 22% !important;
   }
-
-  /* #cortney {
-    max-width: 100%;
-    object-fit: cover;
-    width: 300px;
-    height: 300px;
-  } */
   #aboutCard {
     margin-top: 15%;
     margin-left: 6%;
   }
-  /* #infoCard {
-    width: 300px;
-  } */
 
   #paragraph {
     max-width: fit-content;
@@ -98,18 +72,9 @@
     height: auto !important;
     padding-bottom: 5%;
   }
-
-  /* #imageDiv {
-    margin-top: 20% !important;
-  } */
 }
 /* XL screen */
 @media screen and (min-width: 1400px) {
-  /* .row#aboutRow {
-    display: grid;
-    justify-content: center;
-  } */
-
   #pic {
     /* max-width: 100%;
     object-fit: cover; */

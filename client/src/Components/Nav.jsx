@@ -136,12 +136,12 @@ class Nav extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/Contact" className=" accent-3 btn-flat">
+            <Link to="/Contact" className="accent-3 btn-flat">
               Contact Us
             </Link>
           </li>
           <li>
-            <Link to="/About" className=" accent-3 btn-flat">
+            <Link to="/About" className="accent-3 btn-flat">
               About Us
             </Link>
           </li>
