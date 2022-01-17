@@ -9,7 +9,8 @@
 }
 #infoCard {
   font-weight: bold;
-  width: 450px;
+  max-width: 450px;
+  margin: auto;
   border-radius: 10%;
   padding: 2%;
 }
@@ -60,12 +61,14 @@
     margin-top: 22% !important;
   }
   #aboutCard {
-    margin-top: 15%;
-    margin-left: 6%;
+    /* margin-top: 15%;
+    margin-left: 6%; */
+    margin: auto;
+    max-width: 500px;
   }
 
   #paragraph {
-    max-width: fit-content;
+    width: fit-content;
   }
   #about {
     min-height: fit-content !important;
