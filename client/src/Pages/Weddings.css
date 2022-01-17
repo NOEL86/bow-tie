@@ -1,5 +1,6 @@
 #weddingsMain .card {
   box-shadow: 0 4px 6px 0 lightgray;
+  border-radius: 5%;
 }
 #weddingsMain .card h5 {
   font-family: 'Syncopate', sans-serif;
@@ -12,10 +13,12 @@
 }
 #relatedEvents .card {
   box-shadow: 0 4px 6px 0 lightgray;
+  border-radius: 5%;
 }
 
 #party .card {
   box-shadow: 0 4px 6px 0 lightgray;
+  border-radius: 5%;
 }
 
 #package1 li {

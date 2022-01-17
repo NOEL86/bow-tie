@@ -1,8 +1,16 @@
 [
+    
     {
-      "id": 1,
-      "src": "images/RedWedding/aisle.jpg"
+        "id": 1,
+        "src": "images/kuntz/cort.jpeg",
+        "clicked": false
+    },
+
+    {
+        "id": 2,
+        "src": ""
     }
+    
 
 
 

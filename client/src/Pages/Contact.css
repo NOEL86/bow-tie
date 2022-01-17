@@ -18,9 +18,15 @@
 #header {
   margin-top: 25%;
   text-align: center;
+  font-family: 'Syncopate', sans-serif;
+}
+#note {
+  font-family: 'Syncopate', sans-serif;
 }
 #email {
-  color: #214e63;
+  /* color: #214e63; */
+
+  color: rgb(38, 68, 47);
   font-size: 20px !important;
   font-weight: bolder;
 }
@@ -32,7 +38,7 @@
 }
 
 .btn {
-  background-color: #214e63;
+  background-color: rgb(38, 68, 47);
 }
 
 #agreementRow {

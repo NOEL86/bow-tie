@@ -103,7 +103,7 @@ class Parties extends Component {
                   <Link
                     id="contactUs"
                     // className="btn-small"
-                    style={{ color: "#214e63" }}
+                    style={{ color: "rgb(62, 111, 76)" }}
                     to="/Contact"
                   >
                     Contact Us

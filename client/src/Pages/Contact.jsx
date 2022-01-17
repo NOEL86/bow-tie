@@ -131,6 +131,7 @@ class Contact extends Component {
                 <div id="contactLabelRow" className="row">
                   <div className="col s12">
                     <h4 id="header">Contact Us</h4>
+                    <p id="note">If you're interested in working with us, please click the link below.</p>
                     <a
                       id="email"
                       href="mailto:bowandtieeventswa@gmail.com?subject=Questions About My Event"

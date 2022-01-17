@@ -14,13 +14,13 @@
   margin-left: 8%;
   margin-top: 3%;
   padding: 10px;
-  box-shadow: 0 4px 6px 0 #214e63;
+  box-shadow: 0 4px 6px 0 rgb(62, 111, 76);
 }
 
 #Portfolio-Title {
   font-family: 'Syncopate', sans-serif;
   color: white;
-  text-shadow: 2px 2px #214e63;
+  text-shadow: 2px 2px rgb(62, 111, 76);
   font-weight: bolder !important;
 }
 

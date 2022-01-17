@@ -50,48 +50,6 @@ class Portfolio extends Component {
     return (
       <div id="portfolio-page">
         <Nav />
-        {/* <div
-          id="Portfolio-Title"
-          style={{ textAlign: "center", marginTop: "15%" }}
-          className="row"
-        >
-          <div className="col s12 m12 l12">
-            <h5>Check Out Our Work!</h5>
-          </div>
-        </div> */}
-        {/* <div id="selectCardsRow" style={{ marginTop: "15%" }} className="row">
-          <div className="col s12 m4 offset-m3">
-            <div
-              id="select"
-              className="card"
-              name="cortneyJosh"
-              value={this.state.cortJosh}
-              onClick={this.handleClick}
-            >
-              <Link to="/CortJosh">
-                {" "}
-                <img id="cort" src="../images/cort.jpeg" alt="Cortney + Josh" />
-              </Link>
-              <span className="card-title">Cortney + Josh</span>
-            </div>
-          </div>
-          <div className="col s12 m4">
-            <div
-              id="select"
-              className="card"
-              name="jacey"
-              value={this.state.jacey}
-              onClick={this.handleClick}
-            >
-              <Link to="/Jacey">
-                {" "}
-                <img id="cort" src="../images/6.JPG" alt="Jacob + Casey" />
-              </Link>
-              <span className="card-title">Casey + Jacob</span>
-            </div>
-          </div>
-        </div> */}
-        {/* <input type="file" onChange={this.fileSelectorHandler()} /> */}
         <div className="row">
           <div className="col s12">
             <div id="photographers" className="card">

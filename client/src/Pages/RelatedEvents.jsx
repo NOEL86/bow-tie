@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "../Components/Nav";
 import M from "materialize-css";
 import TableModal from "../Components/TableModal";
+import Footer from "../Components/Footer";
 import "./Weddings.css";
 
 class RelatedEvents extends Component {
@@ -154,6 +155,7 @@ class RelatedEvents extends Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }
