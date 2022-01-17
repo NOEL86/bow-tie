@@ -100,6 +100,9 @@ class Wedding extends Component {
                     </li>
                   </ul>
                 </div>
+                <div className="col m6">
+                <img src="/images/keInvitations.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
+                </div>
               </div>
               <div id="card-content" className="row">
                 <div className="col m12">
@@ -108,7 +111,9 @@ class Wedding extends Component {
                   </p>
                 </div>
               </div>
+              
             </div>
+            
           </div>
 
           <div className="col s12 m8 l6 offset-m2">
@@ -166,6 +171,9 @@ class Wedding extends Component {
                         predetermined vehicle.
                     </li>
                   </ul>
+                </div>
+                <div className="col m6">
+                <img src="/images/keInvitations.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
                 </div>
               </div>
 
@@ -226,7 +234,11 @@ class Wedding extends Component {
                     <li>PLUS everything in the “Month Of” Package.</li>
                   </ul>
                 </div>
+                <div className="col m6">
+                <img src="/images/keInvitations.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
+                </div>
               </div>
+
 
               <div id="card-content" className="row">
                 <div className="col s12 m12 lg12">
@@ -238,8 +250,6 @@ class Wedding extends Component {
             </div>
           </div>
        
-
-        
           <div className="col s12 m8 l6 offset-m2">
             <div className="card">
               <div className="row center">
@@ -287,6 +297,9 @@ class Wedding extends Component {
                     <li>Pick up and return any leftover alcohol.</li>
                     <li>PLUS everything included in the “Month Of” Package.</li>
                   </ul>
+                </div>
+                <div className="col m6">
+                <img src="/images/keInvitations.jpeg" alt="Intivations" style={{maxWidth: "100%"}}/>
                 </div>
               </div>
 

@@ -62,7 +62,7 @@ a.myCustom {
 
 .page-footer {
   background-color: white !important;
-  color: black;
+  color: black !important;
   font-family: 'Syncopate', sans-serif;
   margin: auto !important;
   border-top: rgb(62, 111, 76) 0.5px solid;
@@ -70,6 +70,16 @@ a.myCustom {
 }
 .page-footer a {
   color: black !important;
+}
+
+.page-footer ul {
+  border-right: rgb(62, 111, 76) solid 1px;
+  padding-right: 25%;
+}
+
+#fb,
+#iGram {
+  margin-top: 15%;
 }
 #logoFooter {
   width: 60%;
